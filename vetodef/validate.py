@@ -21,7 +21,7 @@ SEGMENT_DATABASE = os.getenv('O1_SEGMENT_SERVER', None)
 # -- veto_def validation ------------------------------------------------------
 
 MAXIMUM_PADDING = 1200
-MAXIMUM_CATEGORY = 4
+MAXIMUM_CATEGORY = 5
 
 
 def check_veto_def_times(veto):
