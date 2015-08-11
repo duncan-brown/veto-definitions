@@ -1,0 +1,150 @@
+#!/usr/bin/env python
+
+"""Validate a veto definer against all standards
+"""
+
+__author__ = 'Duncan Macleod <duncan.macleod@ligo.org>'
+__version__ = '0.1'
+
+import sys
+import os
+import argparse
+
+from urlparse import urlparse
+from urllib2 import URLError
+
+from glue.ligolw.utils import (load_filename)
+from glue.ligolw.table import CompareTableNames
+from glue.ligolw.ligolw import PartialLIGOLWContentHandler
+from glue.ligolw.lsctables import (use_in, VetoDefTable)
+
+from dqsegdb import apicalls
+
+from vetodef import validate
+
+# get fancy colours
+RESET_SEQ = "\033[0m"
+COLOR_SEQ = "\033[1;%dm"
+RED = COLOR_SEQ % 31
+GREEN = COLOR_SEQ % 32
+
+# get defaults
+VERBOSE = False
+
+
+def sanity_check(test, target, catch=False):
+    name = test.__name__
+    if isinstance(target, VetoDefTable.RowType):
+        name += " [%s:%s:%d]" % (target.ifo, target.name, target.version)
+    try:
+        test(target)
+    except AssertionError:
+        if catch:
+            print_status("%s" % name, False)
+            return 1
+        raise
+    else:
+        print_status("%s" % name, True)
+    return 0
+
+
+def print_status(test, passed=True):
+    if passed:
+        status = GREEN + "Pass" + RESET_SEQ
+    else:
+        status = RED + "Fail" + RESET_SEQ
+    if VERBOSE:
+        print("%s: %s" % (test, status))
+
+
+class VetoDefContentHandler(PartialLIGOLWContentHandler):
+    @staticmethod
+    def _filter(name, attrs):
+        if name == VetoDefTable.tagName and attrs.has_key('Name'):
+            return CompareTableNames(attrs.get('Name'),
+                                     VetoDefTable.tableName) == 0
+        else:
+            return False
+
+    def __init__(self, document):
+        super(VetoDefContentHandler, self).__init__(document, self._filter)
+
+use_in(VetoDefContentHandler)
+
+
+# -- parse command line -------------------------------------------------------
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('-V', '--version', action='version', version=__version__)
+parser.add_argument('veto-definer-file')
+parser.add_argument('-a', '--test-all', action='store_true',
+                    help="perform all tests, default: False "
+                         "(stop after first failure)")
+parser.add_argument('-t', '--segment-url', default=validate.SEGMENT_DATABASE,
+                    help='URL of segment server, default: %(default)s')
+parser.add_argument('-v', '--verbose', action='store_true', default=False,
+                    help='print verbose output, default: %(default)s')
+
+args = parser.parse_args()
+if not args.segment_url:
+    parser.error("--segment-url must be given [O1_SEGMENT_SERVER variable "
+                 "not populated]")
+validate.SEGMENT_DATABASE = args.segment_url
+VERBOSE = args.verbose
+vdf = getattr(args, 'veto-definer-file')
+
+if args.verbose:
+    print('-' * 80)
+print("Testing veto-definer file\n\n%s\n" % vdf)
+if args.verbose:
+    print('-' * 80)
+tablefailed = 0
+vetofailed = 0
+
+# load table
+xmldoc = load_filename(vdf, contenthandler=VetoDefContentHandler)
+table = VetoDefTable.get_table(xmldoc)
+table.sort(key=lambda row: (row.ifo, row.name, row.version))
+print_status("LIGO_LW XML parsing", passed=True)
+
+# -- test table is self-consistent --------------------------------------------
+
+tablefailed = 0
+
+if args.verbose:
+    print("\n-- Testing table is self-consistent  "
+          "------------------------------------------")
+    for test in validate.TABLE_TESTS:
+        tablefailed += sanity_check(test, table, catch=args.test_all)
+
+if vetofailed:
+   print(RED+"Table failed self-consistency tests"+RESET_SEQ)
+else:
+   print(GREEN+"Table passed self-consistency tests"+RESET_SEQ)
+
+# -- test flags individually --------------------------------------------------
+
+if args.verbose:
+    print("\n-- Testing flags individually  "
+          "------------------------------------------------")
+
+for test in validate.VETO_TESTS:
+    for veto in table:
+        vetofailed += sanity_check(test, veto, catch=args.test_all)
+
+if vetofailed:
+   print(RED+"Some flags don't pass the individual tests"+RESET_SEQ)
+else:
+   print(GREEN+"All flags pass the individual tests"+RESET_SEQ)
+
+# print success and exit
+failures = tablefailed + vetofailed
+if args.verbose:
+    print('-' * 80)
+if failures:
+    print(RED + "Failed %d tests" % (failures) + RESET_SEQ)
+    sys.exit(1)
+else:
+    print(GREEN+"All tests passed"+RESET_SEQ)
+if args.verbose:
+    print('-' * 80)
