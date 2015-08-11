@@ -31,7 +31,7 @@ def check_veto_def_times(veto):
     assert start >= 0, "start_time negative"
     assert end >= 0, "end_time negative"
     assert start < 1e10, "start_time too big"
-    assert end < 1e01, "end_time too big"
+    assert end < 1e10, "end_time too big"
 
 
 def check_veto_def_padding(veto):
