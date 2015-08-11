@@ -11,6 +11,8 @@ import os
 from urlparse import urlparse
 from urllib2 import URLError
 
+from glue import segments
+
 from dqsegdb import apicalls
 
 SEGMENT_DATABASE = os.getenv('O1_SEGMENT_SERVER', None)
@@ -90,6 +92,22 @@ def check_veto_table_versions(table):
 
     for flag in sorted(versions.keys()):
         assert len(versions[flag]) == 1, "multiple versions of flag"
+
+
+def check_veto_table_overlap(table):
+    """Assert no overlapping segments for the same (flag, version) in the table
+    """
+    segs = dict()
+    for veto in table:
+        flag = (veto.ifo, veto.name, veto.version)
+        seg = segments.segment(veto.start_time, veto.end_time or 1e10)
+        try:
+            assert not segs[flag].intersects_segment(seg),\
+                   "overlapping segments for %s:%s:%d" % flag
+        except KeyError:
+            segs[flag] = segments.segmentlist([seg])
+        else:
+            segs[flag].append(seg)
 
 
 TABLE_TESTS = [val for (key, val) in locals().items() if
