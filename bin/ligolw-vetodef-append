@@ -17,6 +17,7 @@ from glue.ligolw.utils import (load_filename, write_filename, process)
 from glue.ligolw.lsctables import (VetoDefTable, use_in)
 from glue.ligolw.types import FromPyType
 
+from vetodef import validate
 
 class LVVetoDefContentHandler(LIGOLWContentHandler):
     pass
@@ -56,11 +57,17 @@ vdargs.add_argument('--end_pad', default=0, type=int,
 vdargs.add_argument('--comment', help='comment for this flag, a short '
                                       'description of why this flag is '
                                       'relevant for the given search')
+parser.add_argument('-t', '--segment-url', default=validate.SEGMENT_DATABASE,
+                    help='URL of segment server, default: %(default)s')
 
 args = parser.parse_args()
 vdf = getattr(args, 'veto-definer-file')
 if not args.force and args.comment is None:
     parser.error("Insert --comment must be given")
+if not args.segment_url and not args.force:
+    parser.error("--segment-url must be given [O1_SEGMENT_SERVER variable "
+                 "not populated]")
+validate.SEGMENT_DATABASE = args.segment_url
 
 try:
     match = FLAG_RE.match(args.flag).groupdict()
@@ -79,7 +86,7 @@ if args.skip_process_tables:
     pid = None
 else:
     proc = process.append_process(xmldoc, os.path.basename(__file__))
-    params = vars(args)
+    params = vars(args).copy()
     params.pop('force')
     params.pop('veto-definer-file')
     pp = list(process.process_params_from_dict(params))
@@ -100,6 +107,12 @@ new.start_pad = args.start_pad
 new.end_pad = args.end_pad
 new.comment = args.comment
 table.append(new)
+
+if not args.force:
+    for test in validate.VETO_TESTS:
+        test(new)
+    for test in validate.TABLE_TESTS:
+        test(table)
 
 # -- write file (with temporary backup) ---------------------------------------
 
