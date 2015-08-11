@@ -53,7 +53,7 @@ if not args.skip_process_tables:
                                   version=__version__, ifos=ifos)
     params = [('output-file', FromPyType[str], outfile)]
     if args.force:
-        params.append(('--force', '', ''))
+        params.append(('--force', None, None))
     if args.ifos:
         params.append(('--ifos', FromPyType[str], args.ifos))
     process.append_process_params(xmldoc, proc, params)
