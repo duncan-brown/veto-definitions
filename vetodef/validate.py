@@ -48,7 +48,12 @@ def check_veto_def_padding(veto):
 def check_veto_def_exists(veto, url=None):
     """Assert veto flag exist in database for times given
     """
-    url = urlparse(url or SEGMENT_DATABASE)
+    try:
+        url = urlparse(url or SEGMENT_DATABASE)
+    except AttributeError as e:
+        e.args = ("Cannot parse URL for %r: %s"
+                  % (url or SEGMENT_DATABASE, str(e)),)
+        raise
     try:
         metadata = apicalls.dqsegdbQueryTimes(
             url.scheme, url.netloc, veto.ifo, veto.name, veto.version,
