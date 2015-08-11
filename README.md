@@ -19,3 +19,21 @@ python setup.py install
 from the root of the repository.
 
 The python executables in the `bin` directory will be installed as well as the `vetodef` package.
+
+From there a blank veto-definer file can be created via
+
+```bash
+ligolw-vetodef-create <filename>
+```
+
+and then appended to via
+
+```bash
+ligolw-vetodef-append <filename> <flag> [<options>]
+```
+
+and finally validated against all standard checks via
+
+```bash
+ligolw-vetodef-validate <filename>
+```
