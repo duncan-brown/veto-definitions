@@ -5,3 +5,17 @@ This repository hosts the veto definitions used by the joint LIGO-Virgo transien
 The veto definitions are recorded in `LIGO_LW`-schema XML files.
 
 All changes to these files should be made via the GitHub [fork-and-pull](https://guides.github.com/introduction/flow/) model.
+
+Validation
+----------
+The python modules contained in this repository provides methods to validate a veto-definer file and its contents.
+
+The `vetodef` python package can be installed by running
+
+```python
+python setup.py install
+```
+
+from the root of the repository.
+
+The python executables in the `bin` directory will be installed as well as the `vetodef` package.
