@@ -84,9 +84,9 @@ def check_veto_table_versions(table):
         flag = (veto.ifo, veto.name, veto.version)
         # record information for cross tests
         try:
-            versions[flag].append(veto.version)
+            versions[flag].add(veto.version)
         except KeyError:
-            versions[flag] = [veto.version]
+            versions[flag] = set([veto.version])
 
     for flag in sorted(versions.keys()):
         assert len(versions[flag]) == 1, "multiple versions of flag"
