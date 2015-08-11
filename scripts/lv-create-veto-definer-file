@@ -1,0 +1,65 @@
+#!/usr/bin/env python
+
+"""Create an empty veto-definer file
+"""
+
+__author__ = 'Duncan Macleod <duncan.macleod@ligo.org>'
+__version__ = '0.1'
+
+import os.path
+import argparse
+
+from glue.lal import CacheEntry
+from glue.ligolw.ligolw import (Document, LIGO_LW)
+from glue.ligolw.lsctables import (New, VetoDefTable)
+from glue.ligolw.types import FromPyType
+from glue.ligolw.utils import (write_filename, process)
+
+# -- parse command line -------------------------------------------------------
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--version', action='version', version=__version__)
+parser.add_argument('output-file', help='output filename for veto definer')
+parser.add_argument('--force', action='store_true', default=False,
+                    help='disable file-name validation, default: %(default)s')
+parser.add_argument('--ifos', help='comma-separated list of IFO prefices')
+parser.add_argument('--skip-process-tables', action='store_true',
+                    default=False, help='skip updating proces/process_params '
+                                        'tables, default: %(default)s')
+
+args = parser.parse_args()
+outfile = getattr(args, 'output-file')
+ifos = args.ifos and set(args.ifos.split(',')) or None
+
+# verify sensible filename
+if not args.force and not outfile.endswith(('.xml', '.xml.gz')):
+    parser.error("Output filename must carry a `.xml` or `.xml.gz` extension")
+elif not args.force:
+    try:
+        CacheEntry.from_T050017(outfile)
+    except ValueError as e:
+        e.args = ('Output filename must follow the T050017 convention '
+                  '[https://dcc.ligo.org/LIGO-T050017]',)
+        raise
+
+# -- create document ----------------------------------------------------------
+
+xmldoc = Document()
+xmldoc.appendChild(LIGO_LW())
+
+# append process and process_params
+if not args.skip_process_tables:
+    proc = process.append_process(xmldoc, program=os.path.basename(__file__),
+                                  version=__version__, ifos=ifos)
+    params = [('output-file', FromPyType[str], outfile)]
+    if args.force:
+        params.append(('--force', '', ''))
+    if args.ifos:
+        params.append(('--ifos', FromPyType[str], args.ifos))
+    process.append_process_params(xmldoc, proc, params)
+
+# add veto definer table
+xmldoc.childNodes[-1].appendChild(New(VetoDefTable))
+
+# write
+write_filename(xmldoc, outfile, gz=outfile.endswith('.gz'))

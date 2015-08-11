@@ -1,0 +1,115 @@
+#!/usr/bin/env python
+
+"""Append a new `VetoDef` entry to an existing veto definer file
+"""
+
+__author__ = 'Duncan Macleod <duncan.macleod@ligo.org>'
+__version__ = '0.1'
+
+import os
+import re
+import shutil
+import tempfile
+import argparse
+
+from glue.ligolw.ligolw import LIGOLWContentHandler
+from glue.ligolw.utils import (load_filename, write_filename, process)
+from glue.ligolw.lsctables import (VetoDefTable, use_in)
+from glue.ligolw.types import FromPyType
+
+
+class LVVetoDefContentHandler(LIGOLWContentHandler):
+    pass
+
+use_in(LVVetoDefContentHandler)
+
+
+FLAG_RE = re.compile('\A(?P<ifo>[A-Z]\d):'
+                     '(?P<name>[A-Z-]+[A-Z0-9_]+):'
+                     '(?P<version>\d+)\Z')
+
+# -- parse command line -------------------------------------------------------
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--version', action='version', version=__version__)
+parser.add_argument('veto-definer-file', help='path of veto definer file')
+parser.add_argument('--force', action='store_true', default=False,
+                    help='force append, even if data are missing, '
+                         'default: %(default)s')
+parser.add_argument('--skip-process-tables', action='store_true',
+                    default=False, help='skip updating proces/process_params '
+                                        'tables, default: %(default)s')
+vdargs = parser.add_argument_group('VetoDef params')
+vdargs.add_argument('flag', help='name of flag to append, must take the form '
+                                 '<ifo>:<name>:<version>, e.g. '
+                                 'H1:DMT-VETO_FLAG:1')
+vdargs.add_argument('--category', default=1, type=int,
+                    help='category for this new flag, default: %(default)s')
+vdargs.add_argument('--start-time', default=0, type=int,
+                    help='start_time, for this new flag, default: %(default)s')
+vdargs.add_argument('--end-time', default=0, type=int,
+                    help='end_time, for this new flag, default: %(default)s')
+vdargs.add_argument('--start_pad', default=0, type=int,
+                    help='start_pad, for this new flag, default: %(default)s')
+vdargs.add_argument('--end_pad', default=0, type=int,
+                    help='end_pad, for this new flag, default: %(default)s')
+vdargs.add_argument('--comment', help='comment for this flag, a short '
+                                      'description of why this flag is '
+                                      'relevant for the given search')
+
+args = parser.parse_args()
+vdf = getattr(args, 'veto-definer-file')
+if not args.force and args.comment is None:
+    parser.error("Insert --comment must be given")
+
+try:
+    match = FLAG_RE.match(args.flag).groupdict()
+except AttributeError as e:
+    e.args = ("Failed to parse %r as <ifo>:<name>:<version>" % args.flag,)
+    raise
+
+# -- append veto definer entry ------------------------------------------------
+
+# read veto definer file
+xmldoc = load_filename(vdf, contenthandler=LVVetoDefContentHandler)
+table = VetoDefTable.get_table(xmldoc)
+
+# get process and add process_params
+if args.skip_process_tables:
+    pid = None
+else:
+    proc = process.append_process(xmldoc, os.path.basename(__file__))
+    params = vars(args)
+    params.pop('force')
+    params.pop('veto-definer-file')
+    pp = list(process.process_params_from_dict(params))
+    pp.insert(0, ('', FromPyType[str], vdf))
+    process.append_process_params(xmldoc, proc, pp)
+    pid = proc.process_id
+
+# create new veto def
+new = table.RowType()
+new.process_id = pid
+new.ifo = match['ifo']
+new.name = match['name']
+new.version = int(match['version'])
+new.category = args.category
+new.start_time = args.start_time
+new.end_time = args.end_time
+new.start_pad = args.start_pad
+new.end_pad = args.end_pad
+new.comment = args.comment
+table.append(new)
+
+# -- write file (with temporary backup) ---------------------------------------
+
+fd, fn = tempfile.mkstemp(prefix='%s-' % os.path.basename(__file__),
+                          suffix=os.path.splitext(vdf)[1])
+shutil.copy(vdf, fn)
+try:
+    write_filename(xmldoc, vdf, gz=vdf.endswith('.gz'))
+except:
+    shutil.move(fn, vdf)
+    raise
+else:
+    os.remove(fn)
