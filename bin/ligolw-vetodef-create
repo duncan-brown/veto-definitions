@@ -3,9 +3,6 @@
 """Create an empty veto-definer file
 """
 
-__author__ = 'Duncan Macleod <duncan.macleod@ligo.org>'
-__version__ = '0.1'
-
 import os.path
 import argparse
 
@@ -14,6 +11,9 @@ from glue.ligolw.ligolw import (Document, LIGO_LW)
 from glue.ligolw.lsctables import (New, VetoDefTable)
 from glue.ligolw.types import FromPyType
 from glue.ligolw.utils import (write_filename, process)
+
+__author__ = 'Duncan Macleod <duncan.macleod@ligo.org>'
+__version__ = '0.1'
 
 # -- parse command line -------------------------------------------------------
 

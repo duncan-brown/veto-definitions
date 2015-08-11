@@ -3,9 +3,6 @@
 """Utilities to validate a veto_def entry
 """
 
-__author__ = "Duncan Macleod <duncan.macleod@ligo.org>"
-__version__ = "0.1"
-
 import os
 
 from urlparse import urlparse
@@ -14,6 +11,9 @@ from urllib2 import URLError
 from glue import segments
 
 from dqsegdb import apicalls
+
+__author__ = "Duncan Macleod <duncan.macleod@ligo.org>"
+__version__ = "0.1"
 
 SEGMENT_DATABASE = os.getenv('O1_SEGMENT_SERVER', None)
 
@@ -70,7 +70,7 @@ def check_veto_def_category(veto):
     category = veto.category
     assert category > 0, "category less than 1"
     assert category <= MAXIMUM_CATEGORY, \
-           "category greater than %d" % MAXIMUM_CATEGORY
+        "category greater than %d" % MAXIMUM_CATEGORY
 
 VETO_TESTS = [val for (key, val) in locals().items() if
               key.startswith('check_veto_def')]

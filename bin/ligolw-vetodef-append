@@ -3,9 +3,6 @@
 """Append a new `VetoDef` entry to an existing veto definer file
 """
 
-__author__ = 'Duncan Macleod <duncan.macleod@ligo.org>'
-__version__ = '0.1'
-
 import os
 import re
 import shutil
@@ -18,6 +15,10 @@ from glue.ligolw.lsctables import (VetoDefTable, use_in)
 from glue.ligolw.types import FromPyType
 
 from vetodef import validate
+
+__author__ = 'Duncan Macleod <duncan.macleod@ligo.org>'
+__version__ = '0.1'
+
 
 class LVVetoDefContentHandler(LIGOLWContentHandler):
     pass

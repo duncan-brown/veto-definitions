@@ -3,9 +3,6 @@
 """Validate a veto definer against all standards
 """
 
-__author__ = 'Duncan Macleod <duncan.macleod@ligo.org>'
-__version__ = '0.1'
-
 import sys
 import os
 import argparse
@@ -21,6 +18,9 @@ from glue.ligolw.lsctables import (use_in, VetoDefTable)
 from dqsegdb import apicalls
 
 from vetodef import validate
+
+__author__ = 'Duncan Macleod <duncan.macleod@ligo.org>'
+__version__ = '0.1'
 
 # get fancy colours
 RESET_SEQ = "\033[0m"
@@ -118,9 +118,9 @@ if args.verbose:
         tablefailed += sanity_check(test, table, catch=args.test_all)
 
 if vetofailed:
-   print(RED+"Table failed self-consistency tests"+RESET_SEQ)
+    print(RED+"Table failed self-consistency tests"+RESET_SEQ)
 else:
-   print(GREEN+"Table passed self-consistency tests"+RESET_SEQ)
+    print(GREEN+"Table passed self-consistency tests"+RESET_SEQ)
 
 # -- test flags individually --------------------------------------------------
 
@@ -133,9 +133,9 @@ for test in validate.VETO_TESTS:
         vetofailed += sanity_check(test, veto, catch=args.test_all)
 
 if vetofailed:
-   print(RED+"Some flags don't pass the individual tests"+RESET_SEQ)
+    print(RED+"Some flags don't pass the individual tests"+RESET_SEQ)
 else:
-   print(GREEN+"All flags pass the individual tests"+RESET_SEQ)
+    print(GREEN+"All flags pass the individual tests"+RESET_SEQ)
 
 # print success and exit
 failures = tablefailed + vetofailed
