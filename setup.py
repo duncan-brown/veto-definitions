@@ -83,12 +83,13 @@ setup(name=PACKAGENAME,
       requires=[
           'argparse',
           'glue',
+          'dqsegdb',
       ],
       install_requires=[
       ] + extra_install_requires,
       dependency_links=[
-          'https://www.lsc-group.phys.uwm.edu/daswg/download/'
-          'software/source/glue-1.48.tar.gz#egg=glue-1.48',
+          'http://software.ligo.org/lscsoft/source/glue-1.49.1.tar.gz',
+          'http://software.ligo.org/lscsoft/source/dqsegdb-1.2.2.tar.gz',
       ],
       classifiers=[
           'Programming Language :: Python',
