@@ -84,6 +84,8 @@ parser.add_argument('-t', '--segment-url', default=validate.SEGMENT_DATABASE,
                     help='URL of segment server, default: %(default)s')
 parser.add_argument('-v', '--verbose', action='store_true', default=False,
                     help='print verbose output, default: %(default)s')
+parser.add_argument('--no-color', default=False, action='store_true',
+                    help='print without coloured text')
 
 args = parser.parse_args()
 if not args.segment_url:
@@ -92,6 +94,11 @@ if not args.segment_url:
 validate.SEGMENT_DATABASE = args.segment_url
 VERBOSE = args.verbose
 vdf = getattr(args, 'veto-definer-file')
+if args.no_color:
+    GREEN=''
+    RED=''
+    RESET_SEQ=''
+    COLOR_SEQ=''
 
 if args.verbose:
     print('-' * 80)
