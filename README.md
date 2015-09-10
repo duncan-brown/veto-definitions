@@ -16,7 +16,7 @@ The `vetodef` python package can be installed by running
 python setup.py install
 ```
 
-from the root of the repository.
+from the root of the repository [add `--user` if you don't have super-user (`sudo`) privileges].
 
 The python executables in the `bin` directory will be installed as well as the `vetodef` package.
 
