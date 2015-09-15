@@ -33,7 +33,6 @@
 		<Stream Name="veto_definer:table" Type="Local" Delimiter=",">
 	    "process:process_id:0","H1","DCH-MISSING_H1_HOFT_C00",1,1,1073779216,0,0,0,"ER7 VETO FOR H1-MISSING DATA",
             "process:process_id:0","L1","DCH-MISSING_L1_HOFT_C00",1,1,1075471336,0,0,0,"ER7 VETO FOR L1-MISSING DATA", 
-            "process:process_id:0","V1","DCH-MISSING_V1Online",1,1,1073779216,0,0,0,"ER5 VETO FOR V1-MISSING DATA",
 	    "process:process_id:0","V1","VDQ_CAT1",1,1,1073779216,0,0,0,"ER5 data from recoloured VSR3 injections.",
             "process:process_id:0","V1","VDQ_BURST_CAT2",1,2,1073779216,0,0,0,"Burst CAT2 from VSR3.",
             "process:process_id:0","V1","VDQ_CBC_CAT2",1,2,1073779216,0,0,0,"CBC CAT2 from VSR3.",
@@ -41,19 +40,12 @@
             "process:process_id:0","V1","HI_CBC_Unblind_status",1,3,1073779216,0,0,0,"ER5 UNBLIND HARDWARE INJECTIONS",
             "process:process_id:0","H1","ODC-INJECTION_CBC",1,3,1073779216,0,-8,8,"CBC hardware injections",
             "process:process_id:0","L1","ODC-INJECTION_CBC",1,3,1073779216,0,-8,8,"CBC hardware injections",
-            "process:process_id:0","V1","INJ-CBC_UNBLIND",1,3,1073779216,0,0,4,"ER5 unblind hardware injections",
             "process:process_id:0","H1","ODC-INJECTION_STOCHASTIC",1,1,1073779216,0,0,0,"Stochastic hardware injections",
             "process:process_id:0","L1","ODC-INJECTION_STOCHASTIC",1,1,1073779216,0,0,0,"Stochastic hardware injections",
             "process:process_id:0","H1","ODC-INJECTION_BURST",1,2,1073779216,0,-4,4,"Burst hardware injections",
             "process:process_id:0","L1","ODC-INJECTION_BURST",1,2,1073779216,0,-4,4,"Burst hardware injections",
             "process:process_id:0","H1","ODC-INJECTION_DETCHAR",1,2,1073779216,0,-16,16,"Detchar hardware injections",
             "process:process_id:0","L1","ODC-INJECTION_DETCHAR",1,2,1073779216,0,-16,16,"Detchar hardware injections",
-            "process:process_id:0","H1","FAKE_CAT4",1,4,1073779216,0,0,0,"FAKE VETO TO MAKE CODE WORK",
-            "process:process_id:0","L1","FAKE_CAT4",1,4,1073779216,0,0,0,"FAKE VETO TO MAKE CODE WORK",
-            "process:process_id:0","V1","FAKE_CAT4",1,4,1073779216,0,0,0,"FAKE VETO TO MAKE CODE WORK",
-            "process:process_id:0","H1","FAKE_CAT5",1,5,1073779216,0,0,0,"FAKE VETO TO MAKE CODE WORK",
-            "process:process_id:0","L1","FAKE_CAT5",1,5,1073779216,0,0,0,"FAKE VETO TO MAKE CODE WORK",
-            "process:process_id:0","V1","FAKE_CAT5",1,5,1073779216,0,0,0,"FAKE VETO TO MAKE CODE WORK",
             </Stream>
 	</Table>
 </LIGO_LW>
