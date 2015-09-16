@@ -31,8 +31,8 @@
 		<Column Type="int_4s" Name="veto_definer:end_pad"/>
 		<Column Type="lstring" Name="veto_definer:comment"/>
 		<Stream Name="veto_definer:table" Type="Local" Delimiter=",">
-	    "process:process_id:0","H1","DCH-MISSING_H1_HOFT_C00",1,1,1073779216,0,0,0,"ER7 VETO FOR H1-MISSING DATA",
-            "process:process_id:0","L1","DCH-MISSING_L1_HOFT_C00",1,1,1075471336,0,0,0,"ER7 VETO FOR L1-MISSING DATA", 
+	    "process:process_id:0","H1","DCH-MISSING_H1_HOFT_C00",1,1,1073779216,0,0,0,"Missing H1 calibrated h(t) data",
+            "process:process_id:0","L1","DCH-MISSING_L1_HOFT_C00",1,1,1075471336,0,0,0,"Missing L1 calibrated h(t) data", 
             "process:process_id:0","H1","ODC-INJECTION_STOCHASTIC",1,1,1073779216,0,0,0,"Stochastic hardware injections",
             "process:process_id:0","L1","ODC-INJECTION_STOCHASTIC",1,1,1073779216,0,0,0,"Stochastic hardware injections",
             "process:process_id:0","H1","ODC-INJECTION_BURST",1,2,1073779216,0,-4,4,"Burst hardware injections",
