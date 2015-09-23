@@ -34,6 +34,8 @@
 			,"sugar-dev3.phy.syr.edu",,11576,1126653714,"process:process_id:13",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar-dev3.phy.syr.edu",,11591,1126653781,"process:process_id:14",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar-dev3.phy.syr.edu",,11602,1126653826,"process:process_id:15",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,25451,1127085939,"process:process_id:16",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,25472,1127086146,"process:process_id:17",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -195,7 +197,27 @@
 			"process:process_id:15","ligolw-vetodef-append","lstring","L1:DCH-EARTHQUAKE_ETMY_RINGING:1","--flag",
 			"process:process_id:15","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:15","ligolw-vetodef-append","int_8s","1126051216","--end-time",
-			"process:process_id:15","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:15","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:16","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER8A_CBC.xml","",
+			"process:process_id:16","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:16","ligolw-vetodef-append","lstring","CW Injections turning on and off during science mode","--comment",
+			"process:process_id:16","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:16","ligolw-vetodef-append","int_8s","1123858817","--start-time",
+			"process:process_id:16","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:16","ligolw-vetodef-append","lstring","L1:DCH-CW_HARDWARE_INJECTION_STATE_CHANGING:1","--flag",
+			"process:process_id:16","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:16","ligolw-vetodef-append","int_8s","1126051217","--end-time",
+			"process:process_id:16","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:17","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER8A_CBC.xml","",
+			"process:process_id:17","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:17","ligolw-vetodef-append","lstring","Saturations in the SUSETMY model channels","--comment",
+			"process:process_id:17","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:17","ligolw-vetodef-append","int_8s","1123858817","--start-time",
+			"process:process_id:17","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:17","ligolw-vetodef-append","lstring","H1:DCH-ETMY_SATURATION:1","--flag",
+			"process:process_id:17","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:17","ligolw-vetodef-append","int_8s","1126051217","--end-time",
+			"process:process_id:17","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -224,7 +246,9 @@
 			1,"Glitching PRM M3 OSEM",0,"process:process_id:12","DCH-PRM_M3_OSEM_GLITCHING",1,0,1123858816,"H1",1126051216,
 			1,"ALS beam caused range to dip strangely",0,"process:process_id:13","DCH-ROLLERCOASTER_ALS_RANGE_DIP",1,0,1123858816,"H1",1126051216,
 			1,"Thunderstorm caused range to drop before lockloss",0,"process:process_id:14","DCH-THUNDERSTORM_RANGE_DIP",1,0,1123858816,"L1",1126051216,
-			1,"Earthquake caused ETMY to start ringing",0,"process:process_id:15","DCH-EARTHQUAKE_ETMY_RINGING",1,0,1123858816,"L1",1126051216
+			1,"Earthquake caused ETMY to start ringing",0,"process:process_id:15","DCH-EARTHQUAKE_ETMY_RINGING",1,0,1123858816,"L1",1126051216,
+			1,"CW Injections turning on and off during science mode",0,"process:process_id:16","DCH-CW_HARDWARE_INJECTION_STATE_CHANGING",1,0,1123858817,"L1",1126051217,
+			2,"Saturations in the SUSETMY model channels",0,"process:process_id:17","DCH-ETMY_SATURATION",1,0,1123858817,"H1",1126051217
 		</Stream>
 	</Table>
 </LIGO_LW>
