@@ -33,6 +33,8 @@
 			,"sugar-dev3.phy.syr.edu",,11087,1126651749,"process:process_id:12",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar-dev3.phy.syr.edu",,11101,1126651807,"process:process_id:13",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar.phy.syr.edu",,25632,1127086316,"process:process_id:14",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,9449,1127259059,"process:process_id:15",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,14301,1127262852,"process:process_id:16",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -184,7 +186,27 @@
 			"process:process_id:14","ligolw-vetodef-append","lstring","H1:DCH-ETMY_SATURATION:1","--flag",
 			"process:process_id:14","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:14","ligolw-vetodef-append","int_8s","1127001617","--end-time",
-			"process:process_id:14","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:14","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:15","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER8B_CBC.xml","",
+			"process:process_id:15","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:15","ligolw-vetodef-append","lstring","RF45 AM stabilization issues","--comment",
+			"process:process_id:15","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:15","ligolw-vetodef-append","int_8s","1126051217","--start-time",
+			"process:process_id:15","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:15","ligolw-vetodef-append","lstring","H1:DCH-RF45_AM_STABILIZATION:2","--flag",
+			"process:process_id:15","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:15","ligolw-vetodef-append","int_8s","1127001617","--end-time",
+			"process:process_id:15","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:16","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER8B_CBC.xml","",
+			"process:process_id:16","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:16","ligolw-vetodef-append","lstring","Saturations in the SUSETMY model channels","--comment",
+			"process:process_id:16","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:16","ligolw-vetodef-append","int_8s","1123858817","--start-time",
+			"process:process_id:16","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:16","ligolw-vetodef-append","lstring","H1:DCH-ETMY_SATURATION:2","--flag",
+			"process:process_id:16","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:16","ligolw-vetodef-append","int_8s","1127260817","--end-time",
+			"process:process_id:16","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -210,9 +232,9 @@
 			3,"CBC hardware injections",8,"process:process_id:9","ODC-INJECTION_CBC",1,-8,1073779216,"H1",0,
 			3,"CBC hardware injections",8,"process:process_id:10","ODC-INJECTION_CBC",1,-8,1073779216,"L1",0,
 			1,"Bad GDS Filters in C00 data",0,"process:process_id:11","DCH-GDS_C00_BAD_FILTERS",1,0,1126233810,"L1",1126238910,
-			1,"RF45 stabilization issues",0,"process:process_id:12","DCH-RF45_AM_STABILIZATION",1,0,1126304537,"H1",1126307500,
 			1,"Beckhoff chassis problems",0,"process:process_id:13","DCH-EY_BECKHOFF_CHASSIS_PROBLEM",1,0,1126331060,"H1",1126365950,
-			2,"Saturations in the SUSETMY model channels",0,"process:process_id:14","DCH-ETMY_SATURATION",1,0,1123858817,"H1",1127001617
+			1,"RF45 AM stabilization issues",0,"process:process_id:15","DCH-RF45_AM_STABILIZATION",2,0,1126051217,"H1",1127001617,
+			2,"Saturations in the SUSETMY model channels",0,"process:process_id:16","DCH-ETMY_SATURATION",2,0,1123858817,"H1",1127260817
 		</Stream>
 	</Table>
 </LIGO_LW>
