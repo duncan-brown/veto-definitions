@@ -18,24 +18,25 @@
 		<Column Type="lstring" Name="process:cvs_repository"/>
 		<Column Type="int_4s" Name="process:cvs_entry_time"/>
 		<Stream Delimiter="," Type="Local" Name="process:table">
-			,"ldas-grid",,1486,1127188147,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
-			,"ldas-grid",,1489,1127188147,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1490,1127188147,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1494,1127188147,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1496,1127188148,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1499,1127188148,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1513,1127188148,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1521,1127188149,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1522,1127188149,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1527,1127188149,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1528,1127188150,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1531,1127188150,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1555,1127188150,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1591,1127188151,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1601,1127188151,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1634,1127188151,"process:process_id:15",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1663,1127188152,"process:process_id:16",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1687,1127188152,"process:process_id:17",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,32509,1127322890,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
+			,"ldas-grid",,32520,1127322890,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,32579,1127322890,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,32616,1127322891,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,32646,1127322891,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,32650,1127322891,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,32655,1127322891,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,32656,1127322892,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,32665,1127322892,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,32666,1127322892,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,32671,1127322892,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,32673,1127322893,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,32681,1127322893,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,32720,1127322893,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,32721,1127322894,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,32723,1127322894,"process:process_id:15",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,32724,1127322894,"process:process_id:16",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,32725,1127322894,"process:process_id:17",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,32762,1127322895,"process:process_id:18",0,,0,"bhughey","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -216,7 +217,17 @@
 			"process:process_id:17","ligolw-vetodef-append","lstring","H1:DCH-ETMY_SATURATION:1","--flag",
 			"process:process_id:17","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:17","ligolw-vetodef-append","int_8s","1126051217","--end-time",
-			"process:process_id:17","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:17","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:18","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER8A_BURST.xml","",
+			"process:process_id:18","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:18","ligolw-vetodef-append","lstring","Continuous saturation of ETMY corrupts data","--comment",
+			"process:process_id:18","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:18","ligolw-vetodef-append","int_8s","1125510083","--start-time",
+			"process:process_id:18","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:18","ligolw-vetodef-append","lstring","H1:DCH-CONTINUOUS_ETMY_SATURATION:1","--flag",
+			"process:process_id:18","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:18","ligolw-vetodef-append","int_8s","1125510616","--end-time",
+			"process:process_id:18","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -247,7 +258,8 @@
 			1,"Thunderstorm caused range to drop before lockloss",0,"process:process_id:14","DCH-THUNDERSTORM_RANGE_DIP",1,0,1123858816,"L1",1126051216,
 			1,"Earthquake caused ETMY to start ringing",0,"process:process_id:15","DCH-EARTHQUAKE_ETMY_RINGING",1,0,1123858816,"L1",1126051216,
 			1,"CW Injections turning on and off during science mode",0,"process:process_id:16","DCH-CW_HARDWARE_INJECTION_STATE_CHANGING",1,0,1123858817,"L1",1126051217,
-			2,"Saturations in the SUSETMY model channels",0,"process:process_id:17","DCH-ETMY_SATURATION",1,0,1123858817,"H1",1126051217
+			2,"Saturations in the SUSETMY model channels",0,"process:process_id:17","DCH-ETMY_SATURATION",1,0,1123858817,"H1",1126051217,
+			1,"Continuous saturation of ETMY corrupts data",0,"process:process_id:18","DCH-CONTINUOUS_ETMY_SATURATION",1,0,1125510083,"H1",1125510616
 		</Stream>
 	</Table>
 </LIGO_LW>
