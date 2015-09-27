@@ -18,21 +18,21 @@
 		<Column Type="lstring" Name="process:cvs_repository"/>
 		<Column Type="int_4s" Name="process:cvs_entry_time"/>
 		<Stream Delimiter="," Type="Local" Name="process:table">
-			,"ldas-grid",,30708,1127323899,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
-			,"ldas-grid",,30712,1127323899,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,30716,1127323899,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,30722,1127323899,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,30730,1127323900,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,30733,1127323900,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,30738,1127323900,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,30771,1127323900,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,30842,1127323901,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,30867,1127323901,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,30884,1127323901,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,30893,1127323901,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,30908,1127323902,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,30921,1127323902,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,30934,1127323902,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,29793,1127367259,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
+			,"ldas-grid",,29820,1127367259,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,29825,1127367259,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,29832,1127367259,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,29849,1127367260,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,29853,1127367260,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,29867,1127367260,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,29886,1127367260,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,29917,1127367261,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,29937,1127367261,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,29984,1127367261,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,30043,1127367261,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,30092,1127367262,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,30130,1127367262,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,30177,1127367262,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -165,24 +165,24 @@
 			"process:process_id:12","ligolw-vetodef-append","int_8s","1126365950","--end-time",
 			"process:process_id:12","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
 			"process:process_id:13","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER8B_BURST.xml","",
-			"process:process_id:13","ligolw-vetodef-append","int_8s","2","--category",
-			"process:process_id:13","ligolw-vetodef-append","lstring","Saturations in the SUSETMY model channels","--comment",
+			"process:process_id:13","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:13","ligolw-vetodef-append","lstring","RF45 stabilization issues","--comment",
 			"process:process_id:13","ligolw-vetodef-append",,,"--skip-process-tables",
-			"process:process_id:13","ligolw-vetodef-append","int_8s","1123858817","--start-time",
+			"process:process_id:13","ligolw-vetodef-append","int_8s","1126051217","--start-time",
 			"process:process_id:13","ligolw-vetodef-append","int_8s","0","--end-pad",
-			"process:process_id:13","ligolw-vetodef-append","lstring","H1:DCH-ETMY_SATURATION:2","--flag",
+			"process:process_id:13","ligolw-vetodef-append","lstring","H1:DCH-RF45_AM_STABILIZATION:3","--flag",
 			"process:process_id:13","ligolw-vetodef-append","int_8s","0","--start-pad",
-			"process:process_id:13","ligolw-vetodef-append","int_8s","1127001617","--end-time",
+			"process:process_id:13","ligolw-vetodef-append","int_8s","0","--end-time",
 			"process:process_id:13","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
 			"process:process_id:14","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER8B_BURST.xml","",
-			"process:process_id:14","ligolw-vetodef-append","int_8s","1","--category",
-			"process:process_id:14","ligolw-vetodef-append","lstring","RF45 stabilization issues","--comment",
+			"process:process_id:14","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:14","ligolw-vetodef-append","lstring","Saturations in the SUSETMY model channels","--comment",
 			"process:process_id:14","ligolw-vetodef-append",,,"--skip-process-tables",
-			"process:process_id:14","ligolw-vetodef-append","int_8s","1126304537","--start-time",
+			"process:process_id:14","ligolw-vetodef-append","int_8s","1123858817","--start-time",
 			"process:process_id:14","ligolw-vetodef-append","int_8s","0","--end-pad",
-			"process:process_id:14","ligolw-vetodef-append","lstring","H1:DCH-RF45_AM_STABILIZATION:3","--flag",
+			"process:process_id:14","ligolw-vetodef-append","lstring","H1:DCH-ETMY_SATURATION:2","--flag",
 			"process:process_id:14","ligolw-vetodef-append","int_8s","0","--start-pad",
-			"process:process_id:14","ligolw-vetodef-append","int_8s","1126307500","--end-time",
+			"process:process_id:14","ligolw-vetodef-append","int_8s","0","--end-time",
 			"process:process_id:14","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
@@ -210,8 +210,8 @@
 			4,"Burst hardware injections",4,"process:process_id:10","ODC-INJECTION_BURST",1,-4,1073779216,"L1",0,
 			1,"Bad GDS Filters in C00 data",0,"process:process_id:11","DCH-GDS_C00_BAD_FILTERS",1,0,1126233810,"L1",1126238910,
 			1,"Beckhoff chassis problems",0,"process:process_id:12","DCH-EY_BECKHOFF_CHASSIS_PROBLEM",1,0,1126331060,"H1",1126365950,
-			2,"Saturations in the SUSETMY model channels",0,"process:process_id:13","DCH-ETMY_SATURATION",2,0,1123858817,"H1",1127001617,
-			1,"RF45 stabilization issues",0,"process:process_id:14","DCH-RF45_AM_STABILIZATION",3,0,1126304537,"H1",1126307500
+			1,"RF45 stabilization issues",0,"process:process_id:13","DCH-RF45_AM_STABILIZATION",3,0,1126051217,"H1",0,
+			2,"Saturations in the SUSETMY model channels",0,"process:process_id:14","DCH-ETMY_SATURATION",2,0,1123858817,"H1",0
 		</Stream>
 	</Table>
 </LIGO_LW>
