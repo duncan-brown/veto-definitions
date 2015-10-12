@@ -44,6 +44,8 @@
 			,"sugar.phy.syr.edu",,16996,1128368150,"process:process_id:23",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar.phy.syr.edu",,19614,1128368205,"process:process_id:24",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar.phy.syr.edu",,19842,1128368221,"process:process_id:25",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar-dev3.phy.syr.edu",,22984,1128719317,"process:process_id:26",0,,0,"tjmassin","ligolw-vetodef-append",,,,,
+			,"sugar-dev3.phy.syr.edu",,23263,1128719333,"process:process_id:27",0,,0,"tjmassin","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -305,7 +307,27 @@
 			"process:process_id:25","ligolw-vetodef-append","lstring","L1:DCH-ETMY_SATURATION:1","--flag",
 			"process:process_id:25","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:25","ligolw-vetodef-append","int_8s","0","--end-time",
-			"process:process_id:25","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:25","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:26","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O1_CBC.xml","",
+			"process:process_id:26","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:26","ligolw-vetodef-append","lstring","Flags OMC DCPD_A ADC overflow","--comment",
+			"process:process_id:26","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:26","ligolw-vetodef-append","int_8s","1127271617","--start-time",
+			"process:process_id:26","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:26","ligolw-vetodef-append","lstring","L1:DCH-OMC_DCPD_A_SATURATION:1","--flag",
+			"process:process_id:26","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:26","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:26","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:27","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O1_CBC.xml","",
+			"process:process_id:27","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:27","ligolw-vetodef-append","lstring","Flags OMC DCPD_A ADC overflow","--comment",
+			"process:process_id:27","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:27","ligolw-vetodef-append","int_8s","1127271617","--start-time",
+			"process:process_id:27","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:27","ligolw-vetodef-append","lstring","H1:DCH-OMC_DCPD_A_SATURATION:1","--flag",
+			"process:process_id:27","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:27","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:27","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -332,7 +354,9 @@
 			3,"CBC hardware injections",8,"process:process_id:22","ODC-INJECTION_CBC",1,-8,1126051217,"L1",0,
 			1,"RF45 AM stabilization issues",0,"process:process_id:23","DCH-RF45_AM_STABILIZATION",3,0,1126051217,"H1",0,
 			2,"Saturations in the SUSETMY model channels",0,"process:process_id:24","DCH-ETMY_SATURATION",2,0,1126051217,"H1",0,
-			2,"Saturations in the SUSETMY model channels",0,"process:process_id:25","DCH-ETMY_SATURATION",1,0,1126051217,"L1",0
+			2,"Saturations in the SUSETMY model channels",0,"process:process_id:25","DCH-ETMY_SATURATION",1,0,1126051217,"L1",0,
+			2,"Flags OMC DCPD_A ADC overflow",0,"process:process_id:26","DCH-OMC_DCPD_A_SATURATION",1,0,1127271617,"L1",0,
+			2,"Flags OMC DCPD_A ADC overflow",0,"process:process_id:27","DCH-OMC_DCPD_A_SATURATION",1,0,1127271617,"H1",0
 		</Stream>
 	</Table>
 </LIGO_LW>
