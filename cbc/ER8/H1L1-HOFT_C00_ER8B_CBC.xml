@@ -51,6 +51,9 @@
 			,"sugar.phy.syr.edu",,26603,1127362307,"process:process_id:30",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar.phy.syr.edu",,26606,1127362339,"process:process_id:31",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar.phy.syr.edu",,8563,1127596104,"process:process_id:32",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar-dev3.phy.syr.edu",,3938,1129396960,"process:process_id:33",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar-dev3.phy.syr.edu",,3995,1129396974,"process:process_id:34",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar-dev3.phy.syr.edu",,4342,1129397090,"process:process_id:35",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -382,7 +385,37 @@
 			"process:process_id:32","ligolw-vetodef-append","lstring","L1:DCH-BAD_OMICRON_OFFLINE_C00:1","--flag",
 			"process:process_id:32","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:32","ligolw-vetodef-append","int_8s","1127271617","--end-time",
-			"process:process_id:32","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:32","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:33","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER8B_CBC.xml","",
+			"process:process_id:33","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:33","ligolw-vetodef-append","lstring","Bad data just before lockloss","--comment",
+			"process:process_id:33","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:33","ligolw-vetodef-append","int_8s","1126051217","--start-time",
+			"process:process_id:33","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:33","ligolw-vetodef-append","lstring","H1:DCH-BAD_DATA_BEFORE_LOCKLOSS:1","--flag",
+			"process:process_id:33","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:33","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:33","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:34","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER8B_CBC.xml","",
+			"process:process_id:34","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:34","ligolw-vetodef-append","lstring","Bad data just before lockloss","--comment",
+			"process:process_id:34","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:34","ligolw-vetodef-append","int_8s","1126051217","--start-time",
+			"process:process_id:34","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:34","ligolw-vetodef-append","lstring","L1:DCH-BAD_DATA_BEFORE_LOCKLOSS:2","--flag",
+			"process:process_id:34","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:34","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:34","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:35","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER8B_CBC.xml","",
+			"process:process_id:35","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:35","ligolw-vetodef-append","lstring","Glitches due to DC power fluctuations of PCAL laser","--comment",
+			"process:process_id:35","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:35","ligolw-vetodef-append","int_8s","1128056417","--start-time",
+			"process:process_id:35","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:35","ligolw-vetodef-append","lstring","L1:DCH-PCAL_GLITCHES_GT_20P:1","--flag",
+			"process:process_id:35","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:35","ligolw-vetodef-append","int_8s","1128574817","--end-time",
+			"process:process_id:35","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -411,7 +444,10 @@
 			1,"Beckhoff chassis problems",0,"process:process_id:29","DCH-EY_BECKHOFF_CHASSIS_PROBLEM",1,0,1126331060,"H1",1126365950,
 			1,"RF45 AM stabilization issues",0,"process:process_id:30","DCH-RF45_AM_STABILIZATION",3,0,1126051217,"H1",0,
 			2,"Saturations in the SUSETMY model channels",0,"process:process_id:31","DCH-ETMY_SATURATION",2,0,1123858817,"H1",0,
-			1,"Offline omicron processes fail due to 7s bad data at end of lock",0,"process:process_id:32","DCH-BAD_OMICRON_OFFLINE_C00",1,0,1126051217,"L1",1127271617
+			1,"Offline omicron processes fail due to 7s bad data at end of lock",0,"process:process_id:32","DCH-BAD_OMICRON_OFFLINE_C00",1,0,1126051217,"L1",1127271617,
+			1,"Bad data just before lockloss",0,"process:process_id:33","DCH-BAD_DATA_BEFORE_LOCKLOSS",1,0,1126051217,"H1",0,
+			1,"Bad data just before lockloss",0,"process:process_id:34","DCH-BAD_DATA_BEFORE_LOCKLOSS",2,0,1126051217,"L1",0,
+			1,"Glitches due to DC power fluctuations of PCAL laser",0,"process:process_id:35","DCH-PCAL_GLITCHES_GT_20P",1,0,1128056417,"L1",1128574817
 		</Stream>
 	</Table>
 </LIGO_LW>
