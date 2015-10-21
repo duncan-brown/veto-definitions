@@ -18,24 +18,25 @@
 		<Column Type="lstring" Name="process:cvs_repository"/>
 		<Column Type="int_4s" Name="process:cvs_entry_time"/>
 		<Stream Delimiter="," Type="Local" Name="process:table">
-			,"ldas-grid",,16977,1129224661,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
-			,"ldas-grid",,18014,1129224662,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,18135,1129224662,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,18251,1129224662,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,18442,1129224663,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,18570,1129224663,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,18791,1129224663,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,19023,1129224664,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,19185,1129224664,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,19353,1129224665,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,19596,1129224665,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,19605,1129224665,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,19615,1129224667,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,19687,1129224673,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,19769,1129224674,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,19791,1129224674,"process:process_id:15",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,19809,1129224674,"process:process_id:16",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,19816,1129224675,"process:process_id:17",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1837,1129483930,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
+			,"ldas-grid",,1893,1129483930,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1897,1129483931,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2069,1129483931,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2143,1129483931,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2216,1129483931,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2285,1129483932,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2364,1129483932,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2430,1129483932,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2505,1129483933,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2578,1129483933,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2657,1129483933,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2733,1129483934,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2821,1129483935,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2850,1129483935,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2928,1129483935,"process:process_id:15",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2999,1129483936,"process:process_id:16",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3082,1129483936,"process:process_id:17",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3168,1129483936,"process:process_id:18",0,,0,"bhughey","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -216,7 +217,17 @@
 			"process:process_id:17","ligolw-vetodef-append","lstring","L1:DCH-BAD_DATA_BEFORE_LOCKLOSS:2","--flag",
 			"process:process_id:17","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:17","ligolw-vetodef-append","int_8s","0","--end-time",
-			"process:process_id:17","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:17","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:18","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O1_BURST.xml","",
+			"process:process_id:18","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:18","ligolw-vetodef-append","lstring","Glitches due to DC power fluctuations of PCAL laser","--comment",
+			"process:process_id:18","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:18","ligolw-vetodef-append","int_8s","1128056417","--start-time",
+			"process:process_id:18","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:18","ligolw-vetodef-append","lstring","L1:DCH-PCAL_GLITCHES_GT_20P:1","--flag",
+			"process:process_id:18","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:18","ligolw-vetodef-append","int_8s","1128574817","--end-time",
+			"process:process_id:18","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -247,7 +258,8 @@
 			2,"OMC DCPD_A ADC overflow",0,"process:process_id:14","DCH-OMC_DCPD_A_SATURATION",1,0,1127271617,"H1",0,
 			2,"OMC DCPD_A ADC overflow",0,"process:process_id:15","DCH-OMC_DCPD_A_SATURATION",1,0,1127271617,"L1",0,
 			1,"Bad data in several seconds prior to lock loss",0,"process:process_id:16","DCH-BAD_DATA_BEFORE_LOCKLOSS",1,0,1126051217,"H1",0,
-			1,"Bad data in several seconds prior to lock loss",0,"process:process_id:17","DCH-BAD_DATA_BEFORE_LOCKLOSS",2,0,1126051217,"L1",0
+			1,"Bad data in several seconds prior to lock loss",0,"process:process_id:17","DCH-BAD_DATA_BEFORE_LOCKLOSS",2,0,1126051217,"L1",0,
+			1,"Glitches due to DC power fluctuations of PCAL laser",0,"process:process_id:18","DCH-PCAL_GLITCHES_GT_20P",1,0,1128056417,"L1",1128574817
 		</Stream>
 	</Table>
 </LIGO_LW>
