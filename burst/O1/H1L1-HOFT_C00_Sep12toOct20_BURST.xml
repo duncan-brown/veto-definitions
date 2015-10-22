@@ -301,7 +301,7 @@
 			1,"RF45 AM stabilization issues",0,"process:process_id:13","DCH-RF45_AM_STABILIZATION",3,0,1126051217,"H1",0,
 			2,"Saturations in the SUSETMY model channels",0,"process:process_id:14","DCH-ETMY_SATURATION",2,0,1123858817,"H1",0,
 			2,"Saturations in the SUSETMY model channels",0,"process:process_id:15","DCH-ETMY_SATURATION",1,0,1123858817,"L1",0,
-			1,"Bad data in several seconds prior to lock loss",0,"process:process_id:16","DCH-BAD_DATA_BEFORE_LOCKLOSS",2,0,1126771412,"L1",1126771420,
+			1,"Bad data in several seconds prior to lock loss",0,"process:process_id:16","DCH-BAD_DATA_BEFORE_LOCKLOSS",2,0,1126051217,"L1",0,
 			2,"Loud glitches associated with ETMY saturations",3,"process:process_id:17","DCH-ETMY_SATURATION_SNR200",1,-3,1123858817,"H1",0,
 			2,"Loud glitches associated with ETMY saturations",3,"process:process_id:18","DCH-ETMY_SATURATION_SNR200",1,-3,1123858817,"L1",0,
 			2,"OMC DCPD_A ADC overflow",0,"process:process_id:19","DCH-OMC_DCPD_A_SATURATION",1,0,1123858817,"H1",0,
