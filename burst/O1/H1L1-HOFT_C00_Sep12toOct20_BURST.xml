@@ -39,6 +39,8 @@
 			,"ldas-grid",,24110,1128904575,"process:process_id:18",0,,0,"bhughey","ligolw-vetodef-append",,,,,
 			,"ldas-grid",,24121,1128904575,"process:process_id:19",0,,0,"bhughey","ligolw-vetodef-append",,,,,
 			,"ldas-grid",,24126,1128904575,"process:process_id:20",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"sugar-dev1.phy.syr.edu",,16685,1129582429,"process:process_id:21",0,,0,"lundgren","ligolw-vetodef-append",,,,,
+			,"sugar-dev1.phy.syr.edu",,16686,1129582430,"process:process_id:22",0,,0,"lundgren","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -249,7 +251,27 @@
 			"process:process_id:20","ligolw-vetodef-append","lstring","L1:DCH-OMC_DCPD_A_SATURATION:1","--flag",
 			"process:process_id:20","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:20","ligolw-vetodef-append","int_8s","0","--end-time",
-			"process:process_id:20","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:20","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:21","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_Sep12toOct20_BURST.xml","",
+			"process:process_id:21","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:21","ligolw-vetodef-append","lstring","","--comment",
+			"process:process_id:21","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:21","ligolw-vetodef-append","int_8s","1126051217","--start-time",
+			"process:process_id:21","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:21","ligolw-vetodef-append","lstring","H1:DCH-BAD_DATA_BEFORE_LOCKLOSS:1","--flag",
+			"process:process_id:21","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:21","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:21","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:22","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_Sep12toOct20_BURST.xml","",
+			"process:process_id:22","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:22","ligolw-vetodef-append","lstring","","--comment",
+			"process:process_id:22","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:22","ligolw-vetodef-append","int_8s","1128056417","--start-time",
+			"process:process_id:22","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:22","ligolw-vetodef-append","lstring","L1:DCH-PCAL_GLITCHES_GT_20P:1","--flag",
+			"process:process_id:22","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:22","ligolw-vetodef-append","int_8s","1128574817","--end-time",
+			"process:process_id:22","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -283,7 +305,9 @@
 			2,"Loud glitches associated with ETMY saturations",3,"process:process_id:17","DCH-ETMY_SATURATION_SNR200",1,-3,1123858817,"H1",0,
 			2,"Loud glitches associated with ETMY saturations",3,"process:process_id:18","DCH-ETMY_SATURATION_SNR200",1,-3,1123858817,"L1",0,
 			2,"OMC DCPD_A ADC overflow",0,"process:process_id:19","DCH-OMC_DCPD_A_SATURATION",1,0,1123858817,"H1",0,
-			2,"OMC DCPD_A ADC overflow",0,"process:process_id:20","DCH-OMC_DCPD_A_SATURATION",1,0,1123858817,"L1",0
+			2,"OMC DCPD_A ADC overflow",0,"process:process_id:20","DCH-OMC_DCPD_A_SATURATION",1,0,1123858817,"L1",0,
+			1,"",0,"process:process_id:21","DCH-BAD_DATA_BEFORE_LOCKLOSS",1,0,1126051217,"H1",0,
+			1,"",0,"process:process_id:22","DCH-PCAL_GLITCHES_GT_20P",1,0,1128056417,"L1",1128574817
 		</Stream>
 	</Table>
 </LIGO_LW>
