@@ -49,6 +49,8 @@
 			,"sugar-dev3.phy.syr.edu",,25715,1128720336,"process:process_id:28",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar-dev3.phy.syr.edu",,25721,1128720362,"process:process_id:29",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar-dev3.phy.syr.edu",,24385,1129318484,"process:process_id:30",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar-dev3.phy.syr.edu",,15384,1130256576,"process:process_id:31",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar-dev3.phy.syr.edu",,15770,1130256685,"process:process_id:32",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -360,7 +362,27 @@
 			"process:process_id:30","ligolw-vetodef-append","lstring","L1:DCH-PCAL_GLITCHES_GT_20P:1","--flag",
 			"process:process_id:30","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:30","ligolw-vetodef-append","int_8s","1128574817","--end-time",
-			"process:process_id:30","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:30","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:31","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O1_CBC.xml","",
+			"process:process_id:31","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:31","ligolw-vetodef-append","lstring","Small RF45 stabilization issues","--comment",
+			"process:process_id:31","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:31","ligolw-vetodef-append","int_8s","1128299417","--start-time",
+			"process:process_id:31","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:31","ligolw-vetodef-append","lstring","H1:DCH-RF45_AM_STABILIZATION_BLRMS_1SEC_STRIDE:1","--flag",
+			"process:process_id:31","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:31","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:31","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:32","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O1_CBC.xml","",
+			"process:process_id:32","ligolw-vetodef-append","int_8s","3","--category",
+			"process:process_id:32","ligolw-vetodef-append","lstring","Seismic glitches when ground BLRMS 10-30Hz region goes above 600nm/s","--comment",
+			"process:process_id:32","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:32","ligolw-vetodef-append","int_8s","1128299417","--start-time",
+			"process:process_id:32","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:32","ligolw-vetodef-append","lstring","H1:DCH-ISI_ITMY_Z_BLRMS_10_30_GT600:1","--flag",
+			"process:process_id:32","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:32","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:32","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -392,7 +414,9 @@
 			2,"Flags OMC DCPD_A ADC overflow",0,"process:process_id:27","DCH-OMC_DCPD_A_SATURATION",1,0,1127271617,"H1",0,
 			1,"Bad data just before lockloss",0,"process:process_id:28","DCH-BAD_DATA_BEFORE_LOCKLOSS",1,0,1126051217,"H1",0,
 			1,"Bad data just before lockloss",0,"process:process_id:29","DCH-BAD_DATA_BEFORE_LOCKLOSS",2,0,1126051217,"L1",0,
-			1,"Glitches due to DC power fluctuations of PCAL laser",0,"process:process_id:30","DCH-PCAL_GLITCHES_GT_20P",1,0,1128056417,"L1",1128574817
+			1,"Glitches due to DC power fluctuations of PCAL laser",0,"process:process_id:30","DCH-PCAL_GLITCHES_GT_20P",1,0,1128056417,"L1",1128574817,
+			2,"Small RF45 stabilization issues",0,"process:process_id:31","DCH-RF45_AM_STABILIZATION_BLRMS_1SEC_STRIDE",1,0,1128299417,"H1",0,
+			3,"Seismic glitches when ground BLRMS 10-30Hz region goes above 600nm/s",0,"process:process_id:32","DCH-ISI_ITMY_Z_BLRMS_10_30_GT600",1,0,1128299417,"H1",0
 		</Stream>
 	</Table>
 </LIGO_LW>
