@@ -374,7 +374,7 @@
 			"process:process_id:31","ligolw-vetodef-append","int_8s","0","--end-time",
 			"process:process_id:31","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
 			"process:process_id:32","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O1_CBC.xml","",
-			"process:process_id:32","ligolw-vetodef-append","int_8s","3","--category",
+			"process:process_id:32","ligolw-vetodef-append","int_8s","2","--category",
 			"process:process_id:32","ligolw-vetodef-append","lstring","Seismic glitches when ground BLRMS 10-30Hz region goes above 600nm/s","--comment",
 			"process:process_id:32","ligolw-vetodef-append",,,"--skip-process-tables",
 			"process:process_id:32","ligolw-vetodef-append","int_8s","1128299417","--start-time",
@@ -416,7 +416,7 @@
 			1,"Bad data just before lockloss",0,"process:process_id:29","DCH-BAD_DATA_BEFORE_LOCKLOSS",2,0,1126051217,"L1",0,
 			1,"Glitches due to DC power fluctuations of PCAL laser",0,"process:process_id:30","DCH-PCAL_GLITCHES_GT_20P",1,0,1128056417,"L1",1128574817,
 			2,"Small RF45 stabilization issues",0,"process:process_id:31","DCH-RF45_AM_STABILIZATION_BLRMS_1SEC_STRIDE",1,0,1128299417,"H1",0,
-			3,"Seismic glitches when ground BLRMS 10-30Hz region goes above 600nm/s",0,"process:process_id:32","DCH-ISI_ITMY_Z_BLRMS_10_30_GT600",1,0,1128299417,"H1",0
+			2,"Seismic glitches when ground BLRMS 10-30Hz region goes above 600nm/s",0,"process:process_id:32","DCH-ISI_ITMY_Z_BLRMS_10_30_GT600",1,0,1128299417,"H1",0
 		</Stream>
 	</Table>
 </LIGO_LW>
