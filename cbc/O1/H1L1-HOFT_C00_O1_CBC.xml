@@ -53,6 +53,10 @@
 			,"sugar-dev3.phy.syr.edu",,15770,1130256685,"process:process_id:32",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar-dev3.phy.syr.edu",,20935,1130788894,"process:process_id:33",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar-dev3.phy.syr.edu",,20952,1130788956,"process:process_id:34",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,19323,1131903923,"process:process_id:35",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,19329,1131903957,"process:process_id:36",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,19331,1131904001,"process:process_id:37",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,19340,1131904041,"process:process_id:38",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -404,7 +408,47 @@
 			"process:process_id:34","ligolw-vetodef-append","lstring","H1:DCH-RF45_SEVERE_GLITCHING:1","--flag",
 			"process:process_id:34","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:34","ligolw-vetodef-append","int_8s","0","--end-time",
-			"process:process_id:34","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:34","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:35","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O1_CBC.xml","",
+			"process:process_id:35","ligolw-vetodef-append","int_8s","3","--category",
+			"process:process_id:35","ligolw-vetodef-append","lstring","CBC hardware injections - this flag catches the missed PCAL inj","--comment",
+			"process:process_id:35","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:35","ligolw-vetodef-append","int_8s","1126051217","--start-time",
+			"process:process_id:35","ligolw-vetodef-append","int_8s","8","--end-pad",
+			"process:process_id:35","ligolw-vetodef-append","lstring","H1:ODC-INJECTION_CBC:2","--flag",
+			"process:process_id:35","ligolw-vetodef-append","int_8s","-8","--start-pad",
+			"process:process_id:35","ligolw-vetodef-append","int_8s","1131397647","--end-time",
+			"process:process_id:35","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:36","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O1_CBC.xml","",
+			"process:process_id:36","ligolw-vetodef-append","int_8s","3","--category",
+			"process:process_id:36","ligolw-vetodef-append","lstring","CBC hardware injections","--comment",
+			"process:process_id:36","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:36","ligolw-vetodef-append","int_8s","1131397647","--start-time",
+			"process:process_id:36","ligolw-vetodef-append","int_8s","8","--end-pad",
+			"process:process_id:36","ligolw-vetodef-append","lstring","H1:ODC-INJECTION_CBC:1","--flag",
+			"process:process_id:36","ligolw-vetodef-append","int_8s","-8","--start-pad",
+			"process:process_id:36","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:36","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:37","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O1_CBC.xml","",
+			"process:process_id:37","ligolw-vetodef-append","int_8s","3","--category",
+			"process:process_id:37","ligolw-vetodef-append","lstring","CBC hardware injections - this flag catches the missed PCAL inj","--comment",
+			"process:process_id:37","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:37","ligolw-vetodef-append","int_8s","1126051217","--start-time",
+			"process:process_id:37","ligolw-vetodef-append","int_8s","8","--end-pad",
+			"process:process_id:37","ligolw-vetodef-append","lstring","L1:ODC-INJECTION_CBC:2","--flag",
+			"process:process_id:37","ligolw-vetodef-append","int_8s","-8","--start-pad",
+			"process:process_id:37","ligolw-vetodef-append","int_8s","1131397647","--end-time",
+			"process:process_id:37","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:38","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O1_CBC.xml","",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","3","--category",
+			"process:process_id:38","ligolw-vetodef-append","lstring","CBC hardware injections","--comment",
+			"process:process_id:38","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","1131397647","--start-time",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","8","--end-pad",
+			"process:process_id:38","ligolw-vetodef-append","lstring","L1:ODC-INJECTION_CBC:1","--flag",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","-8","--start-pad",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:38","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -427,8 +471,6 @@
 			2,"Burst hardware injections",4,"process:process_id:18","ODC-INJECTION_BURST",1,-4,1126051217,"L1",0,
 			2,"Detchar hardware injections",16,"process:process_id:19","ODC-INJECTION_DETCHAR",1,-16,1126051217,"H1",0,
 			2,"Detchar hardware injections",16,"process:process_id:20","ODC-INJECTION_DETCHAR",1,-16,1126051217,"L1",0,
-			3,"CBC hardware injections",8,"process:process_id:21","ODC-INJECTION_CBC",1,-8,1126051217,"H1",0,
-			3,"CBC hardware injections",8,"process:process_id:22","ODC-INJECTION_CBC",1,-8,1126051217,"L1",0,
 			1,"RF45 AM stabilization issues",0,"process:process_id:23","DCH-RF45_AM_STABILIZATION",4,0,1126051217,"H1",0,
 			2,"Saturations in the SUSETMY model channels",0,"process:process_id:24","DCH-ETMY_SATURATION",2,0,1126051217,"H1",0,
 			2,"Saturations in the SUSETMY model channels",0,"process:process_id:25","DCH-ETMY_SATURATION",1,0,1126051217,"L1",0,
@@ -440,7 +482,11 @@
 			2,"Small RF45 stabilization issues",0,"process:process_id:31","DCH-RF45_AM_STABILIZATION_BLRMS_1SEC_STRIDE",2,0,1128299417,"H1",0,
 			2,"Seismic glitches when ground BLRMS 10-30Hz region goes above 600nm/s",0,"process:process_id:32","DCH-ISI_ITMY_Z_BLRMS_10_30_GT600",1,0,1128299417,"H1",0,
 			1,"Severe glitching due to second violin mode harmonic of ETMY",0,"process:process_id:33","DCH-ETMY_VIOLIN_MODE_2NDHARMONIC_RINGING",1,0,1129383017,"H1",0,
-			1,"Severe glitching due to RF45",0,"process:process_id:34","DCH-RF45_SEVERE_GLITCHING",1,0,1129383017,"H1",0
+			1,"Severe glitching due to RF45",0,"process:process_id:34","DCH-RF45_SEVERE_GLITCHING",1,0,1129383017,"H1",0,
+			3,"CBC hardware injections - this flag catches the missed PCAL inj",8,"process:process_id:35","ODC-INJECTION_CBC",2,-8,1126051217,"H1",1131397647,
+			3,"CBC hardware injections",8,"process:process_id:36","ODC-INJECTION_CBC",1,-8,1131397647,"H1",0,
+			3,"CBC hardware injections - this flag catches the missed PCAL inj",8,"process:process_id:37","ODC-INJECTION_CBC",2,-8,1126051217,"L1",1131397647,
+			3,"CBC hardware injections",8,"process:process_id:38","ODC-INJECTION_CBC",1,-8,1131397647,"L1",0
 		</Stream>
 	</Table>
 </LIGO_LW>
