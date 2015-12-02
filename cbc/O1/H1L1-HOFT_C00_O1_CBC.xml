@@ -547,7 +547,7 @@
 			"process:process_id:47","ligolw-vetodef-append","int_8s","0","--end-pad",
 			"process:process_id:47","ligolw-vetodef-append","lstring","H1:DCH-CW_INJECTION_TRANSITION:1","--flag",
 			"process:process_id:47","ligolw-vetodef-append","int_8s","0","--start-pad",
-			"process:process_id:47","ligolw-vetodef-append","int_8s","1132531217","--end-time",
+			"process:process_id:47","ligolw-vetodef-append","int_8s","0","--end-time",
 			"process:process_id:47","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
 			"process:process_id:48","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O1_CBC.xml","",
 			"process:process_id:48","ligolw-vetodef-append","int_8s","2","--category",
@@ -557,7 +557,7 @@
 			"process:process_id:48","ligolw-vetodef-append","int_8s","0","--end-pad",
 			"process:process_id:48","ligolw-vetodef-append","lstring","L1:DCH-CW_INJECTION_TRANSITION:1","--flag",
 			"process:process_id:48","ligolw-vetodef-append","int_8s","0","--start-pad",
-			"process:process_id:48","ligolw-vetodef-append","int_8s","1132531217","--end-time",
+			"process:process_id:48","ligolw-vetodef-append","int_8s","0","--end-time",
 			"process:process_id:48","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
@@ -601,8 +601,8 @@
 			2,"Flags OMC DCPD_A ADC overflow monitored by DMT",0,"process:process_id:44","DMT-OMC_DCPD_ADC_OVERFLOW",1,0,1132104617,"H1",0,
 			2,"Flags OMC DCPD_A ADC overflow",0,"process:process_id:45","DCH-OMC_DCPD_A_SATURATION",1,0,1127271617,"L1",1132104617,
 			2,"Flags OMC DCPD_A ADC overflow monitored by DMT",0,"process:process_id:46","DMT-OMC_DCPD_ADC_OVERFLOW",1,0,1132104617,"L1",0,
-			2,"CW hardware injections turning on and off causing glitches",0,"process:process_id:47","DCH-CW_INJECTION_TRANSITION",1,0,1132104617,"H1",1132531217,
-			2,"CW hardware injections turning on and off causing glitches",0,"process:process_id:48","DCH-CW_INJECTION_TRANSITION",1,0,1132104617,"L1",1132531217
+			2,"CW hardware injections turning on and off causing glitches",0,"process:process_id:47","DCH-CW_INJECTION_TRANSITION",1,0,1132104617,"H1",0,
+			2,"CW hardware injections turning on and off causing glitches",0,"process:process_id:48","DCH-CW_INJECTION_TRANSITION",1,0,1132104617,"L1",0
 		</Stream>
 	</Table>
 </LIGO_LW>
