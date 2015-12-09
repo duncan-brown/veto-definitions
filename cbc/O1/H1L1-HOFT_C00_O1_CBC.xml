@@ -67,6 +67,7 @@
 			,"sugar.phy.syr.edu",,17759,1133044516,"process:process_id:46",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar.phy.syr.edu",,742,1133044753,"process:process_id:47",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar.phy.syr.edu",,3703,1133044800,"process:process_id:48",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar-dev1.phy.syr.edu",,10474,1133708386,"process:process_id:49",0,,0,"tjmassin","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -558,7 +559,17 @@
 			"process:process_id:48","ligolw-vetodef-append","lstring","L1:DCH-CW_INJECTION_TRANSITION:1","--flag",
 			"process:process_id:48","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:48","ligolw-vetodef-append","int_8s","0","--end-time",
-			"process:process_id:48","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:48","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:49","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O1_CBC.xml","",
+			"process:process_id:49","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:49","ligolw-vetodef-append","lstring","Sudden change in PSD in 30-100 Hz band","--comment",
+			"process:process_id:49","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:49","ligolw-vetodef-append","int_8s","1132997376","--start-time",
+			"process:process_id:49","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:49","ligolw-vetodef-append","lstring","L1:DCH-SUDDEN_PSD_CHANGE:1","--flag",
+			"process:process_id:49","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:49","ligolw-vetodef-append","int_8s","1132997396","--end-time",
+			"process:process_id:49","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -602,7 +613,8 @@
 			2,"Flags OMC DCPD_A ADC overflow",0,"process:process_id:45","DCH-OMC_DCPD_A_SATURATION",1,0,1127271617,"L1",1132104617,
 			2,"Flags OMC DCPD_A ADC overflow monitored by DMT",0,"process:process_id:46","DMT-OMC_DCPD_ADC_OVERFLOW",1,0,1132104617,"L1",0,
 			2,"CW hardware injections turning on and off causing glitches",0,"process:process_id:47","DCH-CW_INJECTION_TRANSITION",1,0,1132104617,"H1",0,
-			2,"CW hardware injections turning on and off causing glitches",0,"process:process_id:48","DCH-CW_INJECTION_TRANSITION",1,0,1132104617,"L1",0
+			2,"CW hardware injections turning on and off causing glitches",0,"process:process_id:48","DCH-CW_INJECTION_TRANSITION",1,0,1132104617,"L1",0,
+			1,"Sudden change in PSD in 30-100 Hz band",0,"process:process_id:49","DCH-SUDDEN_PSD_CHANGE",1,0,1132997376,"L1",1132997396
 		</Stream>
 	</Table>
 </LIGO_LW>
