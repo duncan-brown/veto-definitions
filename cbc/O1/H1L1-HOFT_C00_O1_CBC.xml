@@ -614,7 +614,7 @@
 			2,"Flags OMC DCPD_A ADC overflow monitored by DMT",0,"process:process_id:46","DMT-OMC_DCPD_ADC_OVERFLOW",1,0,1132104617,"L1",0,
 			2,"CW hardware injections turning on and off causing glitches",0,"process:process_id:47","DCH-CW_INJECTION_TRANSITION",1,0,1132104617,"H1",0,
 			2,"CW hardware injections turning on and off causing glitches",0,"process:process_id:48","DCH-CW_INJECTION_TRANSITION",1,0,1132104617,"L1",0,
-			1,"Sudden change in PSD in 30-100 Hz band",0,"process:process_id:49","DCH-SUDDEN_PSD_CHANGE",1,0,1132997376,"L1",1132997396
+			1,"Sudden change in PSD in 30-100 Hz band",0,"process:process_id:49","DCH-SUDDEN_PSD_CHANGE",1,0,1132997376,"L1",0
 		</Stream>
 	</Table>
 </LIGO_LW>
