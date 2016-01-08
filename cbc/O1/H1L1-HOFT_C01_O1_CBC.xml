@@ -50,6 +50,9 @@
 			,"sugar.phy.syr.edu",,1925,1135812015,"process:process_id:29",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar.phy.syr.edu",,1928,1135812026,"process:process_id:30",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar.phy.syr.edu",,1934,1135812080,"process:process_id:31",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,23430,1136321978,"process:process_id:32",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,23431,1136322001,"process:process_id:33",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,23432,1136322015,"process:process_id:34",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -371,7 +374,37 @@
 			"process:process_id:31","ligolw-vetodef-append","lstring","L1:DCH-SUDDEN_PSD_CHANGE:1","--flag",
 			"process:process_id:31","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:31","ligolw-vetodef-append","int_8s","0","--end-time",
-			"process:process_id:31","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:31","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:32","ligolw-vetodef-append","lstring","H1L1-HOFT_C01_O1_CBC.xml","",
+			"process:process_id:32","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:32","ligolw-vetodef-append","lstring","Severe glitching due to RF45","--comment",
+			"process:process_id:32","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:32","ligolw-vetodef-append","int_8s","1129383017","--start-time",
+			"process:process_id:32","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:32","ligolw-vetodef-append","lstring","H1:DCH-RF45_SEVERE_GLITCHING:2","--flag",
+			"process:process_id:32","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:32","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:32","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:33","ligolw-vetodef-append","lstring","H1L1-HOFT_C01_O1_CBC.xml","",
+			"process:process_id:33","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:33","ligolw-vetodef-append","lstring","Glitches in DARM when ASC-MICH_PIT ODC channel crosses threshold","--comment",
+			"process:process_id:33","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:33","ligolw-vetodef-append","int_8s","1134450017","--start-time",
+			"process:process_id:33","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:33","ligolw-vetodef-append","lstring","H1:DCH-ASC_MICH_PIT_GT_THRESHOLD:1","--flag",
+			"process:process_id:33","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:33","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:33","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:34","ligolw-vetodef-append","lstring","H1L1-HOFT_C01_O1_CBC.xml","",
+			"process:process_id:34","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:34","ligolw-vetodef-append","lstring","RF45 AM stabilization targetting 10-30Hz region","--comment",
+			"process:process_id:34","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:34","ligolw-vetodef-append","int_8s","1134450017","--start-time",
+			"process:process_id:34","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:34","ligolw-vetodef-append","lstring","H1:DCH-RF45_AM_STABILIZATION_10_30HZ:1","--flag",
+			"process:process_id:34","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:34","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:34","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -401,7 +434,6 @@
 			2,"Small RF45 stabilization issues",0,"process:process_id:13","DCH-RF45_AM_STABILIZATION_BLRMS_1SEC_STRIDE",2,0,1128299417,"H1",0,
 			2,"Seismic glitches when ground BLRMS 10-30Hz region goes above 600nm/s",0,"process:process_id:14","DCH-ISI_ITMY_Z_BLRMS_10_30_GT600",1,0,1128299417,"H1",0,
 			1,"Severe glitching due to second violin mode harmonic of ETMY",0,"process:process_id:15","DCH-ETMY_VIOLIN_MODE_2NDHARMONIC_RINGING",1,0,1129383017,"H1",0,
-			1,"Severe glitching due to RF45",0,"process:process_id:16","DCH-RF45_SEVERE_GLITCHING",1,0,1129383017,"H1",0,
 			3,"CBC hardware injections - this flag catches the missed PCAL inj",8,"process:process_id:17","ODC-INJECTION_CBC",2,-8,1126051217,"H1",1131397647,
 			3,"CBC hardware injections",8,"process:process_id:18","ODC-INJECTION_CBC",1,-8,1131397647,"H1",0,
 			3,"CBC hardware injections - this flag catches the missed PCAL inj",8,"process:process_id:19","ODC-INJECTION_CBC",2,-8,1126051217,"L1",1131397647,
@@ -416,7 +448,10 @@
 			2,"Flags OMC DCPD_A ADC overflow monitored by DMT",0,"process:process_id:28","DMT-OMC_DCPD_ADC_OVERFLOW",1,0,1132104617,"L1",0,
 			2,"CW hardware injections turning on and off causing glitches",0,"process:process_id:29","DCH-CW_INJECTION_TRANSITION",1,0,1132104617,"H1",0,
 			2,"CW hardware injections turning on and off causing glitches",0,"process:process_id:30","DCH-CW_INJECTION_TRANSITION",1,0,1132104617,"L1",0,
-			1,"Sudden change in PSD in 30-100 Hz band",0,"process:process_id:31","DCH-SUDDEN_PSD_CHANGE",1,0,1132997376,"L1",0
+			1,"Sudden change in PSD in 30-100 Hz band",0,"process:process_id:31","DCH-SUDDEN_PSD_CHANGE",1,0,1132997376,"L1",0,
+			1,"Severe glitching due to RF45",0,"process:process_id:32","DCH-RF45_SEVERE_GLITCHING",2,0,1129383017,"H1",0,
+			2,"Glitches in DARM when ASC-MICH_PIT ODC channel crosses threshold",0,"process:process_id:33","DCH-ASC_MICH_PIT_GT_THRESHOLD",1,0,1134450017,"H1",0,
+			2,"RF45 AM stabilization targetting 10-30Hz region",0,"process:process_id:34","DCH-RF45_AM_STABILIZATION_10_30HZ",1,0,1134450017,"H1",0
 		</Stream>
 	</Table>
 </LIGO_LW>
