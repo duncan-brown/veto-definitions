@@ -71,6 +71,7 @@
 			,"sugar.phy.syr.edu",,5758,1136306019,"process:process_id:50",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar.phy.syr.edu",,7882,1136313973,"process:process_id:51",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar.phy.syr.edu",,23284,1136321875,"process:process_id:52",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,23806,1136325060,"process:process_id:53",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -602,7 +603,17 @@
 			"process:process_id:52","ligolw-vetodef-append","lstring","H1:DCH-RF45_AM_STABILIZATION_10_30HZ:1","--flag",
 			"process:process_id:52","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:52","ligolw-vetodef-append","int_8s","0","--end-time",
-			"process:process_id:52","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:52","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:53","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O1_CBC.xml","",
+			"process:process_id:53","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:53","ligolw-vetodef-append","lstring","PSL VCO in bad region - whistles","--comment",
+			"process:process_id:53","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:53","ligolw-vetodef-append","int_8s","1134450017","--start-time",
+			"process:process_id:53","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:53","ligolw-vetodef-append","lstring","L1:DCH-BAD_VCO_OFFSET:1","--flag",
+			"process:process_id:53","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:53","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:53","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -649,7 +660,8 @@
 			1,"Sudden change in PSD in 30-100 Hz band",0,"process:process_id:49","DCH-SUDDEN_PSD_CHANGE",1,0,1132997376,"L1",0,
 			1,"Severe glitching due to RF45",0,"process:process_id:50","DCH-RF45_SEVERE_GLITCHING",2,0,1129383017,"H1",0,
 			2,"Glitches in DARM when ASC-MICH_PIT ODC channel crosses threshold",0,"process:process_id:51","DCH-ASC_MICH_PIT_GT_THRESHOLD",1,0,1134450017,"H1",0,
-			2,"RF45 AM stabilization targetting 10-30Hz region",0,"process:process_id:52","DCH-RF45_AM_STABILIZATION_10_30HZ",1,0,1134450017,"H1",0
+			2,"RF45 AM stabilization targetting 10-30Hz region",0,"process:process_id:52","DCH-RF45_AM_STABILIZATION_10_30HZ",1,0,1134450017,"H1",0,
+			1,"PSL VCO in bad region - whistles",0,"process:process_id:53","DCH-BAD_VCO_OFFSET",1,0,1134450017,"L1",0
 		</Stream>
 	</Table>
 </LIGO_LW>
