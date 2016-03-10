@@ -61,6 +61,10 @@
 			,"sugar-dev3.phy.syr.edu",,6506,1138465116,"process:process_id:40",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar-dev3.phy.syr.edu",,7244,1138465137,"process:process_id:41",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar-dev3.phy.syr.edu",,7442,1138465157,"process:process_id:42",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,15930,1141666938,"process:process_id:43",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,15933,1141666961,"process:process_id:44",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,16054,1141667045,"process:process_id:45",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,16091,1141667064,"process:process_id:46",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -492,7 +496,47 @@
 			"process:process_id:42","ligolw-vetodef-append","lstring","L1:DCH-SEVERE_60_200_HZ_NOISE:1","--flag",
 			"process:process_id:42","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:42","ligolw-vetodef-append","int_8s","1136200611","--end-time",
-			"process:process_id:42","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:42","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:43","ligolw-vetodef-append","lstring","H1L1-CBC_VETO_DEFINER_C02_O1_1126051217-11203200.xml","",
+			"process:process_id:43","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:43","ligolw-vetodef-append","lstring","H1 calibration bad kappas","--comment",
+			"process:process_id:43","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:43","ligolw-vetodef-append","int_8s","1126051217","--start-time",
+			"process:process_id:43","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:43","ligolw-vetodef-append","lstring","H1:DCS-BAD_KAPPA_BASIC_CUT_H1_HOFT_C02:1","--flag",
+			"process:process_id:43","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:43","ligolw-vetodef-append","int_8s","1137254417","--end-time",
+			"process:process_id:43","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:44","ligolw-vetodef-append","lstring","H1L1-CBC_VETO_DEFINER_C02_O1_1126051217-11203200.xml","",
+			"process:process_id:44","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:44","ligolw-vetodef-append","lstring","L1 calibration bad kappas","--comment",
+			"process:process_id:44","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:44","ligolw-vetodef-append","int_8s","1126051217","--start-time",
+			"process:process_id:44","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:44","ligolw-vetodef-append","lstring","L1:DCS-BAD_KAPPA_BASIC_CUT_L1_HOFT_C02:1","--flag",
+			"process:process_id:44","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:44","ligolw-vetodef-append","int_8s","1137254417","--end-time",
+			"process:process_id:44","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:45","ligolw-vetodef-append","lstring","H1L1-CBC_VETO_DEFINER_C02_O1_1126051217-11203200.xml","",
+			"process:process_id:45","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:45","ligolw-vetodef-append","lstring","Partially missing H1 C02 calibrated frame data","--comment",
+			"process:process_id:45","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:45","ligolw-vetodef-append","int_8s","1126051217","--start-time",
+			"process:process_id:45","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:45","ligolw-vetodef-append","lstring","H1:DCS-PARTIAL_FRAME_LOSS_H1_HOFT_C02:1","--flag",
+			"process:process_id:45","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:45","ligolw-vetodef-append","int_8s","1137254417","--end-time",
+			"process:process_id:45","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:46","ligolw-vetodef-append","lstring","H1L1-CBC_VETO_DEFINER_C02_O1_1126051217-11203200.xml","",
+			"process:process_id:46","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:46","ligolw-vetodef-append","lstring","Partially missing L1 C02 calibrated frame data","--comment",
+			"process:process_id:46","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:46","ligolw-vetodef-append","int_8s","1126051217","--start-time",
+			"process:process_id:46","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:46","ligolw-vetodef-append","lstring","L1:DCS-PARTIAL_FRAME_LOSS_L1_HOFT_C02:1","--flag",
+			"process:process_id:46","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:46","ligolw-vetodef-append","int_8s","1137254417","--end-time",
+			"process:process_id:46","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -548,7 +592,11 @@
 			2,"RF45 AM stabilization targetting 10-30Hz region",0,"process:process_id:39","DCH-RF45_AM_STABILIZATION_10_30HZ",1,0,1134450017,"H1",1137254417,
 			1,"PSL VCO in bad region - whistles",0,"process:process_id:40","DCH-BAD_VCO_OFFSET",1,0,1134450017,"L1",1135652417,
 			2,"Glitching which looks like RF45, but caught with RF36 channel",0,"process:process_id:41","DCH-ASC_AS_B_RF36_GLITCHING",1,0,1134450017,"H1",1137254417,
-			1,"Severe mid-frequency glitching which causes unstable range",0,"process:process_id:42","DCH-SEVERE_60_200_HZ_NOISE",1,0,1136184661,"L1",1136200611
+			1,"Severe mid-frequency glitching which causes unstable range",0,"process:process_id:42","DCH-SEVERE_60_200_HZ_NOISE",1,0,1136184661,"L1",1136200611,
+			1,"H1 calibration bad kappas",0,"process:process_id:43","DCS-BAD_KAPPA_BASIC_CUT_H1_HOFT_C02",1,0,1126051217,"H1",1137254417,
+			1,"L1 calibration bad kappas",0,"process:process_id:44","DCS-BAD_KAPPA_BASIC_CUT_L1_HOFT_C02",1,0,1126051217,"L1",1137254417,
+			1,"Partially missing H1 C02 calibrated frame data",0,"process:process_id:45","DCS-PARTIAL_FRAME_LOSS_H1_HOFT_C02",1,0,1126051217,"H1",1137254417,
+			1,"Partially missing L1 C02 calibrated frame data",0,"process:process_id:46","DCS-PARTIAL_FRAME_LOSS_L1_HOFT_C02",1,0,1126051217,"L1",1137254417
 		</Stream>
 	</Table>
 </LIGO_LW>
