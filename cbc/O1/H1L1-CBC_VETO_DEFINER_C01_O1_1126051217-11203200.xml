@@ -523,7 +523,6 @@
 			2,"Detchar hardware injections",16,"process:process_id:14","ODC-INJECTION_DETCHAR",2,-16,1133621208,"L1",1137254417,
 			3,"CBC hardware injections",8,"process:process_id:15","ODC-INJECTION_CBC",2,-8,1126051217,"H1",1137254417,
 			3,"CBC hardware injections",8,"process:process_id:16","ODC-INJECTION_CBC",2,-8,1126051217,"L1",1137254417,
-			1,"Bad GDS filters in C00 data",0,"process:process_id:17","DCH-GDS_C00_BAD_FILTERS",1,0,1126233810,"L1",1126238910,
 			1,"Beckhoff chassis problems",0,"process:process_id:18","DCH-EY_BECKHOFF_CHASSIS_PROBLEM",1,0,1126331060,"H1",1126365950,
 			1,"RF45 AM stabilization issues",0,"process:process_id:19","DCH-RF45_AM_STABILIZATION",4,0,1126051217,"H1",1137254417,
 			2,"Saturations in the SUSETMY model channels",0,"process:process_id:20","DCH-ETMY_SATURATION",2,0,1126051217,"H1",1132104617,
