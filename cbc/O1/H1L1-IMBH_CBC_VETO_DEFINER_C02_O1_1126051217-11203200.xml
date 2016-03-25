@@ -68,6 +68,8 @@
 			,"sugar.phy.syr.edu",,26152,1142229161,"process:process_id:47",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar.phy.syr.edu",,26366,1142229235,"process:process_id:48",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar.phy.syr.edu",,7432,1142382652,"process:process_id:49",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,5478,1142965068,"process:process_id:50",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,5484,1142965110,"process:process_id:51",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -569,7 +571,27 @@
 			"process:process_id:49","ligolw-vetodef-append","lstring","H1:DCH-SOFTWARE_SATURATION_LSC_X_COMM_CTRL:1","--flag",
 			"process:process_id:49","ligolw-vetodef-append","int_8s","-1","--start-pad",
 			"process:process_id:49","ligolw-vetodef-append","int_8s","1129420817","--end-time",
-			"process:process_id:49","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:49","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:50","ligolw-vetodef-append","lstring","H1L1-IMBH_CBC_VETO_DEFINER_C02_O1_1126051217-11203200.xml","",
+			"process:process_id:50","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:50","ligolw-vetodef-append","lstring","LSC X COMM hitting software saturation limit","--comment",
+			"process:process_id:50","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:50","ligolw-vetodef-append","int_8s","1126051217","--start-time",
+			"process:process_id:50","ligolw-vetodef-append","int_8s","1","--end-pad",
+			"process:process_id:50","ligolw-vetodef-append","lstring","H1:DCH-SOFTWARE_SATURATION_LSC_X_COMM_CTRL:2","--flag",
+			"process:process_id:50","ligolw-vetodef-append","int_8s","-1","--start-pad",
+			"process:process_id:50","ligolw-vetodef-append","int_8s","1137254417","--end-time",
+			"process:process_id:50","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:51","ligolw-vetodef-append","lstring","H1L1-IMBH_CBC_VETO_DEFINER_C02_O1_1126051217-11203200.xml","",
+			"process:process_id:51","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:51","ligolw-vetodef-append","lstring","LSC Y COMM hitting software saturation limit","--comment",
+			"process:process_id:51","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:51","ligolw-vetodef-append","int_8s","1126051217","--start-time",
+			"process:process_id:51","ligolw-vetodef-append","int_8s","1","--end-pad",
+			"process:process_id:51","ligolw-vetodef-append","lstring","H1:DCH-SOFTWARE_SATURATION_LSC_Y_COMM_CTRL:1","--flag",
+			"process:process_id:51","ligolw-vetodef-append","int_8s","-1","--start-pad",
+			"process:process_id:51","ligolw-vetodef-append","int_8s","1137254417","--end-time",
+			"process:process_id:51","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -631,7 +653,8 @@
 			1,"Partially missing L1 C02 calibrated frame data",0,"process:process_id:46","DCS-PARTIAL_FRAME_LOSS_L1_HOFT_C02",1,0,1126051217,"L1",1137254417,
 			1,"Bad C02 strain calculation, unknown reason",0,"process:process_id:47","DCS-BAD_STRAIN_H1_HOFT_C02",2,0,1126051217,"H1",1137254417,
 			1,"Bad Kappa found in calibration calculation",0,"process:process_id:48","DCS-TOGGLING_BAD_KAPPA_H1_HOFT_C02",1,0,1126051217,"H1",1137254417,
-			2,"LSC X COMM hitting software saturation limit",1,"process:process_id:49","DCH-SOFTWARE_SATURATION_LSC_X_COMM_CTRL",1,-1,1128297617,"H1",1129420817
+			2,"LSC X COMM hitting software saturation limit",1,"process:process_id:50","DCH-SOFTWARE_SATURATION_LSC_X_COMM_CTRL",2,-1,1126051217,"H1",1137254417,
+			2,"LSC Y COMM hitting software saturation limit",1,"process:process_id:51","DCH-SOFTWARE_SATURATION_LSC_Y_COMM_CTRL",1,-1,1126051217,"H1",1137254417
 		</Stream>
 	</Table>
 </LIGO_LW>
