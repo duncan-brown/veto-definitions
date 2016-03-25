@@ -11,6 +11,11 @@ H1L1-CBC_VETO_DEFINER_C02_O1_1126051217-11203200.xml
 
 These veto-definers are the cbc veto-definers to be used for O1 data for C00, C01 and C02 data respectively. They are valid from 12th September 2015 00:00 UTC to 19th January 2016 16:00 UTC (1126051217 - 1137254417). These are the master copies.
 
+H1L1-IMBH_CBC_VETO_DEFINER_C01_O1_1126051217-11203200.xml
+H1L1-IMBH_CBC_VETO_DEFINER_C02_O1_1126051217-11203200.xml
+
+These veto-definers are the IMBH cbc veto-definers to be used for O1 data for C01 and C02 data respectively. They are valid from 12th September 2015 00:00 UTC to 19th January 2016 16:00 UTC (1126051217 - 1137254417). These are the master copies.
+
 H1L1-CBC_REMOVEGW150914_VETO_DEFINER_C01_O1_1126051217-11203200.xml
 H1L1-CBC_REMOVEGW150914_GW151226_VETO_DEFINER_C01_O1_1126051217-11203200.xml
 

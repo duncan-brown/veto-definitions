@@ -62,6 +62,8 @@
 			,"sugar-dev3.phy.syr.edu",,7244,1138465137,"process:process_id:41",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar-dev3.phy.syr.edu",,7442,1138465157,"process:process_id:42",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugar.phy.syr.edu",,5372,1142382595,"process:process_id:43",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,5474,1142965033,"process:process_id:44",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugar.phy.syr.edu",,5477,1142965054,"process:process_id:45",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -503,7 +505,27 @@
 			"process:process_id:43","ligolw-vetodef-append","lstring","H1:DCH-SOFTWARE_SATURATION_LSC_X_COMM_CTRL:1","--flag",
 			"process:process_id:43","ligolw-vetodef-append","int_8s","-1","--start-pad",
 			"process:process_id:43","ligolw-vetodef-append","int_8s","1129420817","--end-time",
-			"process:process_id:43","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:43","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:44","ligolw-vetodef-append","lstring","H1L1-IMBH_CBC_VETO_DEFINER_C01_O1_1126051217-11203200.xml","",
+			"process:process_id:44","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:44","ligolw-vetodef-append","lstring","LSC X COMM hitting software saturation limit","--comment",
+			"process:process_id:44","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:44","ligolw-vetodef-append","int_8s","1126051217","--start-time",
+			"process:process_id:44","ligolw-vetodef-append","int_8s","1","--end-pad",
+			"process:process_id:44","ligolw-vetodef-append","lstring","H1:DCH-SOFTWARE_SATURATION_LSC_X_COMM_CTRL:2","--flag",
+			"process:process_id:44","ligolw-vetodef-append","int_8s","-1","--start-pad",
+			"process:process_id:44","ligolw-vetodef-append","int_8s","1137254417","--end-time",
+			"process:process_id:44","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:45","ligolw-vetodef-append","lstring","H1L1-IMBH_CBC_VETO_DEFINER_C01_O1_1126051217-11203200.xml","",
+			"process:process_id:45","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:45","ligolw-vetodef-append","lstring","LSC Y COMM hitting software saturation limit","--comment",
+			"process:process_id:45","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:45","ligolw-vetodef-append","int_8s","1126051217","--start-time",
+			"process:process_id:45","ligolw-vetodef-append","int_8s","1","--end-pad",
+			"process:process_id:45","ligolw-vetodef-append","lstring","H1:DCH-SOFTWARE_SATURATION_LSC_Y_COMM_CTRL:1","--flag",
+			"process:process_id:45","ligolw-vetodef-append","int_8s","-1","--start-pad",
+			"process:process_id:45","ligolw-vetodef-append","int_8s","1137254417","--end-time",
+			"process:process_id:45","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -559,7 +581,8 @@
 			1,"PSL VCO in bad region - whistles",0,"process:process_id:40","DCH-BAD_VCO_OFFSET",1,0,1134450017,"L1",1135652417,
 			2,"Glitching which looks like RF45, but caught with RF36 channel",0,"process:process_id:41","DCH-ASC_AS_B_RF36_GLITCHING",1,0,1134450017,"H1",1137254417,
 			1,"Severe mid-frequency glitching which causes unstable range",0,"process:process_id:42","DCH-SEVERE_60_200_HZ_NOISE",1,0,1136184661,"L1",1136200611,
-			2,"LSC X COMM hitting software saturation limit",1,"process:process_id:43","DCH-SOFTWARE_SATURATION_LSC_X_COMM_CTRL",1,-1,1128297617,"H1",1129420817
+			2,"LSC X COMM hitting software saturation limit",1,"process:process_id:44","DCH-SOFTWARE_SATURATION_LSC_X_COMM_CTRL",2,-1,1126051217,"H1",1137254417,
+			2,"LSC Y COMM hitting software saturation limit",1,"process:process_id:45","DCH-SOFTWARE_SATURATION_LSC_Y_COMM_CTRL",1,-1,1126051217,"H1",1137254417
 		</Stream>
 	</Table>
 </LIGO_LW>
