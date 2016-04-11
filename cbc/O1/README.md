@@ -19,4 +19,8 @@ These veto-definers are the IMBH cbc veto-definers to be used for O1 data for C0
 H1L1-CBC_REMOVEGW150914_VETO_DEFINER_C01_O1_1126051217-11203200.xml
 H1L1-CBC_REMOVEGW150914_GW151226_VETO_DEFINER_C01_O1_1126051217-11203200.xml
 
-These veto-definers are used in the hierarichal removal of events from the cbc analyses of O1. The top veto-definer CAT2 vetoes GW150914 (removes the second containing GW150914 with a +/- 1 second pad) and the bottom veto removes both GW150914 and GW151226.
+These veto-definers are used in the hierarichal removal of events from the cbc analyses of O1 using C01 data. The top veto-definer CAT2 vetoes GW150914 (removes the second containing GW150914 with a +/- 1 second pad) and the bottom veto removes both GW150914 and GW151226.
+
+H1L1-CBC_REMOVEGW150914_VETO_DEFINER_C02_O1_1126051217-11203200.xml
+
+This veto-definer removes GW150914 from the cbc analyses of O1 using C02 data. The veto-definer CAT2 vetoes GW150914 (removes the second containing GW150914 with a +/- 1 second pad).
