@@ -595,8 +595,8 @@
 		<Column Type="lstring" Name="veto_definer:ifo"/>
 		<Column Type="int_4s" Name="veto_definer:end_time"/>
 		<Stream Delimiter="," Type="Local" Name="veto_definer:table">
-			1,"Missing H1 C01 calibrated h(t) data",0,"process:process_id:1","DCS-MISSING_H1_HOFT_C01",1,0,1126051217,"H1",1137254417,
-			1,"Missing L1 C01 calibrated h(t) data",0,"process:process_id:2","DCS-MISSING_L1_HOFT_C01",1,0,1126051217,"L1",1137254417,
+			1,"Missing H1 C02 calibrated h(t) data",0,"process:process_id:1","DCS-MISSING_H1_HOFT_C02",1,0,1126051217,"H1",1137254417,
+			1,"Missing L1 C02 calibrated h(t) data",0,"process:process_id:2","DCS-MISSING_L1_HOFT_C02",1,0,1126051217,"L1",1137254417,
 			1,"Stochastic hardware injections",0,"process:process_id:3","ODC-INJECTION_STOCHASTIC",1,0,1126051217,"H1",1133639862,
 			1,"Stochastic hardware injections",0,"process:process_id:4","ODC-INJECTION_STOCHASTIC",2,0,1133639862,"H1",1137254417,
 			1,"Stochastic hardware injections",0,"process:process_id:5","ODC-INJECTION_STOCHASTIC",1,0,1126051217,"L1",1133621208,
