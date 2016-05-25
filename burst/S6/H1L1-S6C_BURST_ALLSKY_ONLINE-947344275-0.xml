@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE LIGO_LW SYSTEM "http://ldas-sw.ligo.caltech.edu/doc/ligolwAPI/html/ligolw_dtd.txt">
+<?xml-stylesheet type="text/xsl" href="ligolw.xsl"?>
+<LIGO_LW>
+   <Table Name="process:table">
+      <Column Name="process:process_id" Type="ilwd:char"/>
+      <Column Name="process:program" Type="lstring"/>
+      <Column Name="process:version" Type="lstring"/>
+      <Column Name="process:cvs_repository" Type="lstring"/>
+      <Column Name="process:cvs_entry_time" Type="int_4s"/>
+      <Column Name="process:node" Type="lstring"/>
+      <Column Name="process:username" Type="lstring"/>
+      <Column Name="process:unix_procid" Type="int_4s"/>
+      <Column Name="process:start_time" Type="int_4s"/>
+      <Column Name="process:end_time" Type="int_4s"/>
+      <Column Name="process:ifos" Type="lstring"/>
+      <Column Name="process:comment" Type="lstring"/>
+      <Stream Name="process:table" Type="Local" Delimiter=",">
+      "process:process_id:0","$RCSfile: H1L1-S6C_BURST_ALLSKY_ONLINE-947344275-0.xml,v $","$Revision: 1.2 $","$Source: /opt/repos/cvs/lscdocs/bursts/public/runs/s6/dqv/category_definer/H1L1-S6C_BURST_ALLSKY_ONLINE-947344275-0.xml,v $",963241944,"ldas-pcdev1.ligo.caltech.edu","$Author: jrsmith02 $",0,947344275,0,"H1L1V1","$Id: H1L1-S6C_BURST_ALLSKY_ONLINE-947344275-0.xml,v 1.2 2010/07/28 23:36:30 jrsmith02 Exp $"
+      </Stream>
+   </Table>
+   <Table Name="veto_definer:table">
+      <Column Name="veto_definer:process_id" Type="ilwd:char"/>
+      <Column Name="veto_definer:ifo" Type="lstring"/>
+      <Column Name="veto_definer:name" Type="lstring"/>
+      <Column Name="veto_definer:version" Type="int_4s"/>
+      <Column Name="veto_definer:category" Type="int_4s"/>
+      <Column Name="veto_definer:start_time" Type="int_4s"/>
+      <Column Name="veto_definer:end_time" Type="int_4s"/>
+      <Column Name="veto_definer:start_pad" Type="int_4s"/>
+      <Column Name="veto_definer:end_pad" Type="int_4s"/>
+      <Column Name="veto_definer:comment" Type="lstring"/>
+      <Stream Name="veto_definer:table" Type="Local" Delimiter=",">
+      "process:process_id:0","H1","DMT-BADGAMMA",1,1,937526415,0,0,0,"H1 Bad gamma in h(t) DQ flags",      
+      "process:process_id:0","H1","DMT-OUT_OF_LOCK",1,1,937526415,0,0,0,"None",
+      "process:process_id:0","H1","DMT-PRE_LOCKLOSS_10_SEC",1,1,937526415,0,0,0,"Interval of 10 seconds preceding lock loss",
+    
+      "process:process_id:0","H1","DMT-PRE_LOCKLOSS_30_SEC",1,2,937526415,0,0,0,"Interval of 30 seconds preceding lock loss", 
+      "process:process_id:0","H1","DMT-SEVERE_LSC_OVERFLOW",1,2,937526415,0,0,0,"In-loop LSC overflows", 
+      "process:process_id:0","H1","DMT-ASC_OVERFLOW",1,2,937526415,0,0,0,"Asc photodiode overflows",      
+      "process:process_id:0","H1","DMT-ISI_OVERFLOW",1,2,937526415,0,0,0,"ISI readout/conntrol overflows",
+      "process:process_id:0","H1","DMT-OM1_DCPD_OVERFLOW",1,2,937526415,0,0,0,"OM1 DC readout photodiode overflow",
+      "process:process_id:0","H1","DMT-TCS_ITMX_OUT_HIGH",1,2,937526415,0,0,0,"H1 TCS ITMX glitches 45 sigma",
+      "process:process_id:0","H1","DMT-TCS_ITMX_OUT_MED",1,2,937526415,0,0,0,"H1 TCS ITMX glitches 30 sigma",
+      "process:process_id:0","H1","DMT-TCS_ITMX_OUT_LOW",1,2,937526415,0,0,0,"H1 TCS ITMX glitches 15 sigma",
+      "process:process_id:0","H1","DMT-TCS_ITMY_OUT_HIGH",1,2,937526415,0,0,0,"H1 TCS ITMY glitches 45 sigma",
+      "process:process_id:0","H1","DMT-TCS_ITMY_OUT_MED",1,2,937526415,0,0,0,"H1 TCS ITMY glitches 30 sigma",
+      "process:process_id:0","H1","DMT-TCS_ITMY_OUT_LOW",1,2,937526415,0,0,0,"H1 TCS ITMY glitches 15 sigma",
+
+      "process:process_id:0","H1","DMT-OM1_QPD_OVERFLOW",1,3,937526415,0,0,0,"OM1 quad photodiode overflow",
+      "process:process_id:0","H1","DMT-LSC_OVERFLOW",1,3,937526415,0,0,0,"Ancillary LSC overflows",
+      "process:process_id:0","H1","DMT-SEVERE_OM1_OVERFLOW",1,3,937526415,0,0,0,"In-loop OM1 overflow readout",
+      "process:process_id:0","H1","DMT-OM1_OVERFLOW",1,3,937526415,0,0,0,"OMC 1 readout/conntrol overflows",
+      "process:process_id:0","H1","DMT-OM2_OVERFLOW",1,3,937526415,0,0,0,"OMC 2 readout/control overflows",
+      "process:process_id:0","H1","DMT-PRE_LOCKLOSS_60_SEC",1,3,937526415,0,0,0,"Interval of 60 seconds preceding lock loss",
+      "process:process_id:0","H1","DMT-LIGHTDIP_9_PERCENT",1,3,937526415,0,0,0,"Dip in interferometer arm power by 9 percent",
+      "process:process_id:0","H1","DMT-BRMS_SEISMIC_X_30_100_MHZ_HIGHTHRESH",1,3,937526415,0,0,0,"",
+      "process:process_id:0","H1","DMT-BRMS_SEISMIC_X_30_100_MHZ_HIGHTHRESH",1,3,937526415,0,0,0,"",
+      "process:process_id:0","H1","DMT-WIND_OVER_30MPH",1,3,937526415,0,0,0,"Wind at LVEA/EXY over 30/35 MPH",
+
+      "process:process_id:0","H1","DMT-INJECTION_BURST",1,4,937526415,0,0,0,"Burst injection",
+      "process:process_id:0","H1","DMT-INJECTION_INSPIRAL",1,4,937526415,0,0,0,"Inspiral injection",
+
+      "process:process_id:0","L1","DMT-BADGAMMA",1,1,937526415,0,0,0,"L1 Bad gamma in h(t) DQ flags",
+      "process:process_id:0","L1","DMT-OUT_OF_LOCK",1,1,937526415,0,0,0,"None",
+      "process:process_id:0","L1","DMT-PRE_LOCKLOSS_10_SEC",1,1,937526415,0,0,0,"Interval of 10 seconds preceding lock loss",
+
+      "process:process_id:0","L1","DMT-ASC_OVERFLOW",1,2,937526415,0,0,0,"Asc photodiode overflows",
+      "process:process_id:0","L1","DMT-ISI_OVERFLOW",1,2,937526415,0,0,0,"ISI overflows",
+      "process:process_id:0","L1","DMT-OM1_DCPD_OVERFLOW",1,2,937526415,0,0,0,"OM1 DC readout photodiode overflow",
+      "process:process_id:0","L1","DMT-OMCLSC_SLIP",1,2,937526415,0,0,0,"OMC LSC synchronization error",
+      "process:process_id:0","L1","DMT-TCS_ITMX_OUT_HIGH",1,2,937526415,0,0,0,"H1 TCS ITMX glitches 45 sigma",
+      "process:process_id:0","L1","DMT-TCS_ITMX_OUT_MED",1,2,937526415,0,0,0,"H1 TCS ITMX glitches 30 sigma",
+      "process:process_id:0","L1","DMT-TCS_ITMY_OUT_HIGH",1,2,937526415,0,0,0,"H1 TCS ITMY glitches 45 sigma",
+      "process:process_id:0","L1","DMT-TCS_ITMY_OUT_MED",1,2,937526415,0,0,0,"H1 TCS ITMY glitches 30 sigma",
+      "process:process_id:0","L1","DMT-SEVERE_OM1_OVERFLOW",1,2,943148000,0,0,0,"In-loop OM1 overflow readout",
+      "process:process_id:0","L1","DMT-SEVERE_LSC_OVERFLOW",1,2,937526415,0,0,0,"In-loop LSC overflows",
+      "process:process_id:0","L1","DMT-PRE_LOCKLOSS_30_SEC",1,2,937526415,0,0,0,"Interval of 30 seconds preceding lock loss",
+
+      "process:process_id:0","L1","DMT-TCS_ITMX_OUT_LOW",1,3,937526415,0,0,0,"H1 TCS ITMX glitches 15 sigma",
+      "process:process_id:0","L1","DMT-TCS_ITMY_OUT_LOW",1,3,937526415,0,0,0,"H1 TCS ITMY glitches 15 sigma",
+      "process:process_id:0","L1","DMT-BRMS_SEISMIC_X_30_100_MHZ_HIGHTHRESH",1,3,937526415,0,0,0,"",
+      "process:process_id:0","L1","DMT-BRMS_SEISMIC_Y_30_100_MHZ_HIGHTHRESH",1,3,937526415,0,0,0,"",
+      "process:process_id:0","L1","DMT-BRMS_TRAIN_LIKELY",1,3,937526415,0,0,0,"None",
+      "process:process_id:0","L1","DMT-BRMS_TRAIN_VERY_LIKELY",1,3,937526415,0,0,0,"None",
+      "process:process_id:0","L1","DMT-LIGHTDIP_6_PERCENT",1,3,937526415,0,0,0,"Dip in interferometer arm power by 6 percent",
+      "process:process_id:0","L1","DMT-PRE_LOCKLOSS_60_SEC",1,3,937526415,0,0,0,"Interval of 60 seconds preceding lock loss",
+      "process:process_id:0","L1","DMT-OM2_OVERFLOW",1,3,937526415,0,0,0,"OMC 2 overflows",
+      "process:process_id:0","L1","DMT-OM1_QPD_OVERFLOW",1,3,937526415,0,0,0,"OM1 quad photodiode overflow",
+      "process:process_id:0","L1","DMT-LSC_OVERFLOW",1,3,937526415,0,0,0,"Ancillary LSC overflows",
+
+      "process:process_id:0","L1","DMT-INJECTION_BURST",1,4,937526415,0,0,0,"Burst injection",
+      "process:process_id:0","L1","DMT-INJECTION_INSPIRAL",1,4,937526415,0,0,0,"Inspiral injection",
+     </Stream>
+   </Table>
+</LIGO_LW>
+

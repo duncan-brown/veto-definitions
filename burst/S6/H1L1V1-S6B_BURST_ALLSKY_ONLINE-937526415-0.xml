@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE LIGO_LW SYSTEM "http://ldas-sw.ligo.caltech.edu/doc/ligolwAPI/html/ligolw_dtd.txt">
+<?xml-stylesheet type="text/xsl" href="ligolw.xsl"?>
+<LIGO_LW>
+   <Table Name="process:table">
+      <Column Name="process:process_id" Type="ilwd:char"/>
+      <Column Name="process:program" Type="lstring"/>
+      <Column Name="process:version" Type="lstring"/>
+      <Column Name="process:cvs_repository" Type="lstring"/>
+      <Column Name="process:cvs_entry_time" Type="int_4s"/>
+      <Column Name="process:node" Type="lstring"/>
+      <Column Name="process:username" Type="lstring"/>
+      <Column Name="process:unix_procid" Type="int_4s"/>
+      <Column Name="process:start_time" Type="int_4s"/>
+      <Column Name="process:end_time" Type="int_4s"/>
+      <Column Name="process:ifos" Type="lstring"/>
+      <Column Name="process:comment" Type="lstring"/>
+      <Stream Name="process:table" Type="Local" Delimiter=",">
+      "process:process_id:0","$RCSfile: H1L1V1-S6B_BURST_ALLSKY_ONLINE-937526415-0.xml,v $","$Revision: 1.15 $","$Source: /opt/repos/cvs/lscdocs/bursts/public/runs/s6/dqv/category_definer/H1L1V1-S6B_BURST_ALLSKY_ONLINE-937526415-0.xml,v $",931187367,"ldas-grid.ligo.caltech.edu","$Author: mabizoua $",16830,937526415,0,"H1L1V1","$Id: H1L1V1-S6B_BURST_ALLSKY_ONLINE-937526415-0.xml,v 1.15 2009/12/02 19:21:37 mabizoua Exp $"
+      </Stream>
+   </Table>
+   <Table Name="veto_definer:table">
+      <Column Name="veto_definer:process_id" Type="ilwd:char"/>
+      <Column Name="veto_definer:ifo" Type="lstring"/>
+      <Column Name="veto_definer:name" Type="lstring"/>
+      <Column Name="veto_definer:version" Type="int_4s"/>
+      <Column Name="veto_definer:category" Type="int_4s"/>
+      <Column Name="veto_definer:start_time" Type="int_4s"/>
+      <Column Name="veto_definer:end_time" Type="int_4s"/>
+      <Column Name="veto_definer:start_pad" Type="int_4s"/>
+      <Column Name="veto_definer:end_pad" Type="int_4s"/>
+      <Column Name="veto_definer:comment" Type="lstring"/>
+      <Stream Name="veto_definer:table" Type="Local" Delimiter=",">
+      "process:process_id:0","H1","DMT-AIRCRAFT_LIKELY",1,5,937526415,0,0,0,"Aircraft likely",
+      "process:process_id:0","H1","DMT-AIRCRAFT_VERY_LIKELY",1,5,937526415,0,0,0,"Aircraft very likely",
+      "process:process_id:0","H1","DMT-ASC_OVERFLOW",1,2,937526415,0,0,0,"Asc photodiode overflows", 
+      "process:process_id:0","H1","DMT-BADGAMMA",1,1,937526415,0,0,0,"H1 Bad gamma in h(t) DQ flags", 
+      "process:process_id:0","H1","DMT-OUT_OF_LOCK",1,1,937526415,0,0,0,"",
+      "process:process_id:0","H1","DMT-BRMS_SEISMIC_X_30_100_MHZ_HIGHTHRESH",1,3,937526415,0,0,0,"",
+      "process:process_id:0","H1","DMT-BRMS_SEISMIC_X_30_100_MHZ_LOWTHRESH",1,5,937526415,0,0,0,"",
+      "process:process_id:0","H1","DMT-BRMS_SEISMIC_X_30_100_MHZ_MEDTHRESH",1,5,937526415,0,0,0,"",
+      "process:process_id:0","H1","DMT-BRMS_SEISMIC_Y_30_100_MHZ_HIGHTHRESH",1,3,937526415,0,0,0,"",
+      "process:process_id:0","H1","DMT-BRMS_SEISMIC_Y_30_100_MHZ_LOWTHRESH",1,5,937526415,0,0,0,"",
+      "process:process_id:0","H1","DMT-BRMS_SEISMIC_Y_30_100_MHZ_MEDTHRESH",1,5,937526415,0,0,0,"",
+      "process:process_id:0","H1","DMT-CALIB_LINE_GLITCH",1,5,937526415,0,0,0,"H1 Calibration line glitches", 
+      "process:process_id:0","H1","DMT-INJECTION_BURST",1,4,937526415,0,0,0,"Burst injection", 
+      "process:process_id:0","H1","DMT-INJECTION_INSPIRAL",1,4,937526415,0,0,0,"Inspiral injection", 
+      "process:process_id:0","H1","DMT-INSPIRAL_RANGE_STDEV_GT_5_MPC",1,5,937526415,0,0,0,"Standard deviation of inspiral range exceeds 5 Mpc over last 10 minutes", 
+      "process:process_id:0","H1","DMT-ISI_OVERFLOW",1,2,937526415,0,0,0,"ISI readout/conntrol overflows", 
+      "process:process_id:0","H1","DMT-LIGHTDIP_9_PERCENT",1,3,937526415,0,0,0,"Dip in interferometer arm power by 9 percent", 
+      "process:process_id:0","H1","DMT-LSC_OVERFLOW",1,2,937526415,0,0,0,"Ancillary LSC overflows", 
+      "process:process_id:0","H1","DMT-OM1_OVERFLOW",1,2,937526415,0,0,0," OMC 1 readout/conntrol overflows", 
+      "process:process_id:0","H1","DMT-OM2_OVERFLOW",1,2,937526415,0,0,0," OMC 2 readout/control overflows", 
+      "process:process_id:0","H1","DMT-PRE_LOCKLOSS_10_SEC",1,1,937526415,0,0,0,"Interval of 10 seconds preceding lock loss", 
+      "process:process_id:0","H1","DMT-PRE_LOCKLOSS_30_SEC",1,2,937526415,0,0,0,"Interval of 30 seconds preceding lock loss", 
+      "process:process_id:0","H1","DMT-PRE_LOCKLOSS_60_SEC",1,3,937526415,0,0,0,"Interval of 60 seconds preceding lock loss", 
+      "process:process_id:0","H1","DMT-PRE_LOCKLOSS_120_SEC",1,5,937526415,0,0,0,"Interval of 120 seconds preceding lock loss", 
+      "process:process_id:0","H1","DMT-SEVERE_LSC_OVERFLOW",1,2,937526415,0,0,0,"In-loop LSC overflows", 
+      "process:process_id:0","H1","DMT-WIND_OVER_30MPH",1,3,937526415,0,0,0,"Wind at LVEA/EXY over 30/35 MPH", 
+      "process:process_id:0","L1","DMT-AIRCRAFT_LIKELY",1,5,937526415,0,0,0,"Aircraft likely",
+      "process:process_id:0","L1","DMT-AIRCRAFT_VERY_LIKELY",1,5,937526415,0,0,0,"Aircraft very likely",
+      "process:process_id:0","L1","DMT-ASC_OVERFLOW",1,2,937526415,0,0,0,"Asc photodiode overflows",
+      "process:process_id:0","L1","DMT-BADGAMMA",1,1,937526415,0,0,0,"L1 Bad gamma in h(t) DQ flags",
+      "process:process_id:0","L1","DMT-OUT_OF_LOCK",1,1,937526415,0,0,0,"",
+      "process:process_id:0","L1","DMT-BRMS_SEISMIC_X_30_100_MHZ_HIGHTHRESH",1,3,937526415,0,0,0,"",
+      "process:process_id:0","L1","DMT-BRMS_SEISMIC_X_30_100_MHZ_LOWTHRESH",1,5,937526415,0,0,0,"",
+      "process:process_id:0","L1","DMT-BRMS_SEISMIC_X_30_100_MHZ_MEDTHRESH",1,5,937526415,0,0,0,"",
+      "process:process_id:0","L1","DMT-BRMS_SEISMIC_Y_30_100_MHZ_HIGHTHRESH",1,3,937526415,0,0,0,"",
+      "process:process_id:0","L1","DMT-BRMS_SEISMIC_Y_30_100_MHZ_LOWTHRESH",1,5,937526415,0,0,0,"",
+      "process:process_id:0","L1","DMT-BRMS_SEISMIC_Y_30_100_MHZ_MEDTHRESH",1,5,937526415,0,0,0,"",
+      "process:process_id:0","L1","DMT-BRMS_TRAIN_LIKELY",1,3,937526415,0,0,0,"",
+      "process:process_id:0","L1","DMT-BRMS_TRAIN_POSSIBLE",1,5,937526415,0,0,0,"",
+      "process:process_id:0","L1","DMT-BRMS_TRAIN_VERY_LIKELY",1,3,937526415,0,0,0,"",
+      "process:process_id:0","L1","DMT-CALIB_LINE_GLITCH",1,5,937526415,0,0,0,"L1 calibration line glitches",
+      "process:process_id:0","L1","DMT-INJECTION_BURST",1,4,937526415,0,0,0,"Burst injection",
+      "process:process_id:0","L1","DMT-INJECTION_INSPIRAL",1,4,937526415,0,0,0,"Inspiral injection",
+      "process:process_id:0","L1","DMT-INSPIRAL_RANGE_STDEV_GT_5_MPC",1,5,937526415,0,0,0," Standard deviation of inspiral range exceeds 5 Mpc over last 10 minutes",
+      "process:process_id:0","L1","DMT-ISI_OVERFLOW",1,2,937526415,0,0,0,"ISI overflows",
+      "process:process_id:0","L1","DMT-LIGHTDIP_6_PERCENT",1,3,937526415,0,0,0,"Dip in interferometer arm power by 6 percent",
+      "process:process_id:0","L1","DMT-LSC_OVERFLOW",1,2,937526415,0,0,0,"Ancillary LSC overflows",
+      "process:process_id:0","L1","DMT-OM1_OVERFLOW",1,2,937526415,943148000,0,0,"OMC 1 overflows",
+      "process:process_id:0","L1","DMT-OM1_OVERFLOW",1,5,943148000,0,0,0,"OMC 1 overflows",
+      "process:process_id:0","L1","DMT-SEVERE_OM1_OVERFLOW",1,2,943148000,0,0,0,"In-loop OM1 overflow readout",
+      "process:process_id:0","L1","DMT-OM2_OVERFLOW",1,2,937526415,0,0,0,"OMC 2 overflows",
+      "process:process_id:0","L1","DMT-SEVERE_LSC_OVERFLOW",1,2,937526415,0,0,0,"In-loop LSC overflows",
+      "process:process_id:0","L1","DMT-PRE_LOCKLOSS_10_SEC",1,1,937526415,0,0,0,"Interval of 10 seconds preceding lock loss",  
+      "process:process_id:0","L1","DMT-PRE_LOCKLOSS_30_SEC",1,2,937526415,0,0,0,"Interval of 30 seconds preceding lock loss",    
+      "process:process_id:0","L1","DMT-PRE_LOCKLOSS_60_SEC",1,3,937526415,0,0,0,"Interval of 60 seconds preceding lock loss",  
+      "process:process_id:0","L1","DMT-PRE_LOCKLOSS_120_SEC",1,5,937526415,0,0,0,"Interval of 120 seconds preceding lock loss",
+
+      "process:process_id:0","V1","HREC_MISS",2,1,930960015,941068815,0,0,"online h(t) data missing",
+
+      "process:process_id:0","V1","HREC_QUALITY",1,2,935798415,0,-2,3,"Missing calibration lines or/and hrec of bad quality",
+      "process:process_id:0","V1","PRE_LOCK_LOSS_10S",1,2,938390415,0,0,0,"Interval of 10 seconds preceding lock loss",
+      "process:process_id:0","V1","ITF_LOCKED_FOR_LESS_THAN_300S",1,5,938390415,0,0,0,"Interval of 300 seconds after Virgo gets locked",
+      "process:process_id:0","V1","BMS_256_512",1,2,938390415,0,0,0,"BRMS (256-512 Hz) on Bs_BMS_FFv/h channels (beam monitoring)",
+      "process:process_id:0","V1","BMS_512_1024",1,2,938390415,0,0,0,"BRMS (512-1024 Hz) on Bs_BMS_FFv/h channels (beam monitoring)",
+      "process:process_id:0","V1","BS_MOD_128_1024",1,2,941068815,0,0,0,"BRMS (128_1024 Hz) on Bs_MOD_6MHz channel (beam monitoring)",
+      "process:process_id:0","V1","B5_1024_4096",1,2,938390415,0,-1,2,"BRMS (1024-4096 Hz) on B5 ACq and DC channels",
+      "process:process_id:0","V1","B5_1024_4096_FULL",1,2,938390415,0,0,2,"BRMS (1024-4096 Hz) on B5 ACq and DC channels",
+      "process:process_id:0","V1","B1_D2_ACQ_SAT",1,3,938390415,0,0,0,"Pr_B1_d2_ACq overflow",
+      "process:process_id:0","V1","B1_D3_ACQ_SAT",1,3,938390415,0,0,0,"Pr_B1_d3_ACq overflow",
+      "process:process_id:0","V1","SC_NE_COILU_SAT",1,2,938390415,0,0,0,"Sc_NE_CoilU (coil driver current) overflow",
+      "process:process_id:0","V1","SC_NE_COILD_SAT",1,2,938390415,0,0,0,"Sc_NE_CoilD (coil driver current) overflow",
+      "process:process_id:0","V1","SC_WE_COILU_SAT",1,2,938390415,0,0,0,"Sc_WE_CoilU (coil driver current) overflow",
+      "process:process_id:0","V1","SC_WE_COILD_SAT",1,2,938390415,0,0,0,"Sc_WE_CoilD (coil driver current) overflow",
+      "process:process_id:0","V1","SSFS_CORR_SAT",1,2,938390415,0,0,0,"Sc_SSFS_Corr overflow (laser frequency second stage stabilization)",
+      "process:process_id:0","V1","SSFS_1200_4000",1,2,938390415,0,-1,1,"BRMS (1200-1400 Hz) on Sc_IB_SSFS_Corr", 
+      "process:process_id:0","V1","TCS_NI_POWER_GLITCH",1,5,938390415,0,0,0,"Noise on NI TCS",
+      "process:process_id:0","V1","TCS_NI_POWER_64_256",1,5,938390415,0,0,0,"Noise on NI TCS",
+      "process:process_id:0","V1","TCS_WI_POWER_GLITCH",1,5,938390415,0,0,0,"Noise on WI TCS",
+      "process:process_id:0","V1","TCS_WI_POWER_64_256",1,5,938390415,0,0,0,"Noise on WI  TCS",
+
+      "process:process_id:0","V1","PR_6MHZ",1,2,942364815,0,0,0,"BRMS of Pr_6MHz_ACp and Pr_6MHz_ACq (128-1024Hz) ",
+      "process:process_id:0","V1","B5_LOW_FREQ",1,3,942364815,0,0,0,"BRMS of Pr_B5_ACq (4-16Hz, 8-32Hz, 16-128Hz, 128-1024Hz)",
+
+      "process:process_id:0","V1","AC_CE_64_128",1,3,938390415,0,0,2,"BRMS (64-128 Hz) on microphone",
+      "process:process_id:0","V1","AC_CE_128_256",1,2,938390415,0,0,2,"BRMS (128-256 Hz) on microphone",
+      "process:process_id:0","V1","AC_CE_256_512",1,2,938390415,0,0,0,"BRMS (256-512 Hz) on microphone",
+      "process:process_id:0","V1","AC_NE_64_128",1,3,938390415,0,-1,1,"BRMS (64-128 Hz) on microphone",
+      "process:process_id:0","V1","AC_NE_128_256",1,2,938390415,0,-2,2,"BRMS (128-256 Hz) on microphone",
+      "process:process_id:0","V1","AC_NE_256_512",1,2,938390415,0,-1,1,"BRMS (256-512 Hz) on microphone",
+      "process:process_id:0","V1","AC_WE_64_128",1,2,938390415,0,-2,2,"BRMS (64-128 Hz) on microphone",
+      "process:process_id:0","V1","AC_WE_128_256",1,2,938390415,0,-2,2,"BRMS (128-256 Hz) on microphone",
+      "process:process_id:0","V1","AC_WE_256_512",1,2,938390415,0,-2,2,"BRMS (256-512 Hz) on microphone",
+      "process:process_id:0","V1","MAB_CE_10_40",1,2,938390415,0,-1,1,"BRMS (10-40 Hz) on CE magnetometers",
+      "process:process_id:0","V1","MAB_CE_16_64",1,2,938390415,0,-2,2,"BRMS (16-64 Hz) on CE magnetometers",
+      "process:process_id:0","V1","MAB_MC_10_40",1,2,941068815,0,0,5,"BRMS (10-40 Hz) on CE magnetometers",
+      "process:process_id:0","V1","MAB_MC_16_64",1,5,941068815,942364815,0,5,"BRMS (16-64 Hz) on CE magnetometers",
+      "process:process_id:0","V1","MAB_MC_16_64",1,2,942364815,0,0,5,"BRMS (16-64 Hz) on CE magnetometers",
+      "process:process_id:0","V1","MAB_NE_10_40",1,2,938390415,0,-1,2,"BRMS (10-40 Hz) on NE magnetometers",
+      "process:process_id:0","V1","MAB_NE_16_64",1,2,938390415,0,-2,2,"BRMS (16-64 Hz) on NE magnetometers",
+      "process:process_id:0","V1","MAB_WE_10_40",1,2,938390415,0,-2,2,"BRMS (10-40 Hz) on WE magnetometers",
+      "process:process_id:0","V1","MAB_WE_16_64",1,3,938390415,0,-2,2,"BRMS (16-64 Hz) on WE magnetometers",
+
+      "process:process_id:0","V1","SE_CE_0.25_1",1,5,938390415,0,0,0,"BRMS (0.25-1 Hz) on CE sismometers",
+      "process:process_id:0","V1","SE_CE_1_4",1,3,938390415,0,0,0,"BRMS (1-4 Hz) on CE sismometers",
+      "process:process_id:0","V1","SE_CE_2_8",1,3,938390415,0,0,0,"BRMS (2-8 Hz) on CE sismometers",
+      "process:process_id:0","V1","SE_CE_4_16",1,3,938390415,0,-2,2,"BRMS (4-16 Hz) on CE sismometers",
+      "process:process_id:0","V1","SE_MC_0.25_1",1,5,938390415,0,0,0,"BRMS (0.25-1 Hz) on MC sismometers",
+      "process:process_id:0","V1","SE_MC_1_4",1,3,938390415,0,0,0,"BRMS (1-4 Hz) on MC sismometers",
+      "process:process_id:0","V1","SE_MC_2_8",1,3,938390415,0,0,0,"BRMS (2-8 Hz) on MC sismometers",
+      "process:process_id:0","V1","SE_MC_4_16",1,3,938390415,0,0,0,"BRMS (4-16 Hz) on MC sismometers",
+      "process:process_id:0","V1","SE_NE_0.25_1",1,5,938390415,0,0,0,"BRMS (0.25-1 Hz) on NE sismometers",
+
+      "process:process_id:0","V1","SE_NE_0.25_1_LOOSE",1,2,941068815,0,0,0,"BRMS (0.25-1 Hz) on NE sismometers with fixed threshold",
+      "process:process_id:0","V1","SE_NE_0.25_1_MEDIUM",1,2,941068815,0,0,0,"BRMS (0.25-1 Hz) on NE sismometers with fixed threshold",
+      "process:process_id:0","V1","SE_NE_0.25_1_TIGHT",1,3,941068815,0,0,0,"BRMS (0.25-1 Hz) on NE sismometers with fixed threshold",
+      "process:process_id:0","V1","SE_NE_1_4",1,3,938390415,0,0,0,"BRMS (1-4 Hz) on NE sismometers",
+      "process:process_id:0","V1","SE_NE_2_8",1,3,938390415,0,0,0,"BRMS (2-8 Hz) on NE sismometers",
+      "process:process_id:0","V1","SE_NE_4_16",1,3,938390415,0,-2,2,"BRMS (4-16 Hz) on NE sismometers",
+      "process:process_id:0","V1","SE_WE_0.25_1",1,5,938390415,0,0,0,"BRMS (0.25-1 Hz) on WE sismometers",
+      "process:process_id:0","V1","SE_WE_0.25_1_LOOSE",1,2,941068815,0,0,0,"BRMS (0.25-1 Hz) on WE sismometers with fixed threshold",
+      "process:process_id:0","V1","SE_WE_0.25_1_MEDIUM",1,3,941068815,0,0,0,"BRMS (0.25-1 Hz) on WE sismometers with fixed threshold",
+      "process:process_id:0","V1","SE_WE_0.25_1_TIGHT",1,3,941068815,0,0,0,"BRMS (0.25-1 Hz) on WE sismometers with fixed threshold",
+      "process:process_id:0","V1","SE_WE_2_8",1,3,938390415,0,0,0,"BRMS (2-8 Hz) on WE sismometers",
+      "process:process_id:0","V1","SE_WE_1_4",1,3,938390415,0,-1,1,"BRMS (1-4 Hz) on WE sismometers",
+      "process:process_id:0","V1","SE_WE_4_16",1,3,938390415,0,0,0,"BRMS (4-16 Hz) on WE sismometers",
+
+      "process:process_id:0","V1","INJECTION_BURST",1,4,938390415,0,0,0,"Injection of burst",
+      "process:process_id:0","V1","INJECTION_INSPIRAL",1,4,938390415,0,0,0,"Injection of binary",
+      "process:process_id:0","V1","INJECTION_STOCHASTIC",1,1,938390415,0,0,0,"Injection of stochastic",
+     </Stream>
+   </Table>
+</LIGO_LW>
+
