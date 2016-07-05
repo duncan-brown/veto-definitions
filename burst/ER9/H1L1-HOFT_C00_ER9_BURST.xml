@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE LIGO_LW SYSTEM "http://ldas-sw.ligo.caltech.edu/doc/ligolwAPI/html/ligolw_dtd.txt">
+<LIGO_LW>
+	<Table Name="process:table">
+		<Column Type="lstring" Name="process:comment"/>
+		<Column Type="lstring" Name="process:node"/>
+		<Column Type="lstring" Name="process:domain"/>
+		<Column Type="int_4s" Name="process:unix_procid"/>
+		<Column Type="int_4s" Name="process:start_time"/>
+		<Column Type="ilwd:char" Name="process:process_id"/>
+		<Column Type="int_4s" Name="process:is_online"/>
+		<Column Type="lstring" Name="process:ifos"/>
+		<Column Type="int_4s" Name="process:jobid"/>
+		<Column Type="lstring" Name="process:username"/>
+		<Column Type="lstring" Name="process:program"/>
+		<Column Type="int_4s" Name="process:end_time"/>
+		<Column Type="lstring" Name="process:version"/>
+		<Column Type="lstring" Name="process:cvs_repository"/>
+		<Column Type="int_4s" Name="process:cvs_entry_time"/>
+		<Stream Delimiter="," Type="Local" Name="process:table">
+			,"ldas-grid",,3887560,1151352234,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
+			,"ldas-grid",,3887811,1151352234,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3888010,1151352234,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3888197,1151352235,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3888266,1151352235,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3888267,1151352235,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3888268,1151352236,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3888272,1151352236,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3888273,1151352236,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3888274,1151352237,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3888277,1151352237,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3888332,1151352237,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3888427,1151352238,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3888519,1151352238,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3888592,1151352238,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+		</Stream>
+	</Table>
+	<Table Name="process_params:table">
+		<Column Type="ilwd:char" Name="process_params:process_id"/>
+		<Column Type="lstring" Name="process_params:program"/>
+		<Column Type="lstring" Name="process_params:type"/>
+		<Column Type="lstring" Name="process_params:value"/>
+		<Column Type="lstring" Name="process_params:param"/>
+		<Stream Delimiter="," Type="Local" Name="process_params:table">
+			"process:process_id:0","ligolw-vetodef-create","lstring","H1L1-HOFT_C00_ER9_BURST.xml","output-file",
+			"process:process_id:0","ligolw-vetodef-create",,,"--force",
+			"process:process_id:1","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER9_BURST.xml","",
+			"process:process_id:1","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:1","ligolw-vetodef-append","lstring","Missing H1 calibrated h(t) data","--comment",
+			"process:process_id:1","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:1","ligolw-vetodef-append","int_8s","1151366417","--start-time",
+			"process:process_id:1","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:1","ligolw-vetodef-append","lstring","H1:DCH-MISSING_H1_HOFT_C00:2","--flag",
+			"process:process_id:1","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:1","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:1","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:2","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER9_BURST.xml","",
+			"process:process_id:2","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:2","ligolw-vetodef-append","lstring","Missing L1 calibrated h(t) data","--comment",
+			"process:process_id:2","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:2","ligolw-vetodef-append","int_8s","1151366417","--start-time",
+			"process:process_id:2","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:2","ligolw-vetodef-append","lstring","L1:DCH-MISSING_L1_HOFT_C00:2","--flag",
+			"process:process_id:2","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:2","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:2","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:3","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER9_BURST.xml","",
+			"process:process_id:3","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:3","ligolw-vetodef-append","lstring","Stochastic hardware injections","--comment",
+			"process:process_id:3","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:3","ligolw-vetodef-append","int_8s","1151366417","--start-time",
+			"process:process_id:3","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:3","ligolw-vetodef-append","lstring","H1:ODC-INJECTION_STOCHASTIC:2","--flag",
+			"process:process_id:3","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:3","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:3","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:4","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER9_BURST.xml","",
+			"process:process_id:4","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:4","ligolw-vetodef-append","lstring","Stochastic hardware injections","--comment",
+			"process:process_id:4","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:4","ligolw-vetodef-append","int_8s","1151366417","--start-time",
+			"process:process_id:4","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:4","ligolw-vetodef-append","lstring","L1:ODC-INJECTION_STOCHASTIC:2","--flag",
+			"process:process_id:4","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:4","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:4","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:5","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER9_BURST.xml","",
+			"process:process_id:5","ligolw-vetodef-append","int_8s","4","--category",
+			"process:process_id:5","ligolw-vetodef-append","lstring","CBC hardware injections","--comment",
+			"process:process_id:5","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:5","ligolw-vetodef-append","int_8s","1151366417","--start-time",
+			"process:process_id:5","ligolw-vetodef-append","int_8s","8","--end-pad",
+			"process:process_id:5","ligolw-vetodef-append","lstring","H1:ODC-INJECTION_CBC:2","--flag",
+			"process:process_id:5","ligolw-vetodef-append","int_8s","-8","--start-pad",
+			"process:process_id:5","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:5","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:6","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER9_BURST.xml","",
+			"process:process_id:6","ligolw-vetodef-append","int_8s","4","--category",
+			"process:process_id:6","ligolw-vetodef-append","lstring","CBC hardware injections","--comment",
+			"process:process_id:6","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:6","ligolw-vetodef-append","int_8s","1151366417","--start-time",
+			"process:process_id:6","ligolw-vetodef-append","int_8s","8","--end-pad",
+			"process:process_id:6","ligolw-vetodef-append","lstring","L1:ODC-INJECTION_CBC:2","--flag",
+			"process:process_id:6","ligolw-vetodef-append","int_8s","-8","--start-pad",
+			"process:process_id:6","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:6","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:7","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER9_BURST.xml","",
+			"process:process_id:7","ligolw-vetodef-append","int_8s","4","--category",
+			"process:process_id:7","ligolw-vetodef-append","lstring","Detchar hardware injection","--comment",
+			"process:process_id:7","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:7","ligolw-vetodef-append","int_8s","1151366417","--start-time",
+			"process:process_id:7","ligolw-vetodef-append","int_8s","16","--end-pad",
+			"process:process_id:7","ligolw-vetodef-append","lstring","H1:ODC-INJECTION_DETCHAR:2","--flag",
+			"process:process_id:7","ligolw-vetodef-append","int_8s","-16","--start-pad",
+			"process:process_id:7","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:7","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:8","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER9_BURST.xml","",
+			"process:process_id:8","ligolw-vetodef-append","int_8s","4","--category",
+			"process:process_id:8","ligolw-vetodef-append","lstring","Detchar hardware injection","--comment",
+			"process:process_id:8","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:8","ligolw-vetodef-append","int_8s","1151366417","--start-time",
+			"process:process_id:8","ligolw-vetodef-append","int_8s","16","--end-pad",
+			"process:process_id:8","ligolw-vetodef-append","lstring","L1:ODC-INJECTION_DETCHAR:2","--flag",
+			"process:process_id:8","ligolw-vetodef-append","int_8s","-16","--start-pad",
+			"process:process_id:8","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:8","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:9","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER9_BURST.xml","",
+			"process:process_id:9","ligolw-vetodef-append","int_8s","4","--category",
+			"process:process_id:9","ligolw-vetodef-append","lstring","Burst hardware injections","--comment",
+			"process:process_id:9","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:9","ligolw-vetodef-append","int_8s","1151366417","--start-time",
+			"process:process_id:9","ligolw-vetodef-append","int_8s","4","--end-pad",
+			"process:process_id:9","ligolw-vetodef-append","lstring","H1:ODC-INJECTION_BURST:2","--flag",
+			"process:process_id:9","ligolw-vetodef-append","int_8s","-4","--start-pad",
+			"process:process_id:9","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:9","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:10","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER9_BURST.xml","",
+			"process:process_id:10","ligolw-vetodef-append","int_8s","4","--category",
+			"process:process_id:10","ligolw-vetodef-append","lstring","Burst hardware injections","--comment",
+			"process:process_id:10","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:10","ligolw-vetodef-append","int_8s","1151366417","--start-time",
+			"process:process_id:10","ligolw-vetodef-append","int_8s","4","--end-pad",
+			"process:process_id:10","ligolw-vetodef-append","lstring","L1:ODC-INJECTION_BURST:2","--flag",
+			"process:process_id:10","ligolw-vetodef-append","int_8s","-4","--start-pad",
+			"process:process_id:10","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:10","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:11","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER9_BURST.xml","",
+			"process:process_id:11","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:11","ligolw-vetodef-append","lstring","Saturations in the SUSETMY model channels monitored by DMT","--comment",
+			"process:process_id:11","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:11","ligolw-vetodef-append","int_8s","1151366417","--start-time",
+			"process:process_id:11","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:11","ligolw-vetodef-append","lstring","H1:DMT-ETMY_ESD_DAC_OVERFLOW:1","--flag",
+			"process:process_id:11","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:11","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:11","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:12","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER9_BURST.xml","",
+			"process:process_id:12","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:12","ligolw-vetodef-append","lstring","Saturations in the SUSETMY model channels monitored by DMT","--comment",
+			"process:process_id:12","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:12","ligolw-vetodef-append","int_8s","1151366417","--start-time",
+			"process:process_id:12","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:12","ligolw-vetodef-append","lstring","L1:DMT-ETMY_ESD_DAC_OVERFLOW:1","--flag",
+			"process:process_id:12","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:12","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:12","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:13","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER9_BURST.xml","",
+			"process:process_id:13","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:13","ligolw-vetodef-append","lstring","OMC DCPD_A ADC overflow monitored by DMT","--comment",
+			"process:process_id:13","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:13","ligolw-vetodef-append","int_8s","1151366417","--start-time",
+			"process:process_id:13","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:13","ligolw-vetodef-append","lstring","H1:DMT-OMC_DCPD_ADC_OVERFLOW:1","--flag",
+			"process:process_id:13","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:13","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:13","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:14","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_ER9_BURST.xml","",
+			"process:process_id:14","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:14","ligolw-vetodef-append","lstring","OMC DCPD_A ADC overflow monitored by DMT","--comment",
+			"process:process_id:14","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:14","ligolw-vetodef-append","int_8s","1151366417","--start-time",
+			"process:process_id:14","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:14","ligolw-vetodef-append","lstring","L1:DMT-OMC_DCPD_ADC_OVERFLOW:1","--flag",
+			"process:process_id:14","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:14","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:14","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+		</Stream>
+	</Table>
+	<Table Name="veto_definer:table">
+		<Column Type="int_4s" Name="veto_definer:category"/>
+		<Column Type="lstring" Name="veto_definer:comment"/>
+		<Column Type="int_4s" Name="veto_definer:end_pad"/>
+		<Column Type="ilwd:char" Name="veto_definer:process_id"/>
+		<Column Type="lstring" Name="veto_definer:name"/>
+		<Column Type="int_4s" Name="veto_definer:version"/>
+		<Column Type="int_4s" Name="veto_definer:start_pad"/>
+		<Column Type="int_4s" Name="veto_definer:start_time"/>
+		<Column Type="lstring" Name="veto_definer:ifo"/>
+		<Column Type="int_4s" Name="veto_definer:end_time"/>
+		<Stream Delimiter="," Type="Local" Name="veto_definer:table">
+			1,"Missing H1 calibrated h(t) data",0,"process:process_id:1","DCH-MISSING_H1_HOFT_C00",2,0,1151366417,"H1",0,
+			1,"Missing L1 calibrated h(t) data",0,"process:process_id:2","DCH-MISSING_L1_HOFT_C00",2,0,1151366417,"L1",0,
+			1,"Stochastic hardware injections",0,"process:process_id:3","ODC-INJECTION_STOCHASTIC",2,0,1151366417,"H1",0,
+			1,"Stochastic hardware injections",0,"process:process_id:4","ODC-INJECTION_STOCHASTIC",2,0,1151366417,"L1",0,
+			4,"CBC hardware injections",8,"process:process_id:5","ODC-INJECTION_CBC",2,-8,1151366417,"H1",0,
+			4,"CBC hardware injections",8,"process:process_id:6","ODC-INJECTION_CBC",2,-8,1151366417,"L1",0,
+			4,"Detchar hardware injection",16,"process:process_id:7","ODC-INJECTION_DETCHAR",2,-16,1151366417,"H1",0,
+			4,"Detchar hardware injection",16,"process:process_id:8","ODC-INJECTION_DETCHAR",2,-16,1151366417,"L1",0,
+			4,"Burst hardware injections",4,"process:process_id:9","ODC-INJECTION_BURST",2,-4,1151366417,"H1",0,
+			4,"Burst hardware injections",4,"process:process_id:10","ODC-INJECTION_BURST",2,-4,1151366417,"L1",0,
+			2,"Saturations in the SUSETMY model channels monitored by DMT",0,"process:process_id:11","DMT-ETMY_ESD_DAC_OVERFLOW",1,0,1151366417,"H1",0,
+			2,"Saturations in the SUSETMY model channels monitored by DMT",0,"process:process_id:12","DMT-ETMY_ESD_DAC_OVERFLOW",1,0,1151366417,"L1",0,
+			2,"OMC DCPD_A ADC overflow monitored by DMT",0,"process:process_id:13","DMT-OMC_DCPD_ADC_OVERFLOW",1,0,1151366417,"H1",0,
+			2,"OMC DCPD_A ADC overflow monitored by DMT",0,"process:process_id:14","DMT-OMC_DCPD_ADC_OVERFLOW",1,0,1151366417,"L1",0
+		</Stream>
+	</Table>
+</LIGO_LW>

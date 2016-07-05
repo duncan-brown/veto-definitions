@@ -1,0 +1,1 @@
+Basic veto definer for ER9 period.  Note that L1 flags aren't tuned to the fake stream, but are included to keep format similar to a real run.
