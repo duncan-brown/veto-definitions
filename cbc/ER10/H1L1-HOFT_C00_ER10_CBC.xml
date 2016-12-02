@@ -33,6 +33,8 @@
 			,"ldas-pcdev1",,4181796,1163181226,"process:process_id:12",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev1",,56617,1163181319,"process:process_id:13",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev1",,62454,1163181327,"process:process_id:14",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev1",,1979620,1164742502,"process:process_id:15",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev1",,1985699,1164742510,"process:process_id:16",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -184,7 +186,27 @@
 			"process:process_id:14","ligolw-vetodef-append","lstring","H1:DMT-ETMY_ESD_DAC_OVERFLOW:1","--flag",
 			"process:process_id:14","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:14","ligolw-vetodef-append","int_8s","0","--end-time",
-			"process:process_id:14","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:14","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:15","ligolw-vetodef-append","lstring","/home/thomas.massinger/git/veto-definitions/cbc/ER10/H1L1-HOFT_C00_ER10_CBC.xml","",
+			"process:process_id:15","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:15","ligolw-vetodef-append","lstring","PCALY is switching on or off","--comment",
+			"process:process_id:15","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:15","ligolw-vetodef-append","int_8s","1161964817","--start-time",
+			"process:process_id:15","ligolw-vetodef-append","int_8s","2","--end-pad",
+			"process:process_id:15","ligolw-vetodef-append","lstring","L1:DMT-PCALY_STATE_CHANGE:1","--flag",
+			"process:process_id:15","ligolw-vetodef-append","int_8s","-2","--start-pad",
+			"process:process_id:15","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:15","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:16","ligolw-vetodef-append","lstring","/home/thomas.massinger/git/veto-definitions/cbc/ER10/H1L1-HOFT_C00_ER10_CBC.xml","",
+			"process:process_id:16","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:16","ligolw-vetodef-append","lstring","PCALY is switching on or off","--comment",
+			"process:process_id:16","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:16","ligolw-vetodef-append","int_8s","1161964817","--start-time",
+			"process:process_id:16","ligolw-vetodef-append","int_8s","2","--end-pad",
+			"process:process_id:16","ligolw-vetodef-append","lstring","H1:DMT-PCALY_STATE_CHANGE:1","--flag",
+			"process:process_id:16","ligolw-vetodef-append","int_8s","-2","--start-pad",
+			"process:process_id:16","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:16","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -205,14 +227,16 @@
 			1,"Stochastic hardware injections",0,"process:process_id:4","ODC-INJECTION_STOCHASTIC",2,0,1161964817,"H1",0,
 			2,"Burst hardware injections",4,"process:process_id:5","ODC-INJECTION_BURST",2,-4,1161964817,"H1",0,
 			2,"Burst hardware injections",4,"process:process_id:6","ODC-INJECTION_BURST",2,-4,1161964817,"L1",0,
-			2,"Detchar hardware injections",16,"process:process_id:7","ODC-INJECTION_DETCHAR",2,-16,1161964817,"L1",0,
-			2,"Detchar hardware injections",16,"process:process_id:8","ODC-INJECTION_DETCHAR",2,-16,1161964817,"H1",0,
+			1,"Detchar hardware injections",16,"process:process_id:7","ODC-INJECTION_DETCHAR",2,-16,1161964817,"L1",0,
+			1,"Detchar hardware injections",16,"process:process_id:8","ODC-INJECTION_DETCHAR",2,-16,1161964817,"H1",0,
 			3,"CBC hardware injections",8,"process:process_id:9","ODC-INJECTION_CBC",2,-8,1161964817,"H1",0,
 			3,"CBC hardware injections",8,"process:process_id:10","ODC-INJECTION_CBC",2,-8,1161964817,"L1",0,
 			2,"Flags OMC DCPD_A ADC overflow monitored by DMT",0,"process:process_id:11","DMT-OMC_DCPD_ADC_OVERFLOW",1,0,1161964817,"L1",0,
 			2,"Flags OMC DCPD_A ADC overflow monitored by DMT",0,"process:process_id:12","DMT-OMC_DCPD_ADC_OVERFLOW",1,0,1161964817,"H1",0,
 			2,"Saturations in ETMY ESD drive signal monitored by DMT",0,"process:process_id:13","DMT-ETMY_ESD_DAC_OVERFLOW",1,0,1161964817,"L1",0,
-			2,"Saturations in ETMY ESD drive signal monitored by DMT",0,"process:process_id:14","DMT-ETMY_ESD_DAC_OVERFLOW",1,0,1161964817,"H1",0
+			2,"Saturations in ETMY ESD drive signal monitored by DMT",0,"process:process_id:14","DMT-ETMY_ESD_DAC_OVERFLOW",1,0,1161964817,"H1",0,
+			1,"PCALY is switching on or off",2,"process:process_id:15","DMT-PCALY_STATE_CHANGE",1,-2,1161964817,"L1",0,
+			1,"PCALY is switching on or off",2,"process:process_id:16","DMT-PCALY_STATE_CHANGE",1,-2,1161964817,"H1",0
 		</Stream>
 	</Table>
 </LIGO_LW>
