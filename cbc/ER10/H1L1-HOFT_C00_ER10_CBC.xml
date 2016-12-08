@@ -255,12 +255,12 @@
 			3,"CBC hardware injections",8,"process:process_id:10","ODC-INJECTION_CBC",2,-8,1161964817,"L1",0,
 			2,"Flags OMC DCPD_A ADC overflow monitored by DMT",0,"process:process_id:11","DMT-OMC_DCPD_ADC_OVERFLOW",1,0,1161964817,"L1",0,
 			2,"Flags OMC DCPD_A ADC overflow monitored by DMT",0,"process:process_id:12","DMT-OMC_DCPD_ADC_OVERFLOW",1,0,1161964817,"H1",0,
-			2,"Saturations in ETMY ESD drive signal monitored by DMT",0,"process:process_id:13","DMT-ETMY_ESD_DAC_OVERFLOW",1,0,1161964817,"L1",0,
-			2,"Saturations in ETMY ESD drive signal monitored by DMT",0,"process:process_id:14","DMT-ETMY_ESD_DAC_OVERFLOW",1,0,1161964817,"H1",0,
+			2,"Saturations in ETMY ESD drive signal monitored by DMT",1,"process:process_id:13","DMT-ETMY_ESD_DAC_OVERFLOW",1,-1,1161964817,"L1",0,
+			2,"Saturations in ETMY ESD drive signal monitored by DMT",1,"process:process_id:14","DMT-ETMY_ESD_DAC_OVERFLOW",1,-1,1161964817,"H1",0,
 			1,"PCALY is switching on or off",2,"process:process_id:15","DMT-PCALY_STATE_CHANGE",1,-2,1161964817,"L1",0,
 			1,"PCALY is switching on or off",2,"process:process_id:16","DMT-PCALY_STATE_CHANGE",1,-2,1161964817,"H1",0,
-			2,"Saturations in ETMX ESD drive signal monitored by DMT",0,"process:process_id:17","DMT-ETMX_ESD_DAC_OVERFLOW",1,0,1161964817,"L1",0,
-			2,"Saturations in ETMX ESD drive signal monitored by DMT",0,"process:process_id:18","DMT-ETMX_ESD_DAC_OVERFLOW",1,0,1161964817,"H1",0
+			2,"Saturations in ETMX ESD drive signal monitored by DMT",1,"process:process_id:17","DMT-ETMX_ESD_DAC_OVERFLOW",1,-1,1161964817,"L1",0,
+			2,"Saturations in ETMX ESD drive signal monitored by DMT",1,"process:process_id:18","DMT-ETMX_ESD_DAC_OVERFLOW",1,-1,1161964817,"H1",0
 		</Stream>
 	</Table>
 </LIGO_LW>
