@@ -37,6 +37,7 @@
 			,"ldas-pcdev1",,1985699,1164742510,"process:process_id:16",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev1",,1908580,1165190941,"process:process_id:17",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev1",,1919605,1165190947,"process:process_id:18",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev5",,233781,1166484984,"process:process_id:19",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -228,7 +229,17 @@
 			"process:process_id:18","ligolw-vetodef-append","lstring","H1:DMT-ETMX_ESD_DAC_OVERFLOW:1","--flag",
 			"process:process_id:18","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:18","ligolw-vetodef-append","int_8s","0","--end-time",
-			"process:process_id:18","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:18","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:19","ligolw-vetodef-append","lstring","../cbc/O2/H1L1-HOFT_C00_O2_CBC.xml","",
+			"process:process_id:19","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:19","ligolw-vetodef-append","lstring","High violin modes causing constant OMC DCPD saturations","--comment",
+			"process:process_id:19","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:19","ligolw-vetodef-append","int_8s","1164774480","--start-time",
+			"process:process_id:19","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:19","ligolw-vetodef-append","lstring","L1:DCH-HIGH_VIOLINS:1","--flag",
+			"process:process_id:19","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:19","ligolw-vetodef-append","int_8s","1164776579","--end-time",
+			"process:process_id:19","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -260,7 +271,8 @@
 			1,"PCALY is switching on or off",2,"process:process_id:15","DMT-PCALY_STATE_CHANGE",1,-2,1161964817,"L1",0,
 			1,"PCALY is switching on or off",2,"process:process_id:16","DMT-PCALY_STATE_CHANGE",1,-2,1161964817,"H1",0,
 			2,"Saturations in ETMX ESD drive signal monitored by DMT",1,"process:process_id:17","DMT-ETMX_ESD_DAC_OVERFLOW",1,-1,1161964817,"L1",0,
-			2,"Saturations in ETMX ESD drive signal monitored by DMT",1,"process:process_id:18","DMT-ETMX_ESD_DAC_OVERFLOW",1,-1,1161964817,"H1",0
+			2,"Saturations in ETMX ESD drive signal monitored by DMT",1,"process:process_id:18","DMT-ETMX_ESD_DAC_OVERFLOW",1,-1,1161964817,"H1",0,
+			1,"High violin modes causing constant OMC DCPD saturations",0,"process:process_id:19","DCH-HIGH_VIOLINS",1,0,1164774480,"L1",1164776579
 		</Stream>
 	</Table>
 </LIGO_LW>
