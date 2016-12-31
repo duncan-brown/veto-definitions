@@ -18,25 +18,28 @@
 		<Column Type="lstring" Name="process:cvs_repository"/>
 		<Column Type="int_4s" Name="process:cvs_entry_time"/>
 		<Stream Delimiter="," Type="Local" Name="process:table">
-			,"ldas-grid",,258666,1165339194,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
-			,"ldas-grid",,258667,1165339194,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,258668,1165339194,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,258669,1165339195,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,258676,1165339195,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,258678,1165339195,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,258679,1165339196,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,258680,1165339196,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,258697,1165339196,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,258770,1165339197,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,258839,1165339197,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,258916,1165339197,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,258989,1165339198,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,259073,1165339198,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,259152,1165339198,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,259225,1165339199,"process:process_id:15",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,259294,1165339199,"process:process_id:16",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,259363,1165339199,"process:process_id:17",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,259440,1165339200,"process:process_id:18",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2030317,1167239787,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
+			,"ldas-grid",,2030463,1167239787,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2030699,1167239787,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2030861,1167239788,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2031051,1167239788,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2031228,1167239788,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2031397,1167239788,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2031587,1167239789,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2031805,1167239789,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2031988,1167239789,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2032185,1167239790,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2032355,1167239790,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2032552,1167239790,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2032729,1167239790,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2032918,1167239791,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2033118,1167239791,"process:process_id:15",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2033306,1167239791,"process:process_id:16",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2033476,1167239792,"process:process_id:17",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2033669,1167239792,"process:process_id:18",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2033746,1167239792,"process:process_id:19",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2033752,1167239792,"process:process_id:20",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2033753,1167239793,"process:process_id:21",0,,0,"bhughey","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -227,7 +230,37 @@
 			"process:process_id:18","ligolw-vetodef-append","lstring","L1:DMT-PCALY_STATE_CHANGE:1","--flag",
 			"process:process_id:18","ligolw-vetodef-append","int_8s","-2","--start-pad",
 			"process:process_id:18","ligolw-vetodef-append","int_8s","0","--end-time",
-			"process:process_id:18","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:18","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:19","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O2_BURST.xml","",
+			"process:process_id:19","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:19","ligolw-vetodef-append","lstring","60 Hz periodic power supply glitching in end-Y station during late ER10","--comment",
+			"process:process_id:19","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:19","ligolw-vetodef-append","int_8s","1161907217","--start-time",
+			"process:process_id:19","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:19","ligolw-vetodef-append","lstring","L1:DCH-60HZ_EY_PERIODIC_GLITCHING:1","--flag",
+			"process:process_id:19","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:19","ligolw-vetodef-append","int_8s","1164556817","--end-time",
+			"process:process_id:19","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:20","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O2_BURST.xml","",
+			"process:process_id:20","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:20","ligolw-vetodef-append","lstring","RF beatnotes on December 15th","--comment",
+			"process:process_id:20","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:20","ligolw-vetodef-append","int_8s","1165795217","--start-time",
+			"process:process_id:20","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:20","ligolw-vetodef-append","lstring","L1:DCH-DEC15_WHISTLES:1","--flag",
+			"process:process_id:20","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:20","ligolw-vetodef-append","int_8s","1165881617","--end-time",
+			"process:process_id:20","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:21","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O2_BURST.xml","",
+			"process:process_id:21","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:21","ligolw-vetodef-append","lstring","High violin modes causing constant OMC DCPD saturations","--comment",
+			"process:process_id:21","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:21","ligolw-vetodef-append","int_8s","1164774480","--start-time",
+			"process:process_id:21","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:21","ligolw-vetodef-append","lstring","L1:DCH-HIGH_VIOLINS:1","--flag",
+			"process:process_id:21","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:21","ligolw-vetodef-append","int_8s","1164776579","--end-time",
+			"process:process_id:21","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -259,7 +292,10 @@
 			2,"OMC DCPD_A ADC overflow monitored by DMT",0,"process:process_id:15","DMT-OMC_DCPD_ADC_OVERFLOW",1,0,1161907217,"H1",0,
 			2,"OMC DCPD_A ADC overflow monitored by DMT",0,"process:process_id:16","DMT-OMC_DCPD_ADC_OVERFLOW",1,0,1161907217,"L1",0,
 			1,"PCALY is switching on or off",2,"process:process_id:17","DMT-PCALY_STATE_CHANGE",1,-2,1161907217,"H1",0,
-			1,"PCALY is switching on or off",2,"process:process_id:18","DMT-PCALY_STATE_CHANGE",1,-2,1161907217,"L1",0
+			1,"PCALY is switching on or off",2,"process:process_id:18","DMT-PCALY_STATE_CHANGE",1,-2,1161907217,"L1",0,
+			2,"60 Hz periodic power supply glitching in end-Y station during late ER10",0,"process:process_id:19","DCH-60HZ_EY_PERIODIC_GLITCHING",1,0,1161907217,"L1",1164556817,
+			2,"RF beatnotes on December 15th",0,"process:process_id:20","DCH-DEC15_WHISTLES",1,0,1165795217,"L1",1165881617,
+			1,"High violin modes causing constant OMC DCPD saturations",0,"process:process_id:21","DCH-HIGH_VIOLINS",1,0,1164774480,"L1",1164776579
 		</Stream>
 	</Table>
 </LIGO_LW>

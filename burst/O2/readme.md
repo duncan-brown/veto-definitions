@@ -1,1 +1,1 @@
-O2 definer file currently just contains basic hardware injection, saturation, and missing data flags.  ER10 is covered under this veto definer in addition to O2 proper.
+ER10 is covered under this veto definer in addition to O2 proper.
