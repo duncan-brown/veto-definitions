@@ -18,30 +18,31 @@
 		<Column Type="lstring" Name="process:cvs_repository"/>
 		<Column Type="int_4s" Name="process:cvs_entry_time"/>
 		<Stream Delimiter="," Type="Local" Name="process:table">
-			,"ldas-grid",,1245577,1167689692,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
-			,"ldas-grid",,1245662,1167689693,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1245756,1167689693,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1245814,1167689693,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1245863,1167689694,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1245927,1167689694,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1245931,1167689695,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1245932,1167689695,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1245933,1167689695,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1245944,1167689695,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1246000,1167689696,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1246032,1167689696,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1246033,1167689696,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1246081,1167689697,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1246244,1167689697,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1246377,1167689697,"process:process_id:15",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1246528,1167689698,"process:process_id:16",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1246673,1167689698,"process:process_id:17",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1246831,1167689698,"process:process_id:18",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1246999,1167689699,"process:process_id:19",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1247187,1167689699,"process:process_id:20",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1247366,1167689699,"process:process_id:21",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1247541,1167689700,"process:process_id:22",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1247730,1167689700,"process:process_id:23",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1503372,1167690780,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
+			,"ldas-grid",,1503461,1167690780,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1503536,1167690780,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1503599,1167690780,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1503654,1167690781,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1503716,1167690781,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1503786,1167690781,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1503891,1167690782,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1503952,1167690782,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1504012,1167690782,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1504073,1167690783,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1504130,1167690783,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1504190,1167690783,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1504250,1167690784,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1504317,1167690784,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1504386,1167690784,"process:process_id:15",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1504461,1167690785,"process:process_id:16",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1504524,1167690785,"process:process_id:17",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1504584,1167690785,"process:process_id:18",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1504641,1167690785,"process:process_id:19",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1504710,1167690786,"process:process_id:20",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1504714,1167690786,"process:process_id:21",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1504715,1167690786,"process:process_id:22",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1504722,1167690787,"process:process_id:23",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1504725,1167690787,"process:process_id:24",0,,0,"bhughey","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -282,7 +283,17 @@
 			"process:process_id:23","ligolw-vetodef-append","lstring","L1:DCH-GUARDIAN_FAILURE:1","--flag",
 			"process:process_id:23","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:23","ligolw-vetodef-append","int_8s","1166415620","--end-time",
-			"process:process_id:23","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:23","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:24","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O2_BURST.xml","",
+			"process:process_id:24","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:24","ligolw-vetodef-append","lstring","Severe ETMY electronics glitching","--comment",
+			"process:process_id:24","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:24","ligolw-vetodef-append","int_8s","1166073446","--start-time",
+			"process:process_id:24","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:24","ligolw-vetodef-append","lstring","H1:DCH-ETMY_ELECTRONICS_GLITCHING:1","--flag",
+			"process:process_id:24","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:24","ligolw-vetodef-append","int_8s","1166208154","--end-time",
+			"process:process_id:24","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -319,7 +330,8 @@
 			2,"RF beatnotes on December 15th",0,"process:process_id:20","DCH-DEC15_WHISTLES",1,0,1165795217,"L1",1165881617,
 			1,"High violin modes causing constant OMC DCPD saturations",0,"process:process_id:21","DCH-HIGH_VIOLINS",1,0,1164774480,"L1",1164776579,
 			1,"Fire alarm ringing at LHO",0,"process:process_id:22","DCH-FIRE_ALARM",1,0,1167609738,"H1",1167610188,
-			1,"Guardian computer failure",0,"process:process_id:23","DCH-GUARDIAN_FAILURE",1,0,1166414886,"L1",1166415620
+			1,"Guardian computer failure",0,"process:process_id:23","DCH-GUARDIAN_FAILURE",1,0,1166414886,"L1",1166415620,
+			1,"Severe ETMY electronics glitching",0,"process:process_id:24","DCH-ETMY_ELECTRONICS_GLITCHING",1,0,1166073446,"H1",1166208154
 		</Stream>
 	</Table>
 </LIGO_LW>
