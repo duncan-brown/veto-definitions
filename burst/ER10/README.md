@@ -1,1 +1,1 @@
-H1L1-HOFT_C00_ER10_BURST_PRELIMINARY.xml is a basic definer file that contains only standard saturation, hardware injection and data missing flags that are predictable in advance.  It is intended only for preliminary runs and does not have flags determined a posteriori.
+O2 burst veto definer covers ER10 period as well.  Please use O2 definer for this period.
