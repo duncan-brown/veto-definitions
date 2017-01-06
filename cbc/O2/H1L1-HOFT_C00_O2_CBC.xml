@@ -38,6 +38,9 @@
 			,"ldas-pcdev1",,1908580,1165190941,"process:process_id:17",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev1",,1919605,1165190947,"process:process_id:18",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev5",,233781,1166484984,"process:process_id:19",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev1",,1752819,1167686439,"process:process_id:20",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev1",,1857739,1167686503,"process:process_id:21",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev1",,3405888,1167687846,"process:process_id:22",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -239,7 +242,37 @@
 			"process:process_id:19","ligolw-vetodef-append","lstring","L1:DCH-HIGH_VIOLINS:1","--flag",
 			"process:process_id:19","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:19","ligolw-vetodef-append","int_8s","1164776579","--end-time",
-			"process:process_id:19","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:19","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:20","ligolw-vetodef-append","lstring","../cbc/O2/H1L1-HOFT_C00_O2_CBC.xml","",
+			"process:process_id:20","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:20","ligolw-vetodef-append","lstring","Fire alarm ringing at LHO","--comment",
+			"process:process_id:20","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:20","ligolw-vetodef-append","int_8s","1167609738","--start-time",
+			"process:process_id:20","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:20","ligolw-vetodef-append","lstring","H1:DCH-FIRE_ALARM:1","--flag",
+			"process:process_id:20","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:20","ligolw-vetodef-append","int_8s","1167610188","--end-time",
+			"process:process_id:20","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:21","ligolw-vetodef-append","lstring","../cbc/O2/H1L1-HOFT_C00_O2_CBC.xml","",
+			"process:process_id:21","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:21","ligolw-vetodef-append","lstring","Guardian computer failure","--comment",
+			"process:process_id:21","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:21","ligolw-vetodef-append","int_8s","1166414886","--start-time",
+			"process:process_id:21","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:21","ligolw-vetodef-append","lstring","L1:DCH-GUARDIAN_FAILURE:1","--flag",
+			"process:process_id:21","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:21","ligolw-vetodef-append","int_8s","1166415620","--end-time",
+			"process:process_id:21","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:22","ligolw-vetodef-append","lstring","../cbc/O2/H1L1-HOFT_C00_O2_CBC.xml","",
+			"process:process_id:22","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:22","ligolw-vetodef-append","lstring","Severe ETMY electronics glitching","--comment",
+			"process:process_id:22","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:22","ligolw-vetodef-append","int_8s","1166073446","--start-time",
+			"process:process_id:22","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:22","ligolw-vetodef-append","lstring","H1:DCH-ETMY_ELECTRONICS_GLITCHING:1","--flag",
+			"process:process_id:22","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:22","ligolw-vetodef-append","int_8s","1166208154","--end-time",
+			"process:process_id:22","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -272,7 +305,10 @@
 			1,"PCALY is switching on or off",2,"process:process_id:16","DMT-PCALY_STATE_CHANGE",1,-2,1161964817,"H1",0,
 			2,"Saturations in ETMX ESD drive signal monitored by DMT",1,"process:process_id:17","DMT-ETMX_ESD_DAC_OVERFLOW",1,-1,1161964817,"L1",0,
 			2,"Saturations in ETMX ESD drive signal monitored by DMT",1,"process:process_id:18","DMT-ETMX_ESD_DAC_OVERFLOW",1,-1,1161964817,"H1",0,
-			1,"High violin modes causing constant OMC DCPD saturations",0,"process:process_id:19","DCH-HIGH_VIOLINS",1,0,1164774480,"L1",1164776579
+			1,"High violin modes causing constant OMC DCPD saturations",0,"process:process_id:19","DCH-HIGH_VIOLINS",1,0,1164774480,"L1",1164776579,
+			1,"Fire alarm ringing at LHO",0,"process:process_id:20","DCH-FIRE_ALARM",1,0,1167609738,"H1",1167610188,
+			1,"Guardian computer failure",0,"process:process_id:21","DCH-GUARDIAN_FAILURE",1,0,1166414886,"L1",1166415620,
+			1,"Severe ETMY electronics glitching",0,"process:process_id:22","DCH-ETMY_ELECTRONICS_GLITCHING",1,0,1166073446,"H1",1166208154
 		</Stream>
 	</Table>
 </LIGO_LW>
