@@ -18,31 +18,33 @@
 		<Column Type="lstring" Name="process:cvs_repository"/>
 		<Column Type="int_4s" Name="process:cvs_entry_time"/>
 		<Stream Delimiter="," Type="Local" Name="process:table">
-			,"ldas-grid",,1503372,1167690780,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
-			,"ldas-grid",,1503461,1167690780,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1503536,1167690780,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1503599,1167690780,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1503654,1167690781,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1503716,1167690781,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1503786,1167690781,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1503891,1167690782,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1503952,1167690782,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1504012,1167690782,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1504073,1167690783,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1504130,1167690783,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1504190,1167690783,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1504250,1167690784,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1504317,1167690784,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1504386,1167690784,"process:process_id:15",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1504461,1167690785,"process:process_id:16",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1504524,1167690785,"process:process_id:17",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1504584,1167690785,"process:process_id:18",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1504641,1167690785,"process:process_id:19",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1504710,1167690786,"process:process_id:20",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1504714,1167690786,"process:process_id:21",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1504715,1167690786,"process:process_id:22",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1504722,1167690787,"process:process_id:23",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,1504725,1167690787,"process:process_id:24",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3223334,1168100496,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
+			,"ldas-grid",,3223406,1168100496,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3223497,1168100497,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3223579,1168100497,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3223674,1168100497,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3223701,1168100498,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3223714,1168100498,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3223724,1168100498,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3223736,1168100499,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3223745,1168100499,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3223756,1168100499,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3223772,1168100500,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3223786,1168100500,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3223796,1168100500,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3223806,1168100501,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3223817,1168100501,"process:process_id:15",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3223902,1168100501,"process:process_id:16",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3224100,1168100502,"process:process_id:17",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3224264,1168100502,"process:process_id:18",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3224456,1168100502,"process:process_id:19",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3224679,1168100503,"process:process_id:20",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3224887,1168100503,"process:process_id:21",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3225057,1168100503,"process:process_id:22",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3225239,1168100504,"process:process_id:23",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3225424,1168100504,"process:process_id:24",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3225594,1168100504,"process:process_id:25",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,3225766,1168100505,"process:process_id:26",0,,0,"bhughey","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -293,7 +295,27 @@
 			"process:process_id:24","ligolw-vetodef-append","lstring","H1:DCH-ETMY_ELECTRONICS_GLITCHING:1","--flag",
 			"process:process_id:24","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:24","ligolw-vetodef-append","int_8s","1166208154","--end-time",
-			"process:process_id:24","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:24","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:25","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O2_BURST.xml","",
+			"process:process_id:25","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:25","ligolw-vetodef-append","lstring","Bad calibration due to swapped out ETMY PUM coil driver","--comment",
+			"process:process_id:25","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:25","ligolw-vetodef-append","int_8s","1166265645","--start-time",
+			"process:process_id:25","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:25","ligolw-vetodef-append","lstring","H1:DCH-BAD_CALIBRATION_COIL_DRIVER:1","--flag",
+			"process:process_id:25","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:25","ligolw-vetodef-append","int_8s","1166281971","--end-time",
+			"process:process_id:25","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:26","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O2_BURST.xml","",
+			"process:process_id:26","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:26","ligolw-vetodef-append","lstring","Snow plow causing activity in seismic bands","--comment",
+			"process:process_id:26","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:26","ligolw-vetodef-append","int_8s","1168040718","--start-time",
+			"process:process_id:26","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:26","ligolw-vetodef-append","lstring","H1:DCH-SNOW_PLOW:1","--flag",
+			"process:process_id:26","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:26","ligolw-vetodef-append","int_8s","1168046718","--end-time",
+			"process:process_id:26","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -331,7 +353,9 @@
 			1,"High violin modes causing constant OMC DCPD saturations",0,"process:process_id:21","DCH-HIGH_VIOLINS",1,0,1164774480,"L1",1164776579,
 			1,"Fire alarm ringing at LHO",0,"process:process_id:22","DCH-FIRE_ALARM",1,0,1167609738,"H1",1167610188,
 			1,"Guardian computer failure",0,"process:process_id:23","DCH-GUARDIAN_FAILURE",1,0,1166414886,"L1",1166415620,
-			1,"Severe ETMY electronics glitching",0,"process:process_id:24","DCH-ETMY_ELECTRONICS_GLITCHING",1,0,1166073446,"H1",1166208154
+			1,"Severe ETMY electronics glitching",0,"process:process_id:24","DCH-ETMY_ELECTRONICS_GLITCHING",1,0,1166073446,"H1",1166208154,
+			1,"Bad calibration due to swapped out ETMY PUM coil driver",0,"process:process_id:25","DCH-BAD_CALIBRATION_COIL_DRIVER",1,0,1166265645,"H1",1166281971,
+			1,"Snow plow causing activity in seismic bands",0,"process:process_id:26","DCH-SNOW_PLOW",1,0,1168040718,"H1",1168046718
 		</Stream>
 	</Table>
 </LIGO_LW>
