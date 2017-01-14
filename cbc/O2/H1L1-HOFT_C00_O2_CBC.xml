@@ -43,6 +43,10 @@
 			,"ldas-pcdev1",,3405888,1167687846,"process:process_id:22",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev1",,4079884,1168019638,"process:process_id:23",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 			,"sugwg-condor.phy.syr.edu",,3144490,1168097556,"process:process_id:24",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev1",,1379078,1168275407,"process:process_id:25",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev1",,1488915,1168275480,"process:process_id:26",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev1",,1533664,1168275503,"process:process_id:27",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev1",,3927655,1168295743,"process:process_id:28",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -294,7 +298,47 @@
 			"process:process_id:24","ligolw-vetodef-append","lstring","H1:DCH-SNOW_PLOW:1","--flag",
 			"process:process_id:24","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:24","ligolw-vetodef-append","int_8s","1168046718","--end-time",
-			"process:process_id:24","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:24","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:25","ligolw-vetodef-append","lstring","../cbc/O2/H1L1-HOFT_C00_O2_CBC.xml","",
+			"process:process_id:25","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:25","ligolw-vetodef-append","lstring","High RMS of at least one PI mode","--comment",
+			"process:process_id:25","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:25","ligolw-vetodef-append","int_8s","1164556817","--start-time",
+			"process:process_id:25","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:25","ligolw-vetodef-append","lstring","H1:DMT-ANY_PI_HIGH_RMS:1","--flag",
+			"process:process_id:25","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:25","ligolw-vetodef-append","int_8s","1166557184","--end-time",
+			"process:process_id:25","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:26","ligolw-vetodef-append","lstring","../cbc/O2/H1L1-HOFT_C00_O2_CBC.xml","",
+			"process:process_id:26","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:26","ligolw-vetodef-append","lstring","Remove 4 seconds at the end of each lock stretch","--comment",
+			"process:process_id:26","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:26","ligolw-vetodef-append","int_8s","1164556817","--start-time",
+			"process:process_id:26","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:26","ligolw-vetodef-append","lstring","H1:DMT-PRE_LOCKLOSS_4:1","--flag",
+			"process:process_id:26","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:26","ligolw-vetodef-append","int_8s","1166557184","--end-time",
+			"process:process_id:26","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:27","ligolw-vetodef-append","lstring","../cbc/O2/H1L1-HOFT_C00_O2_CBC.xml","",
+			"process:process_id:27","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:27","ligolw-vetodef-append","lstring","Remove 4 seconds at the end of each lock stretch","--comment",
+			"process:process_id:27","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:27","ligolw-vetodef-append","int_8s","1164556817","--start-time",
+			"process:process_id:27","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:27","ligolw-vetodef-append","lstring","L1:DMT-PRE_LOCKLOSS_4:1","--flag",
+			"process:process_id:27","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:27","ligolw-vetodef-append","int_8s","0","--end-time",
+			"process:process_id:27","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:28","ligolw-vetodef-append","lstring","../cbc/O2/H1L1-HOFT_C00_O2_CBC.xml","",
+			"process:process_id:28","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:28","ligolw-vetodef-append","lstring","Hveto identified an RF beatnote whistle","--comment",
+			"process:process_id:28","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:28","ligolw-vetodef-append","int_8s","1164556817","--start-time",
+			"process:process_id:28","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:28","ligolw-vetodef-append","lstring","L1:DCH-HVETO_WHISTLES:1","--flag",
+			"process:process_id:28","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:28","ligolw-vetodef-append","int_8s","1166557184","--end-time",
+			"process:process_id:28","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -332,7 +376,11 @@
 			1,"Guardian computer failure",0,"process:process_id:21","DCH-GUARDIAN_FAILURE",1,0,1166414886,"L1",1166415620,
 			1,"Severe ETMY electronics glitching",0,"process:process_id:22","DCH-ETMY_ELECTRONICS_GLITCHING",1,0,1166073446,"H1",1166208154,
 			1,"Bad calibration due to swapped out ETMY PUM coil driver",0,"process:process_id:23","DCH-BAD_CALIBRATION_COIL_DRIVER",1,0,1166265645,"H1",1166281971,
-			1,"Snow plow causing activity in seismic bands",0,"process:process_id:24","DCH-SNOW_PLOW",1,0,1168040718,"H1",1168046718
+			1,"Snow plow causing activity in seismic bands",0,"process:process_id:24","DCH-SNOW_PLOW",1,0,1168040718,"H1",1168046718,
+			1,"High RMS of at least one PI mode",0,"process:process_id:25","DMT-ANY_PI_HIGH_RMS",1,0,1164556817,"H1",1166557184,
+			1,"Remove 4 seconds at the end of each lock stretch",0,"process:process_id:26","DMT-PRE_LOCKLOSS_4",1,0,1164556817,"H1",0,
+			1,"Remove 4 seconds at the end of each lock stretch",0,"process:process_id:27","DMT-PRE_LOCKLOSS_4",1,0,1164556817,"L1",0,
+			2,"Hveto identified an RF beatnote whistle",0,"process:process_id:28","DCH-HVETO_WHISTLES",1,0,1164556817,"L1",1166557184
 		</Stream>
 	</Table>
 </LIGO_LW>
