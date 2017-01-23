@@ -18,33 +18,34 @@
 		<Column Type="lstring" Name="process:cvs_repository"/>
 		<Column Type="int_4s" Name="process:cvs_entry_time"/>
 		<Stream Delimiter="," Type="Local" Name="process:table">
-			,"ldas-grid",,2924975,1168450141,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
-			,"ldas-grid",,2925093,1168450141,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2925198,1168450141,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2925284,1168450142,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2925368,1168450142,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2925449,1168450142,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2925530,1168450143,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2925599,1168450143,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2925676,1168450143,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2925753,1168450144,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2925846,1168450144,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2925927,1168450144,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2925996,1168450145,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2926086,1168450145,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2926179,1168450145,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2926261,1168450145,"process:process_id:15",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2926414,1168450146,"process:process_id:16",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2926564,1168450146,"process:process_id:17",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2926736,1168450146,"process:process_id:18",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2926851,1168450146,"process:process_id:19",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2926930,1168450147,"process:process_id:20",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2927008,1168450147,"process:process_id:21",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2927079,1168450147,"process:process_id:22",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2927134,1168450148,"process:process_id:23",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2927140,1168450148,"process:process_id:24",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2927142,1168450148,"process:process_id:25",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2927143,1168450148,"process:process_id:26",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,489635,1169165153,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
+			,"ldas-grid",,489657,1169165153,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,489749,1169165154,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,489823,1169165154,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,489902,1169165154,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,489976,1169165154,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,490045,1169165155,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,490148,1169165155,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,490232,1169165155,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,490322,1169165156,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,490387,1169165156,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,490449,1169165156,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,490532,1169165157,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,490609,1169165157,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,490690,1169165157,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,490776,1169165157,"process:process_id:15",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,490879,1169165158,"process:process_id:16",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,491098,1169165158,"process:process_id:17",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,491196,1169165158,"process:process_id:18",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,491278,1169165159,"process:process_id:19",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,491375,1169165159,"process:process_id:20",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,491457,1169165159,"process:process_id:21",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,491536,1169165159,"process:process_id:22",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,491623,1169165160,"process:process_id:23",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,491703,1169165160,"process:process_id:24",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,491813,1169165160,"process:process_id:25",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,491894,1169165161,"process:process_id:26",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,491996,1169165161,"process:process_id:27",0,,0,"bhughey","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -315,7 +316,17 @@
 			"process:process_id:26","ligolw-vetodef-append","lstring","H1:DCH-SNOW_PLOW:1","--flag",
 			"process:process_id:26","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:26","ligolw-vetodef-append","int_8s","1168046718","--end-time",
-			"process:process_id:26","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:26","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:27","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O2_BURST.xml","",
+			"process:process_id:27","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:27","ligolw-vetodef-append","lstring","High RMS of at least one PI mode","--comment",
+			"process:process_id:27","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:27","ligolw-vetodef-append","int_8s","1164556817","--start-time",
+			"process:process_id:27","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:27","ligolw-vetodef-append","lstring","H1:DMT-ANY_PI_HIGH_RMS:1","--flag",
+			"process:process_id:27","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:27","ligolw-vetodef-append","int_8s","1166557184","--end-time",
+			"process:process_id:27","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -355,7 +366,8 @@
 			1,"Guardian computer failure",0,"process:process_id:23","DCH-GUARDIAN_FAILURE",1,0,1166414886,"L1",1166415620,
 			1,"Severe ETMY electronics glitching",0,"process:process_id:24","DCH-ETMY_ELECTRONICS_GLITCHING",1,0,1166073446,"H1",1166208154,
 			1,"Bad calibration due to swapped out ETMY PUM coil driver",0,"process:process_id:25","DCH-BAD_CALIBRATION_COIL_DRIVER",1,0,1166265645,"H1",1166281971,
-			1,"Snow plow causing activity in seismic bands",0,"process:process_id:26","DCH-SNOW_PLOW",1,0,1168040718,"H1",1168046718
+			1,"Snow plow causing activity in seismic bands",0,"process:process_id:26","DCH-SNOW_PLOW",1,0,1168040718,"H1",1168046718,
+			1,"High RMS of at least one PI mode",0,"process:process_id:27","DMT-ANY_PI_HIGH_RMS",1,0,1164556817,"H1",1166557184
 		</Stream>
 	</Table>
 </LIGO_LW>
