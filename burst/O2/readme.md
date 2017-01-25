@@ -1,1 +1,1 @@
-ER10 is covered under this veto definer in addition to O2 proper.
+ER10 is covered under veto definers in addition to O2 proper.
