@@ -18,36 +18,37 @@
 		<Column Type="lstring" Name="process:cvs_repository"/>
 		<Column Type="int_4s" Name="process:cvs_entry_time"/>
 		<Stream Delimiter="," Type="Local" Name="process:table">
-			,"ldas-grid",,2596687,1169746702,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
-			,"ldas-grid",,2596960,1169746702,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2597026,1169746702,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2597027,1169746703,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2597028,1169746703,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2597029,1169746703,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2597034,1169746703,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2597035,1169746704,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2597036,1169746704,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2597037,1169746704,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2597039,1169746704,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2597082,1169746705,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2597183,1169746705,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2597282,1169746705,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2597394,1169746706,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2597511,1169746706,"process:process_id:15",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2597635,1169746706,"process:process_id:16",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2597754,1169746706,"process:process_id:17",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2597875,1169746707,"process:process_id:18",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2597996,1169746707,"process:process_id:19",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2598133,1169746707,"process:process_id:20",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2598261,1169746707,"process:process_id:21",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2598368,1169746708,"process:process_id:22",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2598485,1169746708,"process:process_id:23",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2598616,1169746708,"process:process_id:24",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2598735,1169746708,"process:process_id:25",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2598844,1169746709,"process:process_id:26",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2598983,1169746709,"process:process_id:27",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2599104,1169746709,"process:process_id:28",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,2599226,1169746710,"process:process_id:29",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2162178,1170364424,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
+			,"ldas-grid",,2162398,1170364424,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2162633,1170364424,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2162853,1170364424,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2162995,1170364425,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163152,1170364425,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163297,1170364425,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163401,1170364425,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163441,1170364426,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163446,1170364426,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163455,1170364426,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163464,1170364427,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163468,1170364427,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163477,1170364427,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163478,1170364428,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163484,1170364428,"process:process_id:15",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163491,1170364428,"process:process_id:16",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163550,1170364429,"process:process_id:17",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163626,1170364429,"process:process_id:18",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163690,1170364429,"process:process_id:19",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163754,1170364429,"process:process_id:20",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163809,1170364430,"process:process_id:21",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163873,1170364430,"process:process_id:22",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2163940,1170364430,"process:process_id:23",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2164004,1170364430,"process:process_id:24",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2164074,1170364431,"process:process_id:25",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2164129,1170364431,"process:process_id:26",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2164196,1170364431,"process:process_id:27",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2164266,1170364432,"process:process_id:28",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2164327,1170364432,"process:process_id:29",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,2164385,1170364432,"process:process_id:30",0,,0,"bhughey","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -348,7 +349,17 @@
 			"process:process_id:29","ligolw-vetodef-append","lstring","L1:DMT-PRE_LOCKLOSS_4:1","--flag",
 			"process:process_id:29","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:29","ligolw-vetodef-append","int_8s","0","--end-time",
-			"process:process_id:29","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:29","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:30","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O2_BURST.xml","",
+			"process:process_id:30","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:30","ligolw-vetodef-append","lstring","Omicron trigger with SNR greater than 40 in HAM1 HEPI L4C","--comment",
+			"process:process_id:30","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:30","ligolw-vetodef-append","int_8s","1167523218","--start-time",
+			"process:process_id:30","ligolw-vetodef-append","int_8s","1","--end-pad",
+			"process:process_id:30","ligolw-vetodef-append","lstring","H1:DCH-HAM1_HEPI_OMICRON_GT_40:1","--flag",
+			"process:process_id:30","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:30","ligolw-vetodef-append","int_8s","1170165618","--end-time",
+			"process:process_id:30","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -391,7 +402,8 @@
 			1,"Snow plow causing activity in seismic bands",0,"process:process_id:26","DCH-SNOW_PLOW",2,0,1168002018,"H1",1168952418,
 			1,"High RMS of at least one PI mode",0,"process:process_id:27","DMT-ANY_PI_HIGH_RMS",1,0,1164556817,"H1",1169107264,
 			1,"Remove 4 seconds at the end of each lock stretch",0,"process:process_id:28","DMT-PRE_LOCKLOSS_4",1,0,1164556817,"H1",0,
-			1,"Remove 4 seconds at the end of each lock stretch",0,"process:process_id:29","DMT-PRE_LOCKLOSS_4",1,0,1164556817,"L1",0
+			1,"Remove 4 seconds at the end of each lock stretch",0,"process:process_id:29","DMT-PRE_LOCKLOSS_4",1,0,1164556817,"L1",0,
+			2,"Omicron trigger with SNR greater than 40 in HAM1 HEPI L4C",1,"process:process_id:30","DCH-HAM1_HEPI_OMICRON_GT_40",1,0,1167523218,"H1",1170165618
 		</Stream>
 	</Table>
 </LIGO_LW>
