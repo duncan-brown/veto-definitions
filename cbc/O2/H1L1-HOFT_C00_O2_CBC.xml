@@ -49,6 +49,7 @@
 			,"ldas-pcdev1",,3927655,1168295743,"process:process_id:28",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 			,"sugwg-condor.phy.syr.edu",,2726216,1170441907,"process:process_id:29",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugwg-condor.phy.syr.edu",,2726230,1170441978,"process:process_id:30",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugwg-condor.phy.syr.edu",,89061,1170602696,"process:process_id:31",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -360,7 +361,17 @@
 			"process:process_id:30","ligolw-vetodef-append","lstring","H1:DCH-HAM1_HEPI_OMICRON_GT_40:1","--flag",
 			"process:process_id:30","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:30","ligolw-vetodef-append","int_8s","0","--end-time",
-			"process:process_id:30","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:30","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:31","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O2_CBC.xml","",
+			"process:process_id:31","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:31","ligolw-vetodef-append","lstring","Bad VCO Offset caused terrible whistles","--comment",
+			"process:process_id:31","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:31","ligolw-vetodef-append","int_8s","1170258892","--start-time",
+			"process:process_id:31","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:31","ligolw-vetodef-append","lstring","L1:DCH-BAD_VCO_OFFSET:1","--flag",
+			"process:process_id:31","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:31","ligolw-vetodef-append","int_8s","1170283223","--end-time",
+			"process:process_id:31","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -404,7 +415,8 @@
 			1,"Remove 4 seconds at the end of each lock stretch",0,"process:process_id:27","DMT-PRE_LOCKLOSS_4",1,0,1164556817,"L1",0,
 			2,"Hveto identified an RF beatnote whistle",0,"process:process_id:28","DCH-HVETO_WHISTLES",1,0,1164556817,"L1",1166557184,
 			2,"Glitch in PSL ISS with Omicron SNR greater than 45",0,"process:process_id:29","DCH-PSL_ISS_OMICRON_SNR_GT_45",1,0,1167523218,"H1",0,
-			2,"Omicron trigger with SNR greater than 40 in HAM1 HEPI L4C",0,"process:process_id:30","DCH-HAM1_HEPI_OMICRON_GT_40",1,0,1167523218,"H1",0
+			2,"Omicron trigger with SNR greater than 40 in HAM1 HEPI L4C",0,"process:process_id:30","DCH-HAM1_HEPI_OMICRON_GT_40",1,0,1167523218,"H1",0,
+			1,"Bad VCO Offset caused terrible whistles",0,"process:process_id:31","DCH-BAD_VCO_OFFSET",1,0,1170258892,"L1",1170283223
 		</Stream>
 	</Table>
 </LIGO_LW>
