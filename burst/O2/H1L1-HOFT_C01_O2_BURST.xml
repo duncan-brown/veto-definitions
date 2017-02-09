@@ -18,37 +18,38 @@
 		<Column Type="lstring" Name="process:cvs_repository"/>
 		<Column Type="int_4s" Name="process:cvs_entry_time"/>
 		<Stream Delimiter="," Type="Local" Name="process:table">
-			,"ldas-grid",,724028,1170477628,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
-			,"ldas-grid",,724031,1170477628,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724034,1170477629,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724035,1170477629,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724046,1170477629,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724070,1170477629,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724100,1170477630,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724130,1170477630,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724153,1170477630,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724183,1170477631,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724204,1170477631,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724232,1170477631,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724260,1170477631,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724282,1170477632,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724318,1170477632,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724338,1170477632,"process:process_id:15",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724380,1170477633,"process:process_id:16",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724422,1170477633,"process:process_id:17",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724502,1170477633,"process:process_id:18",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724545,1170477634,"process:process_id:19",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724597,1170477634,"process:process_id:20",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724668,1170477634,"process:process_id:21",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724722,1170477634,"process:process_id:22",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724773,1170477635,"process:process_id:23",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724836,1170477635,"process:process_id:24",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724889,1170477635,"process:process_id:25",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724945,1170477636,"process:process_id:26",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,724980,1170477636,"process:process_id:27",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,725051,1170477636,"process:process_id:28",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,725116,1170477636,"process:process_id:29",0,,0,"bhughey","ligolw-vetodef-append",,,,,
-			,"ldas-grid",,725191,1170477637,"process:process_id:30",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,528489,1170698318,"process:process_id:0",0,,0,"bhughey","ligolw-vetodef-create",,"0.1",,,
+			,"ldas-grid",,528576,1170698319,"process:process_id:1",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,528677,1170698319,"process:process_id:2",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,528784,1170698319,"process:process_id:3",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,528880,1170698319,"process:process_id:4",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,529006,1170698320,"process:process_id:5",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,529123,1170698320,"process:process_id:6",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,529230,1170698320,"process:process_id:7",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,529333,1170698321,"process:process_id:8",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,529438,1170698321,"process:process_id:9",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,529545,1170698321,"process:process_id:10",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,529658,1170698321,"process:process_id:11",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,529763,1170698322,"process:process_id:12",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,529866,1170698322,"process:process_id:13",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,529975,1170698322,"process:process_id:14",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,530081,1170698322,"process:process_id:15",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,530184,1170698323,"process:process_id:16",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,530293,1170698323,"process:process_id:17",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,530425,1170698323,"process:process_id:18",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,530535,1170698323,"process:process_id:19",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,530647,1170698324,"process:process_id:20",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,530769,1170698324,"process:process_id:21",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,530898,1170698324,"process:process_id:22",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,531025,1170698325,"process:process_id:23",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,531142,1170698325,"process:process_id:24",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,531259,1170698325,"process:process_id:25",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,531281,1170698325,"process:process_id:26",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,531314,1170698326,"process:process_id:27",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,531333,1170698326,"process:process_id:28",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,531369,1170698326,"process:process_id:29",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,531396,1170698327,"process:process_id:30",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,531413,1170698327,"process:process_id:31",0,,0,"bhughey","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -359,7 +360,17 @@
 			"process:process_id:30","ligolw-vetodef-append","lstring","H1:DCH-HAM1_HEPI_OMICRON_GT_40:1","--flag",
 			"process:process_id:30","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:30","ligolw-vetodef-append","int_8s","0","--end-time",
-			"process:process_id:30","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:30","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:31","ligolw-vetodef-append","lstring","H1L1-HOFT_C01_O2_BURST.xml","",
+			"process:process_id:31","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:31","ligolw-vetodef-append","lstring","Bad VCO Offset caused terrible whistles","--comment",
+			"process:process_id:31","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:31","ligolw-vetodef-append","int_8s","1170174018","--start-time",
+			"process:process_id:31","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:31","ligolw-vetodef-append","lstring","L1:DCH-BAD_VCO_OFFSET:2","--flag",
+			"process:process_id:31","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:31","ligolw-vetodef-append","int_8s","1170283223","--end-time",
+			"process:process_id:31","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -403,7 +414,8 @@
 			1,"High RMS of at least one PI mode",0,"process:process_id:27","DMT-ANY_PI_HIGH_RMS",1,0,1164556817,"H1",0,
 			1,"Remove 4 seconds at the end of each lock stretch",0,"process:process_id:28","DMT-PRE_LOCKLOSS_4",1,0,1164556817,"H1",0,
 			1,"Remove 4 seconds at the end of each lock stretch",0,"process:process_id:29","DMT-PRE_LOCKLOSS_4",1,0,1164556817,"L1",0,
-			2,"Omicron trigger with SNR greater than 40 in HAM1 HEPI L4C",1,"process:process_id:30","DCH-HAM1_HEPI_OMICRON_GT_40",1,0,1167523218,"H1",0
+			2,"Omicron trigger with SNR greater than 40 in HAM1 HEPI L4C",1,"process:process_id:30","DCH-HAM1_HEPI_OMICRON_GT_40",1,0,1167523218,"H1",0,
+			1,"Bad VCO Offset caused terrible whistles",0,"process:process_id:31","DCH-BAD_VCO_OFFSET",2,0,1170174018,"L1",1170283223
 		</Stream>
 	</Table>
 </LIGO_LW>
