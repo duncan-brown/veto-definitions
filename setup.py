@@ -88,7 +88,7 @@ setup(name=PACKAGENAME,
       install_requires=[
       ] + extra_install_requires,
       dependency_links=[
-          'http://software.ligo.org/lscsoft/source/glue-1.49.1.tar.gz',
+          'http://software.ligo.org/lscsoft/source/glue-1.53.0.tar.gz',
           'http://software.ligo.org/lscsoft/source/dqsegdb-1.2.2.tar.gz',
       ],
       classifiers=[

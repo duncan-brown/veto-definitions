@@ -11,7 +11,6 @@ from urlparse import urlparse
 from urllib2 import URLError
 
 from glue.ligolw.utils import (load_filename)
-from glue.ligolw.table import CompareTableNames
 from glue.ligolw.ligolw import PartialLIGOLWContentHandler
 from glue.ligolw.lsctables import (use_in, VetoDefTable)
 
@@ -60,11 +59,7 @@ def print_status(test, passed=True):
 class VetoDefContentHandler(PartialLIGOLWContentHandler):
     @staticmethod
     def _filter(name, attrs):
-        if name == VetoDefTable.tagName and attrs.has_key('Name'):
-            return CompareTableNames(attrs.get('Name'),
-                                     VetoDefTable.tableName) == 0
-        else:
-            return False
+        return VetoDefTable.CheckProperties(name, attrs)
 
     def __init__(self, document):
         super(VetoDefContentHandler, self).__init__(document, self._filter)
