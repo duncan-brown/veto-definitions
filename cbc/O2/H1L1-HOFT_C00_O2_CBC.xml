@@ -51,6 +51,7 @@
 			,"sugwg-condor.phy.syr.edu",,2726230,1170441978,"process:process_id:30",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugwg-condor.phy.syr.edu",,89061,1170602696,"process:process_id:31",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugwg-condor.phy.syr.edu",,120029,1170617247,"process:process_id:32",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugwg-condor.phy.syr.edu",,1787706,1171644978,"process:process_id:33",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -382,7 +383,17 @@
 			"process:process_id:32","ligolw-vetodef-append","lstring","L1:DCH-BAD_VCO_OFFSET:2","--flag",
 			"process:process_id:32","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:32","ligolw-vetodef-append","int_8s","1170283223","--end-time",
-			"process:process_id:32","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:32","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:33","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O2_CBC.xml","",
+			"process:process_id:33","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:33","ligolw-vetodef-append","lstring","Dramatic change in PSD after auxiliary computer reboot, LHO alog 33756","--comment",
+			"process:process_id:33","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:33","ligolw-vetodef-append","int_8s","1169910318","--start-time",
+			"process:process_id:33","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:33","ligolw-vetodef-append","lstring","H1:DCH-COMPUTER_REBOOT:1","--flag",
+			"process:process_id:33","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:33","ligolw-vetodef-append","int_8s","1169913395","--end-time",
+			"process:process_id:33","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -427,7 +438,8 @@
 			2,"Hveto identified an RF beatnote whistle",0,"process:process_id:28","DCH-HVETO_WHISTLES",1,0,1164556817,"L1",1166557184,
 			2,"Glitch in PSL ISS with Omicron SNR greater than 45",0,"process:process_id:29","DCH-PSL_ISS_OMICRON_SNR_GT_45",1,0,1167523218,"H1",0,
 			2,"Omicron trigger with SNR greater than 40 in HAM1 HEPI L4C",0,"process:process_id:30","DCH-HAM1_HEPI_OMICRON_GT_40",1,0,1167523218,"H1",0,
-			1,"Bad VCO Offset caused terrible whistles",0,"process:process_id:32","DCH-BAD_VCO_OFFSET",2,0,1170174018,"L1",1170283223
+			1,"Bad VCO Offset caused terrible whistles",0,"process:process_id:32","DCH-BAD_VCO_OFFSET",2,0,1170174018,"L1",1170283223,
+			1,"Dramatic change in PSD after auxiliary computer reboot, LHO alog 33756",0,"process:process_id:33","DCH-COMPUTER_REBOOT",1,0,1169910318,"H1",1169913395
 		</Stream>
 	</Table>
 </LIGO_LW>
