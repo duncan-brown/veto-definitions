@@ -52,6 +52,8 @@
 			,"sugwg-condor.phy.syr.edu",,89062,1170602707,"process:process_id:31",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugwg-condor.phy.syr.edu",,120027,1170617240,"process:process_id:32",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev3",,1653585,1171299948,"process:process_id:33",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
+			,"sugwg-condor.phy.syr.edu",,3596549,1172265662,"process:process_id:34",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugwg-condor.phy.syr.edu",,3596957,1172265828,"process:process_id:35",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -393,7 +395,27 @@
 			"process:process_id:33","ligolw-vetodef-append","lstring","H1:DCH-COMPUTER_REBOOT:1","--flag",
 			"process:process_id:33","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:33","ligolw-vetodef-append","int_8s","1169913395","--end-time",
-			"process:process_id:33","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:33","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:34","ligolw-vetodef-append","lstring","H1L1-HOFT_C01_O2_CBC.xml","",
+			"process:process_id:34","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:34","ligolw-vetodef-append","lstring","Wrong Filter used for H1_HOFT_C01 Data","--comment",
+			"process:process_id:34","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:34","ligolw-vetodef-append","int_8s","1164556817","--start-time",
+			"process:process_id:34","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:34","ligolw-vetodef-append","lstring","H1:DCS-WRONG_FILTER_H1_HOFT_C01:1","--flag",
+			"process:process_id:34","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:34","ligolw-vetodef-append","int_8s","1167433728","--end-time",
+			"process:process_id:34","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:35","ligolw-vetodef-append","lstring","H1L1-HOFT_C01_O2_CBC.xml","",
+			"process:process_id:35","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:35","ligolw-vetodef-append","lstring","Wrong Filter used for L1_HOFT_C01 Data","--comment",
+			"process:process_id:35","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:35","ligolw-vetodef-append","int_8s","1164556817","--start-time",
+			"process:process_id:35","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:35","ligolw-vetodef-append","lstring","L1:DCS-WRONG_FILTER_L1_HOFT_C01:1","--flag",
+			"process:process_id:35","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:35","ligolw-vetodef-append","int_8s","1167433728","--end-time",
+			"process:process_id:35","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -439,7 +461,9 @@
 			2,"Glitch in PSL ISS with Omicron SNR greater than 45",0,"process:process_id:29","DCH-PSL_ISS_OMICRON_SNR_GT_45",1,0,1167523218,"H1",0,
 			2,"Omicron trigger with SNR greater than 40 in HAM1 HEPI L4C",0,"process:process_id:30","DCH-HAM1_HEPI_OMICRON_GT_40",1,0,1167523218,"H1",0,
 			1,"Bad VCO Offset caused terrible whistles",0,"process:process_id:32","DCH-BAD_VCO_OFFSET",2,0,1170174018,"L1",1170283223,
-			1,"Dramatic change in PSD after auxiliary computer reboot, LHO alog 33756",0,"process:process_id:33","DCH-COMPUTER_REBOOT",1,0,1169910318,"H1",1169913395
+			1,"Dramatic change in PSD after auxiliary computer reboot, LHO alog 33756",0,"process:process_id:33","DCH-COMPUTER_REBOOT",1,0,1169910318,"H1",1169913395,
+			1,"Wrong Filter used for H1_HOFT_C01 Data",0,"process:process_id:34","DCS-WRONG_FILTER_H1_HOFT_C01",1,0,1164556817,"H1",1167433728,
+			1,"Wrong Filter used for L1_HOFT_C01 Data",0,"process:process_id:35","DCS-WRONG_FILTER_L1_HOFT_C01",1,0,1164556817,"L1",1167433728
 		</Stream>
 	</Table>
 </LIGO_LW>
