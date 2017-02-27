@@ -431,7 +431,7 @@
 			1,"Guardian computer failure",0,"process:process_id:21","DCH-GUARDIAN_FAILURE",1,0,1166414886,"L1",1166415620,
 			1,"Severe ETMY electronics glitching",0,"process:process_id:22","DCH-ETMY_ELECTRONICS_GLITCHING",1,0,1166073446,"H1",1166208154,
 			1,"Bad calibration due to swapped out ETMY PUM coil driver",0,"process:process_id:23","DCH-BAD_CALIBRATION_COIL_DRIVER",1,0,1166265645,"H1",1166281971,
-			1,"Snow plow causing activity in seismic bands",0,"process:process_id:24","DCH-SNOW_PLOW",2,0,1168002018,"H1",1168952418,
+			1,"Snow plow causing activity in seismic bands",0,"process:process_id:24","DCH-SNOW_PLOW",2,0,1168002018,"H1",1170892818,
 			1,"High RMS of at least one PI mode",0,"process:process_id:25","DMT-ANY_PI_HIGH_RMS",1,0,1164556817,"H1",0,
 			1,"Remove 4 seconds at the end of each lock stretch",0,"process:process_id:26","DMT-PRE_LOCKLOSS_4",1,0,1164556817,"H1",0,
 			1,"Remove 4 seconds at the end of each lock stretch",0,"process:process_id:27","DMT-PRE_LOCKLOSS_4",1,0,1164556817,"L1",0,
