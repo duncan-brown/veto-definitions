@@ -56,6 +56,7 @@
 			,"sugwg-condor.phy.syr.edu",,3596957,1172265828,"process:process_id:35",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev2",,3445525,1172526273,"process:process_id:36",0,,0,"derek.davis","ligolw-vetodef-append",,,,,
 			,"sugwg-condor.phy.syr.edu",,2481417,1173546256,"process:process_id:37",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev1",,3549489,1173741343,"process:process_id:38",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -437,7 +438,17 @@
 			"process:process_id:37","ligolw-vetodef-append","lstring","H1:DCH-SEVERE_HAM1_HEPI_OMICRON_GT_40:1","--flag",
 			"process:process_id:37","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:37","ligolw-vetodef-append","int_8s","1171861650","--end-time",
-			"process:process_id:37","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:37","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:38","ligolw-vetodef-append","lstring","../cbc/O2/H1L1-HOFT_C01_O2_CBC.xml","",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:38","ligolw-vetodef-append","lstring","ETMY L3 OPLEV SUM glitching, coupling into h(t)","--comment",
+			"process:process_id:38","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","1171632618","--start-time",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:38","ligolw-vetodef-append","lstring","H1:DCH-ETMY_L3_OPLEV_BLRMS_GT65:1","--flag",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","1172334618","--end-time",
+			"process:process_id:38","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -487,7 +498,8 @@
 			1,"Wrong Filter used for H1_HOFT_C01 Data",0,"process:process_id:34","DCS-WRONG_FILTER_H1_HOFT_C01",1,0,1164556817,"H1",1167433728,
 			1,"Wrong Filter used for L1_HOFT_C01 Data",0,"process:process_id:35","DCS-WRONG_FILTER_L1_HOFT_C01",1,0,1164556817,"L1",1167433728,
 			2,"Overflows in ETMX L2 UL",1,"process:process_id:36","DCH-ETMX_L2_UL_DAC_OVERFLOW",1,-1,1170174018,"H1",1172361618,
-			2,"Severe extended time of noise in HAM1 HEPI L4C",0,"process:process_id:37","DCH-SEVERE_HAM1_HEPI_OMICRON_GT_40",1,0,1171861200,"H1",1171861650
+			2,"Severe extended time of noise in HAM1 HEPI L4C",0,"process:process_id:37","DCH-SEVERE_HAM1_HEPI_OMICRON_GT_40",1,0,1171861200,"H1",1171861650,
+			2,"ETMY L3 OPLEV SUM glitching, coupling into h(t)",0,"process:process_id:38","DCH-ETMY_L3_OPLEV_BLRMS_GT65",1,0,1171632618,"H1",1172334618
 		</Stream>
 	</Table>
 </LIGO_LW>
