@@ -486,7 +486,7 @@
 			1,"Dramatic change in PSD after auxiliary computer reboot, LHO alog 33756",0,"process:process_id:33","DCH-COMPUTER_REBOOT",1,0,1169910318,"H1",1169913395,
 			2,"Overflows in ETMX L2 UL",1,"process:process_id:35","DCH-ETMX_L2_UL_DAC_OVERFLOW",1,-1,1170174018,"H1",1172361618,
 			2,"Severe extended time of noise in HAM1 HEPI L4C",0,"process:process_id:36","DCH-SEVERE_HAM1_HEPI_OMICRON_GT_40",1,0,1171861200,"H1",1171861650,
-			2,"ETMY L3 OPLEV SUM glitching, coupling into h(t)",0,"process:process_id:37","DCH-ETMY_L3_OPLEV_BLRMS_GT65",1,0,1171632618,"H1",1172334618
+			2,"ETMY L3 OPLEV SUM glitching, coupling into h(t)",0,"process:process_id:37","DCH-ETMY_L3_OPLEV_BLRMS_GT65",1,0,1171632618,"H1",1173902418
 		</Stream>
 	</Table>
 </LIGO_LW>

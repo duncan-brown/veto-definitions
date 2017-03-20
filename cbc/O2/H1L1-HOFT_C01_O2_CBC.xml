@@ -499,7 +499,7 @@
 			1,"Wrong Filter used for L1_HOFT_C01 Data",0,"process:process_id:35","DCS-WRONG_FILTER_L1_HOFT_C01",1,0,1164556817,"L1",1167433728,
 			2,"Overflows in ETMX L2 UL",1,"process:process_id:36","DCH-ETMX_L2_UL_DAC_OVERFLOW",1,-1,1170174018,"H1",1172361618,
 			2,"Severe extended time of noise in HAM1 HEPI L4C",0,"process:process_id:37","DCH-SEVERE_HAM1_HEPI_OMICRON_GT_40",1,0,1171861200,"H1",1171861650,
-			2,"ETMY L3 OPLEV SUM glitching, coupling into h(t)",0,"process:process_id:38","DCH-ETMY_L3_OPLEV_BLRMS_GT65",1,0,1171632618,"H1",1172334618
+			2,"ETMY L3 OPLEV SUM glitching, coupling into h(t)",0,"process:process_id:38","DCH-ETMY_L3_OPLEV_BLRMS_GT65",1,0,1171632618,"H1",1173902418
 		</Stream>
 	</Table>
 </LIGO_LW>
