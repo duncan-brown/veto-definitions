@@ -58,6 +58,7 @@
 			,"ldas-pcdev1",,3544077,1173741337,"process:process_id:37",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 			,"sugwg-condor.phy.syr.edu",,3407592,1174081274,"process:process_id:38",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugwg-condor.phy.syr.edu",,3491006,1174154116,"process:process_id:39",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugwg-condor.phy.syr.edu",,445929,1174678311,"process:process_id:40",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -459,7 +460,17 @@
 			"process:process_id:39","ligolw-vetodef-append","lstring","H1:DCH-ETMX_MAINSMON_BL_GT_30:1","--flag",
 			"process:process_id:39","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:39","ligolw-vetodef-append","int_8s","1173902418","--end-time",
-			"process:process_id:39","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:39","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:40","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O2_CBC.xml","",
+			"process:process_id:40","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:40","ligolw-vetodef-append","lstring","Severe RF45 glitching","--comment",
+			"process:process_id:40","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:40","ligolw-vetodef-append","int_8s","1174276735","--start-time",
+			"process:process_id:40","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:40","ligolw-vetodef-append","lstring","H1:DCH-RF45_SEVERE_GLITCHING:2","--flag",
+			"process:process_id:40","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:40","ligolw-vetodef-append","int_8s","1174312020","--end-time",
+			"process:process_id:40","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -510,7 +521,8 @@
 			2,"Severe extended time of noise in HAM1 HEPI L4C",0,"process:process_id:36","DCH-SEVERE_HAM1_HEPI_OMICRON_GT_40",1,0,1171861200,"H1",1171861650,
 			2,"ETMY L3 OPLEV SUM glitching, coupling into h(t)",0,"process:process_id:37","DCH-ETMY_L3_OPLEV_BLRMS_GT65",1,0,1171632618,"H1",1173902418,
 			1,"Severe scattering due to high microseism",0,"process:process_id:38","DCH-SEVERE_SCATTERING",1,0,1173297618,"L1",1173312111,
-			2,"Glitches seen in ETMX MAINSMON channels, coupling into h(t)",0,"process:process_id:39","DCH-ETMX_MAINSMON_BL_GT_30",1,0,1171632618,"H1",1173902418
+			2,"Glitches seen in ETMX MAINSMON channels, coupling into h(t)",0,"process:process_id:39","DCH-ETMX_MAINSMON_BL_GT_30",1,0,1171632618,"H1",1173902418,
+			1,"Severe RF45 glitching",0,"process:process_id:40","DCH-RF45_SEVERE_GLITCHING",2,0,1174276735,"H1",1174312020
 		</Stream>
 	</Table>
 </LIGO_LW>
