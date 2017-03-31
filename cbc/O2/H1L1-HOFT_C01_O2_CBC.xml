@@ -60,6 +60,7 @@
 			,"sugwg-condor.phy.syr.edu",,3407602,1174081284,"process:process_id:39",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugwg-condor.phy.syr.edu",,3491058,1174154124,"process:process_id:40",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugwg-condor.phy.syr.edu",,445930,1174678318,"process:process_id:41",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"ldas-grid",,1018131,1175037481,"process:process_id:42",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -481,7 +482,17 @@
 			"process:process_id:41","ligolw-vetodef-append","lstring","H1:DCH-RF45_SEVERE_GLITCHING:2","--flag",
 			"process:process_id:41","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:41","ligolw-vetodef-append","int_8s","1174312020","--end-time",
-			"process:process_id:41","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:41","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:42","ligolw-vetodef-append","lstring","../cbc/O2/H1L1-HOFT_C01_O2_CBC.xml","",
+			"process:process_id:42","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:42","ligolw-vetodef-append","lstring","Site wide data drop out, this flag covers the effects on C01 frames specifically","--comment",
+			"process:process_id:42","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:42","ligolw-vetodef-append","int_8s","1172486013","--start-time",
+			"process:process_id:42","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:42","ligolw-vetodef-append","lstring","L1:DCH-DATA_DROPOUT_C01:1","--flag",
+			"process:process_id:42","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:42","ligolw-vetodef-append","int_8s","1172486083","--end-time",
+			"process:process_id:42","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -535,7 +546,8 @@
 			2,"ETMY L3 OPLEV SUM glitching, coupling into h(t)",0,"process:process_id:38","DCH-ETMY_L3_OPLEV_BLRMS_GT65",2,0,1171632618,"H1",1174651218,
 			1,"Severe scattering due to high microseism",0,"process:process_id:39","DCH-SEVERE_SCATTERING",1,0,1173297618,"L1",1173312111,
 			2,"Glitches seen in ETMX MAINSMON channels, coupling into h(t)",0,"process:process_id:40","DCH-ETMX_MAINSMON_BL_GT_30",1,0,1171632618,"H1",1174651218,
-			1,"Severe RF45 glitching",0,"process:process_id:41","DCH-RF45_SEVERE_GLITCHING",2,0,1174276735,"H1",1174312020
+			1,"Severe RF45 glitching",0,"process:process_id:41","DCH-RF45_SEVERE_GLITCHING",2,0,1174276735,"H1",1174312020,
+			1,"Site wide data drop out, this flag covers the effects on C01 frames specifically",0,"process:process_id:42","DCH-DATA_DROPOUT_C01",1,0,1172486013,"L1",1172486083
 		</Stream>
 	</Table>
 </LIGO_LW>
