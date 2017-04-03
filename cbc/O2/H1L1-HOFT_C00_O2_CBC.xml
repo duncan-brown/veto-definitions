@@ -60,6 +60,7 @@
 			,"sugwg-condor.phy.syr.edu",,3491006,1174154116,"process:process_id:39",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugwg-condor.phy.syr.edu",,445929,1174678311,"process:process_id:40",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugwg-condor.phy.syr.edu",,727479,1174836729,"process:process_id:41",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev1",,3524108,1175289773,"process:process_id:42",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -481,7 +482,17 @@
 			"process:process_id:41","ligolw-vetodef-append","lstring","L1:DCH-DATA_DROPOUT:1","--flag",
 			"process:process_id:41","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:41","ligolw-vetodef-append","int_8s","1172486067","--end-time",
-			"process:process_id:41","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:41","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:42","ligolw-vetodef-append","lstring","../cbc/O2/H1L1-HOFT_C00_O2_CBC.xml","",
+			"process:process_id:42","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:42","ligolw-vetodef-append","lstring","High violin modes causing constant OMC DCPD saturations","--comment",
+			"process:process_id:42","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:42","ligolw-vetodef-append","int_8s","1174184899","--start-time",
+			"process:process_id:42","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:42","ligolw-vetodef-append","lstring","H1:DCH-HIGH_VIOLINS:1","--flag",
+			"process:process_id:42","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:42","ligolw-vetodef-append","int_8s","1174185518","--end-time",
+			"process:process_id:42","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -534,7 +545,8 @@
 			1,"Severe scattering due to high microseism",0,"process:process_id:38","DCH-SEVERE_SCATTERING",1,0,1173297618,"L1",1173312111,
 			2,"Glitches seen in ETMX MAINSMON channels, coupling into h(t)",0,"process:process_id:39","DCH-ETMX_MAINSMON_BL_GT_30",1,0,1171632618,"H1",1174651218,
 			1,"Severe RF45 glitching",0,"process:process_id:40","DCH-RF45_SEVERE_GLITCHING",2,0,1174276735,"H1",1174312020,
-			1,"Site wide data dropout caused terrible noise before out of observing",0,"process:process_id:41","DCH-DATA_DROPOUT",1,0,1172486063,"L1",1172486067
+			1,"Site wide data dropout caused terrible noise before out of observing",0,"process:process_id:41","DCH-DATA_DROPOUT",1,0,1172486063,"L1",1172486067,
+			1,"High violin modes causing constant OMC DCPD saturations",0,"process:process_id:42","DCH-HIGH_VIOLINS",1,0,1174184899,"H1",1174185518
 		</Stream>
 	</Table>
 </LIGO_LW>
