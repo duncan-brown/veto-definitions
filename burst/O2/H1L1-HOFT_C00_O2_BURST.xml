@@ -56,6 +56,7 @@
 			,"ldas-pcdev1",,89158,1175970028,"process:process_id:35",0,,0,"bhughey","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev1",,89473,1175970028,"process:process_id:36",0,,0,"bhughey","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev1",,178297,1175970165,"process:process_id:37",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev2",,3108043,1176495160,"process:process_id:38",0,,0,"derek.davis","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -436,7 +437,17 @@
 			"process:process_id:37","ligolw-vetodef-append","lstring","L1:DCH-DATA_DROPOUT:1","--flag",
 			"process:process_id:37","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:37","ligolw-vetodef-append","int_8s","1172486067","--end-time",
-			"process:process_id:37","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:37","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:38","ligolw-vetodef-append","lstring","H1L1-HOFT_C00_O2_BURST.xml","",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:38","ligolw-vetodef-append","lstring","Power glitches related to EX chiller switch","--comment",
+			"process:process_id:38","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","1170462274","--start-time",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:38","ligolw-vetodef-append","lstring","L1:DCH-EX_MAG_OMICRON_GT_400:1","--flag",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","1175356818","--end-time",
+			"process:process_id:38","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -487,7 +498,8 @@
 			1,"Severe scattering due to high microseism",0,"process:process_id:34","DCH-SEVERE_SCATTERING",1,0,1173297618,"L1",1173312111,
 			1,"Severe RF45 glitching",0,"process:process_id:35","DCH-RF45_SEVERE_GLITCHING",2,0,1174276735,"H1",1174312020,
 			1,"High violin modes causing constant OMC DCPD saturations",0,"process:process_id:36","DCH-HIGH_VIOLINS",1,0,1174184899,"H1",1174185518,
-			1,"Site wide data dropout caused terrible noise before out of observing",0,"process:process_id:37","DCH-DATA_DROPOUT",1,0,1172486063,"L1",1172486067
+			1,"Site wide data dropout caused terrible noise before out of observing",0,"process:process_id:37","DCH-DATA_DROPOUT",1,0,1172486063,"L1",1172486067,
+			2,"Power glitches related to EX chiller switch",0,"process:process_id:38","DCH-EX_MAG_OMICRON_GT_400",1,0,1170462274,"L1",1175356818
 		</Stream>
 	</Table>
 </LIGO_LW>

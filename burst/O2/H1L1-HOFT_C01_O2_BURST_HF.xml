@@ -59,6 +59,7 @@
 			,"ldas-pcdev1",,151435,1175970124,"process:process_id:38",0,,0,"bhughey","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev1",,151769,1175970124,"process:process_id:39",0,,0,"bhughey","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev1",,152085,1175970125,"process:process_id:40",0,,0,"bhughey","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev2",,3108986,1176495230,"process:process_id:41",0,,0,"derek.davis","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -469,7 +470,17 @@
 			"process:process_id:40","ligolw-vetodef-append","lstring","L1:DCH-DATA_DROPOUT_C01:1","--flag",
 			"process:process_id:40","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:40","ligolw-vetodef-append","int_8s","1172486083","--end-time",
-			"process:process_id:40","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:40","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:41","ligolw-vetodef-append","lstring","H1L1-HOFT_C01_O2_BURST_HF.xml","",
+			"process:process_id:41","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:41","ligolw-vetodef-append","lstring","Power glitches related to EX chiller switch","--comment",
+			"process:process_id:41","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:41","ligolw-vetodef-append","int_8s","1170462274","--start-time",
+			"process:process_id:41","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:41","ligolw-vetodef-append","lstring","L1:DCH-EX_MAG_OMICRON_GT_400:1","--flag",
+			"process:process_id:41","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:41","ligolw-vetodef-append","int_8s","1175356818","--end-time",
+			"process:process_id:41","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -523,7 +534,8 @@
 			1,"High frequency glitching on 1st March  above 4 kHz caused by PSL FSS COMMON GAIN being high.",0,"process:process_id:37","DCH-PSL_FSS_COMMON_GAIN_HIGH",1,0,1172408788,"L1",1172418820,
 			1,"Wrong Filter used for H1_HOFT_C01 Data",0,"process:process_id:38","DCS-WRONG_FILTER_H1_HOFT_C01",1,0,1164556817,"H1",1167433728,
 			1,"Wrong Filter used for L1_HOFT_C01 Data",0,"process:process_id:39","DCS-WRONG_FILTER_L1_HOFT_C01",1,0,1164556817,"L1",1167433728,
-			1,"Site wide data drop out, this flag covers the effects on C01 frames specifically",0,"process:process_id:40","DCH-DATA_DROPOUT_C01",1,0,1172486013,"L1",1172486083
+			1,"Site wide data drop out, this flag covers the effects on C01 frames specifically",0,"process:process_id:40","DCH-DATA_DROPOUT_C01",1,0,1172486013,"L1",1172486083,
+			2,"Power glitches related to EX chiller switch",0,"process:process_id:41","DCH-EX_MAG_OMICRON_GT_400",1,0,1170462274,"L1",1175356818
 		</Stream>
 	</Table>
 </LIGO_LW>
