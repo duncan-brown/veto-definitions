@@ -63,6 +63,7 @@
 			,"ldas-grid",,1018131,1175037481,"process:process_id:42",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev1",,3502276,1175289706,"process:process_id:43",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 			,"ldas-grid",,273753,1176851820,"process:process_id:44",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev2",,2526229,1177780400,"process:process_id:45",0,,0,"derek.davis","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -514,7 +515,17 @@
 			"process:process_id:44","ligolw-vetodef-append","lstring","H1:DCH-ITMY_STS2_Z_BLRMS_GT_600:1","--flag",
 			"process:process_id:44","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:44","ligolw-vetodef-append","int_8s","1175356818","--end-time",
-			"process:process_id:44","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:44","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:45","ligolw-vetodef-append","lstring","H1L1-HOFT_C01_O2_CBC.xml","",
+			"process:process_id:45","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:45","ligolw-vetodef-append","lstring","Power glitches related to EX chiller switch","--comment",
+			"process:process_id:45","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:45","ligolw-vetodef-append","int_8s","1175356818","--start-time",
+			"process:process_id:45","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:45","ligolw-vetodef-append","lstring","L1:DCH-EX_MAG_OMICRON_GT_400:1","--flag",
+			"process:process_id:45","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:45","ligolw-vetodef-append","int_8s","1176240318","--end-time",
+			"process:process_id:45","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -563,7 +574,7 @@
 			1,"Dramatic change in PSD after auxiliary computer reboot, LHO alog 33756",0,"process:process_id:33","DCH-COMPUTER_REBOOT",1,0,1169910318,"H1",1169913395,
 			1,"Wrong Filter used for H1_HOFT_C01 Data",0,"process:process_id:34","DCS-WRONG_FILTER_H1_HOFT_C01",1,0,1164556817,"H1",1167433728,
 			1,"Wrong Filter used for L1_HOFT_C01 Data",0,"process:process_id:35","DCS-WRONG_FILTER_L1_HOFT_C01",1,0,1164556817,"L1",1167433728,
-			2,"Overflows in ETMX L2 UL",1,"process:process_id:36","DCH-ETMX_L2_UL_DAC_OVERFLOW",1,-1,1170174018,"H1",1175356818,
+			2,"Overflows in ETMX L2 UL",1,"process:process_id:36","DCH-ETMX_L2_UL_DAC_OVERFLOW",1,-1,1170174018,"H1",1176240318,
 			2,"Severe extended time of noise in HAM1 HEPI L4C",0,"process:process_id:37","DCH-SEVERE_HAM1_HEPI_OMICRON_GT_40",1,0,1171861200,"H1",1171861650,
 			2,"ETMY L3 OPLEV SUM glitching, coupling into h(t)",0,"process:process_id:38","DCH-ETMY_L3_OPLEV_BLRMS_GT65",2,0,1171632618,"H1",1175356818,
 			1,"Severe scattering due to high microseism",0,"process:process_id:39","DCH-SEVERE_SCATTERING",1,0,1173297618,"L1",1173312111,
@@ -571,7 +582,8 @@
 			1,"Severe RF45 glitching",0,"process:process_id:41","DCH-RF45_SEVERE_GLITCHING",2,0,1174276735,"H1",1174312020,
 			1,"Site wide data drop out, this flag covers the effects on C01 frames specifically",0,"process:process_id:42","DCH-DATA_DROPOUT_C01",1,0,1172486013,"L1",1172486083,
 			1,"High violin modes causing constant OMC DCPD saturations",0,"process:process_id:43","DCH-HIGH_VIOLINS",1,0,1174184899,"H1",1174185518,
-			2,"ITMY STS2 Z BLRMS greater than 600",0,"process:process_id:44","DCH-ITMY_STS2_Z_BLRMS_GT_600",1,0,1174649000,"H1",1175356818
+			2,"ITMY STS2 Z BLRMS greater than 600",0,"process:process_id:44","DCH-ITMY_STS2_Z_BLRMS_GT_600",1,0,1174649000,"H1",1175356818,
+			2,"Power glitches related to EX chiller switch",0,"process:process_id:45","DCH-EX_MAG_OMICRON_GT_400",1,0,1175356818,"L1",1176240318
 		</Stream>
 	</Table>
 </LIGO_LW>
