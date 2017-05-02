@@ -64,6 +64,7 @@
 			,"ldas-pcdev1",,3502276,1175289706,"process:process_id:43",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 			,"ldas-grid",,273753,1176851820,"process:process_id:44",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev2",,2526229,1177780400,"process:process_id:45",0,,0,"derek.davis","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev1",,1880216,1177785226,"process:process_id:46",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -525,7 +526,17 @@
 			"process:process_id:45","ligolw-vetodef-append","lstring","L1:DCH-EX_MAG_OMICRON_GT_400:1","--flag",
 			"process:process_id:45","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:45","ligolw-vetodef-append","int_8s","1176240318","--end-time",
-			"process:process_id:45","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:45","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:46","ligolw-vetodef-append","lstring","../cbc/O2/H1L1-HOFT_C01_O2_CBC.xml","",
+			"process:process_id:46","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:46","ligolw-vetodef-append","lstring","Glitch in ETMX L3 OPLEV laser","--comment",
+			"process:process_id:46","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:46","ligolw-vetodef-append","int_8s","1175356818","--start-time",
+			"process:process_id:46","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:46","ligolw-vetodef-append","lstring","H1:DCH-ETMX_L3_OPLEV_SUM_HIGH_BLRMS:1","--flag",
+			"process:process_id:46","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:46","ligolw-vetodef-append","int_8s","1176955218","--end-time",
+			"process:process_id:46","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -583,7 +594,8 @@
 			1,"Site wide data drop out, this flag covers the effects on C01 frames specifically",0,"process:process_id:42","DCH-DATA_DROPOUT_C01",1,0,1172486013,"L1",1172486083,
 			1,"High violin modes causing constant OMC DCPD saturations",0,"process:process_id:43","DCH-HIGH_VIOLINS",1,0,1174184899,"H1",1174185518,
 			2,"ITMY STS2 Z BLRMS greater than 600",0,"process:process_id:44","DCH-ITMY_STS2_Z_BLRMS_GT_600",1,0,1174649000,"H1",1175356818,
-			2,"Power glitches related to EX chiller switch",0,"process:process_id:45","DCH-EX_MAG_OMICRON_GT_400",1,0,1175356818,"L1",1176240318
+			2,"Power glitches related to EX chiller switch",0,"process:process_id:45","DCH-EX_MAG_OMICRON_GT_400",1,0,1175356818,"L1",1176240318,
+			2,"Glitch in ETMX L3 OPLEV laser",0,"process:process_id:46","DCH-ETMX_L3_OPLEV_SUM_HIGH_BLRMS",1,0,1175356818,"H1",1176955218
 		</Stream>
 	</Table>
 </LIGO_LW>
