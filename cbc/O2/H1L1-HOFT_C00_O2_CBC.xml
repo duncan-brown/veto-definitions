@@ -65,6 +65,8 @@
 			,"ldas-pcdev2",,2523942,1177780391,"process:process_id:44",0,,0,"derek.davis","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev1",,1867014,1177785221,"process:process_id:45",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev1",,137075,1177958242,"process:process_id:46",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev1",,3775845,1178576603,"process:process_id:47",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev1",,3861088,1178576654,"process:process_id:48",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -536,7 +538,27 @@
 			"process:process_id:46","ligolw-vetodef-append","lstring","H1:DCH-BROKEN_ITMY_OPLEV:1","--flag",
 			"process:process_id:46","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:46","ligolw-vetodef-append","int_8s","1176240318","--end-time",
-			"process:process_id:46","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:46","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:47","ligolw-vetodef-append","lstring","../cbc/O2/H1L1-HOFT_C00_O2_CBC.xml","",
+			"process:process_id:47","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:47","ligolw-vetodef-append","lstring","EY PLUSY microphone 30-200Hz BLRMS GT 200","--comment",
+			"process:process_id:47","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:47","ligolw-vetodef-append","int_8s","1176240318","--start-time",
+			"process:process_id:47","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:47","ligolw-vetodef-append","lstring","L1:DCH-EY_MIC_BLRMS_GT_200:1","--flag",
+			"process:process_id:47","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:47","ligolw-vetodef-append","int_8s","1176955218","--end-time",
+			"process:process_id:47","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:48","ligolw-vetodef-append","lstring","../cbc/O2/H1L1-HOFT_C00_O2_CBC.xml","",
+			"process:process_id:48","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:48","ligolw-vetodef-append","lstring","CS YMANSPOOL microphone 30-200Hz BLRMS GT 250","--comment",
+			"process:process_id:48","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:48","ligolw-vetodef-append","int_8s","1176240318","--start-time",
+			"process:process_id:48","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:48","ligolw-vetodef-append","lstring","L1:DCH-CS_MIC_BLRMS_GT_250:1","--flag",
+			"process:process_id:48","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:48","ligolw-vetodef-append","int_8s","1176955218","--end-time",
+			"process:process_id:48","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -594,7 +616,9 @@
 			2,"ITMY STS2 Z BLRMS greater than 600",0,"process:process_id:43","DCH-ITMY_STS2_Z_BLRMS_GT_600",1,0,1174649000,"H1",1175356818,
 			2,"Power glitches related to EX chiller switch",0,"process:process_id:44","DCH-EX_MAG_OMICRON_GT_400",1,0,1175356818,"L1",1176240318,
 			2,"Glitch in ETMX L3 OPLEV laser, BLRMS above 7.5",0,"process:process_id:45","DCH-ETMX_L3_OPLEV_SUM_HIGH_BLRMS",1,0,1175356818,"H1",1176955218,
-			1,"Malfunctioning ITMY OPLEV, see LHO alog 35378",0,"process:process_id:46","DCH-BROKEN_ITMY_OPLEV",1,0,1175356818,"H1",1176240318
+			1,"Malfunctioning ITMY OPLEV, see LHO alog 35378",0,"process:process_id:46","DCH-BROKEN_ITMY_OPLEV",1,0,1175356818,"H1",1176240318,
+			2,"EY PLUSY microphone 30-200Hz BLRMS GT 200",0,"process:process_id:47","DCH-EY_MIC_BLRMS_GT_200",1,0,1176240318,"L1",1176955218,
+			2,"CS YMANSPOOL microphone 30-200Hz BLRMS GT 250",0,"process:process_id:48","DCH-CS_MIC_BLRMS_GT_250",1,0,1176240318,"L1",1176955218
 		</Stream>
 	</Table>
 </LIGO_LW>
