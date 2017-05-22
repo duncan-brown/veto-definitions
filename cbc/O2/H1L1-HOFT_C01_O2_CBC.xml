@@ -69,6 +69,7 @@
 			,"ldas-pcdev1",,3755805,1178576591,"process:process_id:48",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev1",,3874065,1178576660,"process:process_id:49",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev2",,3166323,1178648818,"process:process_id:50",0,,0,"derek.davis","ligolw-vetodef-append",,,,,
+			,"ldas-pcdev2",,3592879,1179244221,"process:process_id:51",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -580,7 +581,17 @@
 			"process:process_id:50","ligolw-vetodef-append","lstring","L1:DCH-ETMY_SCATTERING_GT_25HZ:1","--flag",
 			"process:process_id:50","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:50","ligolw-vetodef-append","int_8s","1176955218","--end-time",
-			"process:process_id:50","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:50","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:51","ligolw-vetodef-append","lstring","../cbc/O2/H1L1-HOFT_C01_O2_CBC.xml","",
+			"process:process_id:51","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:51","ligolw-vetodef-append","lstring","Severe thunderstorm at LLO","--comment",
+			"process:process_id:51","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:51","ligolw-vetodef-append","int_8s","1177859718","--start-time",
+			"process:process_id:51","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:51","ligolw-vetodef-append","lstring","L1:DCH-SEVERE_THUNDERSTORM:1","--flag",
+			"process:process_id:51","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:51","ligolw-vetodef-append","int_8s","1177877718","--end-time",
+			"process:process_id:51","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -641,9 +652,10 @@
 			2,"Power glitches related to EX chiller switch",0,"process:process_id:45","DCH-EX_MAG_OMICRON_GT_400",1,0,1175356818,"L1",1176240318,
 			2,"Glitch in ETMX L3 OPLEV laser",0,"process:process_id:46","DCH-ETMX_L3_OPLEV_SUM_HIGH_BLRMS",1,0,1175356818,"H1",1178294418,
 			1,"Malfunctioning ITMY OPLEV, see LHO alog 35378",0,"process:process_id:47","DCH-BROKEN_ITMY_OPLEV",1,0,1175356818,"H1",1176240318,
-			2,"EY PLUSY microphone 30-200Hz BLRMS GT 200",0,"process:process_id:48","DCH-EY_MIC_BLRMS_GT_200",1,0,1176240318,"L1",1176955218,
-			2,"CS YMANSPOOL microphone 30-200Hz BLRMS GT 250",0,"process:process_id:49","DCH-CS_MIC_BLRMS_GT_250",1,0,1176240318,"L1",1176955218,
-			2,"Periods of ETMY scattering with fringes above 25 Hz",0,"process:process_id:50","DCH-ETMY_SCATTERING_GT_25HZ",1,0,1176240318,"L1",1176955218
+			2,"EY PLUSY microphone 30-200Hz BLRMS GT 200",0,"process:process_id:48","DCH-EY_MIC_BLRMS_GT_200",1,0,1176240318,"L1",1178294418,
+			2,"CS YMANSPOOL microphone 30-200Hz BLRMS GT 250",0,"process:process_id:49","DCH-CS_MIC_BLRMS_GT_250",1,0,1176240318,"L1",1178294418,
+			2,"Periods of ETMY scattering with fringes above 25 Hz",0,"process:process_id:50","DCH-ETMY_SCATTERING_GT_25HZ",1,0,1176240318,"L1",1178294418,
+			1,"Severe thunderstorm at LLO",0,"process:process_id:51","DCH-SEVERE_THUNDERSTORM",1,0,1177859718,"L1",1177877718
 		</Stream>
 	</Table>
 </LIGO_LW>
