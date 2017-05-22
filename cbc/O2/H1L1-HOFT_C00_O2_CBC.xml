@@ -641,7 +641,7 @@
 			1,"Malfunctioning ITMY OPLEV, see LHO alog 35378",0,"process:process_id:46","DCH-BROKEN_ITMY_OPLEV",1,0,1175356818,"H1",1176240318,
 			2,"EY PLUSY microphone 30-200Hz BLRMS GT 200",0,"process:process_id:47","DCH-EY_MIC_BLRMS_GT_200",1,0,1176240318,"L1",1178294418,
 			2,"CS YMANSPOOL microphone 30-200Hz BLRMS GT 250",0,"process:process_id:48","DCH-CS_MIC_BLRMS_GT_250",1,0,1176240318,"L1",1178294418,
-			2,"Periods of ETMY scattering with fringes above 25 Hz",0,"process:process_id:49","DCH-ETMY_SCATTERING_GT_25HZ",1,0,1176240318,"L1",1176955218,
+			2,"Periods of ETMY scattering with fringes above 25 Hz",0,"process:process_id:49","DCH-ETMY_SCATTERING_GT_25HZ",1,0,1176240318,"L1",1178294418,
 			1,"Severe thunderstorm at LLO",0,"process:process_id:50","DCH-SEVERE_THUNDERSTORM",1,0,1177859718,"L1",1177877718
 		</Stream>
 	</Table>
