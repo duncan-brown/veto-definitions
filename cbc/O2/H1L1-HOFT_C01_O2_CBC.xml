@@ -662,11 +662,11 @@
 			1,"Dramatic change in PSD after auxiliary computer reboot, LHO alog 33756",0,"process:process_id:33","DCH-COMPUTER_REBOOT",1,0,1169910318,"H1",1169913395,
 			1,"Wrong Filter used for H1_HOFT_C01 Data",0,"process:process_id:34","DCS-WRONG_FILTER_H1_HOFT_C01",1,0,1164556817,"H1",1167433728,
 			1,"Wrong Filter used for L1_HOFT_C01 Data",0,"process:process_id:35","DCS-WRONG_FILTER_L1_HOFT_C01",1,0,1164556817,"L1",1167433728,
-			2,"Overflows in ETMX L2 UL",1,"process:process_id:36","DCH-ETMX_L2_UL_DAC_OVERFLOW",1,-1,1170174018,"H1",1176955218,
+			2,"Overflows in ETMX L2 UL",1,"process:process_id:36","DCH-ETMX_L2_UL_DAC_OVERFLOW",1,-1,1170174018,"H1",1181845818,
 			2,"Severe extended time of noise in HAM1 HEPI L4C",0,"process:process_id:37","DCH-SEVERE_HAM1_HEPI_OMICRON_GT_40",1,0,1171861200,"H1",1171861650,
 			2,"ETMY L3 OPLEV SUM glitching, coupling into h(t)",0,"process:process_id:38","DCH-ETMY_L3_OPLEV_BLRMS_GT65",2,0,1171632618,"H1",1181845818,
 			1,"Severe scattering due to high microseism",0,"process:process_id:39","DCH-SEVERE_SCATTERING",1,0,1173297618,"L1",1173312111,
-			2,"Glitches seen in ETMX MAINSMON channels, coupling into h(t)",0,"process:process_id:40","DCH-ETMX_MAINSMON_BL_GT_30",1,0,1171632618,"H1",1178294418,
+			2,"Glitches seen in ETMX MAINSMON channels, coupling into h(t)",0,"process:process_id:40","DCH-ETMX_MAINSMON_BL_GT_30",1,0,1171632618,"H1",1181845818,
 			1,"Severe RF45 glitching",0,"process:process_id:41","DCH-RF45_SEVERE_GLITCHING",2,0,1174276735,"H1",1174312020,
 			1,"Site wide data drop out, this flag covers the effects on C01 frames specifically",0,"process:process_id:42","DCH-DATA_DROPOUT_C01",1,0,1172486013,"L1",1172486083,
 			1,"High violin modes causing constant OMC DCPD saturations",0,"process:process_id:43","DCH-HIGH_VIOLINS",1,0,1174184899,"H1",1174185518,
@@ -676,9 +676,9 @@
 			1,"Malfunctioning ITMY OPLEV, see LHO alog 35378",0,"process:process_id:47","DCH-BROKEN_ITMY_OPLEV",1,0,1175356818,"H1",1176240318,
 			2,"EY PLUSY microphone 30-200Hz BLRMS GT 200",0,"process:process_id:48","DCH-EY_MIC_BLRMS_GT_200",1,0,1176240318,"L1",1181845818,
 			2,"CS YMANSPOOL microphone 30-200Hz BLRMS GT 250",0,"process:process_id:49","DCH-CS_MIC_BLRMS_GT_250",1,0,1176240318,"L1",1181845818,
-			2,"Periods of ETMY scattering with fringes above 25 Hz",0,"process:process_id:50","DCH-ETMY_SCATTERING_GT_25HZ",1,0,1176240318,"L1",1178294418,
+			2,"Periods of ETMY scattering with fringes above 25 Hz",0,"process:process_id:50","DCH-ETMY_SCATTERING_GT_25HZ",1,0,1176240318,"L1",1181845818,
 			1,"Severe thunderstorm at LLO",0,"process:process_id:51","DCH-SEVERE_THUNDERSTORM",1,0,1177859718,"L1",1177877718,
-			2,"Periods of PRM scattering with fringes above 40 Hz",0,"process:process_id:52","DCH-PRM_SCATTERING_GT_40HZ",1,0,1176955218,"H1",1178294418,
+			2,"Periods of PRM scattering with fringes above 40 Hz",0,"process:process_id:52","DCH-PRM_SCATTERING_GT_40HZ",1,0,1176955218,"H1",1181845818,
 			2,"Ringing after DAC overflow of ITMX R0 actuators",0,"process:process_id:53","DCH-ITMX_R0_OVERFLOW",1,0,1176955218,"H1",1178294418
 		</Stream>
 	</Table>
