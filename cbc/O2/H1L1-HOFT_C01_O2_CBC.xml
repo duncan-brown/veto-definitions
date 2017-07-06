@@ -72,6 +72,10 @@
 			,"ldas-pcdev2",,3592879,1179244221,"process:process_id:51",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev1",,169844,1179688139,"process:process_id:52",0,,0,"derek.davis","ligolw-vetodef-append",,,,,
 			,"ldas-pcdev1",,356798,1179851537,"process:process_id:53",0,,0,"thomas.massinger","ligolw-vetodef-append",,,,,
+			,"sugwg-condor.phy.syr.edu",,2268826,1183391910,"process:process_id:54",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugwg-condor.phy.syr.edu",,2269146,1183392241,"process:process_id:55",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugwg-condor.phy.syr.edu",,2269371,1183392297,"process:process_id:56",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugwg-condor.phy.syr.edu",,2269488,1183392356,"process:process_id:57",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -613,7 +617,47 @@
 			"process:process_id:53","ligolw-vetodef-append","lstring","H1:DCH-ITMX_R0_OVERFLOW:1","--flag",
 			"process:process_id:53","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:53","ligolw-vetodef-append","int_8s","1178294418","--end-time",
-			"process:process_id:53","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:53","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:54","ligolw-vetodef-append","lstring","H1L1-HOFT_C01_O2_CBC.xml","",
+			"process:process_id:54","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:54","ligolw-vetodef-append","lstring","Glitching in the EX SUSRACK between 10-50Hz coupling in to h(t)","--comment",
+			"process:process_id:54","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:54","ligolw-vetodef-append","int_8s","1178294418","--start-time",
+			"process:process_id:54","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:54","ligolw-vetodef-append","lstring","H1:DCH-EX_MAG_EBAY_SUSRACK_GLITCHING:1","--flag",
+			"process:process_id:54","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:54","ligolw-vetodef-append","int_8s","1181845818","--end-time",
+			"process:process_id:54","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:55","ligolw-vetodef-append","lstring","H1L1-HOFT_C01_O2_CBC.xml","",
+			"process:process_id:55","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:55","ligolw-vetodef-append","lstring","Earthquakes causing glitching in h(t), BLRMS of the CS Z gt 320nm/s","--comment",
+			"process:process_id:55","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:55","ligolw-vetodef-append","int_8s","1178294418","--start-time",
+			"process:process_id:55","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:55","ligolw-vetodef-append","lstring","H1:DCH-EARTHQUAKE_CS_Z_BLRMS_GT_320:1","--flag",
+			"process:process_id:55","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:55","ligolw-vetodef-append","int_8s","1181845818","--end-time",
+			"process:process_id:55","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:56","ligolw-vetodef-append","lstring","H1L1-HOFT_C01_O2_CBC.xml","",
+			"process:process_id:56","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:56","ligolw-vetodef-append","lstring","Earthquakes causing glitching in h(t), BLRMS of the CS Z gt 190nm/s","--comment",
+			"process:process_id:56","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:56","ligolw-vetodef-append","int_8s","1178294418","--start-time",
+			"process:process_id:56","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:56","ligolw-vetodef-append","lstring","L1:DCH-EARTHQUAKE_CS_Z_BLRMS_GT_190:1","--flag",
+			"process:process_id:56","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:56","ligolw-vetodef-append","int_8s","1181845818","--end-time",
+			"process:process_id:56","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:57","ligolw-vetodef-append","lstring","H1L1-HOFT_C01_O2_CBC.xml","",
+			"process:process_id:57","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:57","ligolw-vetodef-append","lstring","RF45 AM stabilization issues","--comment",
+			"process:process_id:57","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:57","ligolw-vetodef-append","int_8s","1178294418","--start-time",
+			"process:process_id:57","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:57","ligolw-vetodef-append","lstring","H1:DCH-RF45_AM_STABILIZATION:4","--flag",
+			"process:process_id:57","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:57","ligolw-vetodef-append","int_8s","1181845818","--end-time",
+			"process:process_id:57","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -679,7 +723,11 @@
 			2,"Periods of ETMY scattering with fringes above 25 Hz",0,"process:process_id:50","DCH-ETMY_SCATTERING_GT_25HZ",1,0,1176240318,"L1",1181845818,
 			1,"Severe thunderstorm at LLO",0,"process:process_id:51","DCH-SEVERE_THUNDERSTORM",1,0,1177859718,"L1",1177877718,
 			2,"Periods of PRM scattering with fringes above 40 Hz",0,"process:process_id:52","DCH-PRM_SCATTERING_GT_40HZ",1,0,1176955218,"H1",1181845818,
-			2,"Ringing after DAC overflow of ITMX R0 actuators",0,"process:process_id:53","DCH-ITMX_R0_OVERFLOW",1,0,1176955218,"H1",1178294418
+			2,"Ringing after DAC overflow of ITMX R0 actuators",0,"process:process_id:53","DCH-ITMX_R0_OVERFLOW",1,0,1176955218,"H1",1178294418,
+			2,"Glitching in the EX SUSRACK between 10-50Hz coupling in to h(t)",0,"process:process_id:54","DCH-EX_MAG_EBAY_SUSRACK_GLITCHING",1,0,1178294418,"H1",1181845818,
+			2,"Earthquakes causing glitching in h(t), BLRMS of the CS Z gt 320nm/s",0,"process:process_id:55","DCH-EARTHQUAKE_CS_Z_BLRMS_GT_320",1,0,1178294418,"H1",1181845818,
+			2,"Earthquakes causing glitching in h(t), BLRMS of the CS Z gt 190nm/s",0,"process:process_id:56","DCH-EARTHQUAKE_CS_Z_BLRMS_GT_190",1,0,1178294418,"L1",1181845818,
+			1,"RF45 AM stabilization issues",0,"process:process_id:57","DCH-RF45_AM_STABILIZATION",4,0,1178294418,"H1",1181845818
 		</Stream>
 	</Table>
 </LIGO_LW>
