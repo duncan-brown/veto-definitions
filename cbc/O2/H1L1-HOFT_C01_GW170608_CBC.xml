@@ -54,6 +54,8 @@
 			,"sugwg-condor.phy.syr.edu",,2406052,1183737738,"process:process_id:33",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugwg-condor.phy.syr.edu",,2406064,1183737807,"process:process_id:34",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugwg-condor.phy.syr.edu",,2406076,1183737864,"process:process_id:35",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugwg-condor.phy.syr.edu",,2450785,1183803380,"process:process_id:36",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugwg-condor.phy.syr.edu",,2450786,1183803416,"process:process_id:37",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -414,7 +416,27 @@
 			"process:process_id:35","ligolw-vetodef-append","lstring","H1:DCH-RF45_AM_STABILIZATION:4","--flag",
 			"process:process_id:35","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:35","ligolw-vetodef-append","int_8s","1181059218","--end-time",
-			"process:process_id:35","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:35","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:36","ligolw-vetodef-append","lstring","H1L1-HOFT_C01_GW170608_CBC.xml","",
+			"process:process_id:36","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:36","ligolw-vetodef-append","lstring","ALS left unshuttered","--comment",
+			"process:process_id:36","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:36","ligolw-vetodef-append","int_8s","1180911618","--start-time",
+			"process:process_id:36","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:36","ligolw-vetodef-append","lstring","H1:DCH-ALS_UNSHUTTERED:1","--flag",
+			"process:process_id:36","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:36","ligolw-vetodef-append","int_8s","1181059218","--end-time",
+			"process:process_id:36","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:37","ligolw-vetodef-append","lstring","H1L1-HOFT_C01_GW170608_CBC.xml","",
+			"process:process_id:37","ligolw-vetodef-append","int_8s","1","--category",
+			"process:process_id:37","ligolw-vetodef-append","lstring","LVEA and EX/EY excursions","--comment",
+			"process:process_id:37","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:37","ligolw-vetodef-append","int_8s","1180911618","--start-time",
+			"process:process_id:37","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:37","ligolw-vetodef-append","lstring","H1:DCH-LVEA_EX_EY_EXCURSIONS:1","--flag",
+			"process:process_id:37","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:37","ligolw-vetodef-append","int_8s","1181059218","--end-time",
+			"process:process_id:37","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -463,7 +485,9 @@
 			2,"Glitching in the EX SUSRACK between 10-50Hz coupling in to h(t)",0,"process:process_id:32","DCH-EX_MAG_EBAY_SUSRACK_GLITCHING",1,0,1180911618,"H1",1181059218,
 			2,"Earthquakes causing glitching in h(t), BLRMS of the CS Z gt 320nm/s",0,"process:process_id:33","DCH-EARTHQUAKE_CS_Z_BLRMS_GT_320",1,0,1180911618,"H1",1181059218,
 			2,"Earthquakes causing glitching in h(t), BLRMS of the CS Z gt 190nm/s",0,"process:process_id:34","DCH-EARTHQUAKE_CS_Z_BLRMS_GT_190",1,0,1180911618,"L1",1181059218,
-			1,"RF45 AM stabilization issues",0,"process:process_id:35","DCH-RF45_AM_STABILIZATION",4,0,1180911618,"H1",1181059218
+			1,"RF45 AM stabilization issues",0,"process:process_id:35","DCH-RF45_AM_STABILIZATION",4,0,1180911618,"H1",1181059218,
+			1,"ALS left unshuttered",0,"process:process_id:36","DCH-ALS_UNSHUTTERED",1,0,1180911618,"H1",1181059218,
+			1,"LVEA and EX/EY excursions",0,"process:process_id:37","DCH-LVEA_EX_EY_EXCURSIONS",1,0,1180911618,"H1",1181059218
 		</Stream>
 	</Table>
 </LIGO_LW>
