@@ -56,6 +56,7 @@
 			,"sugwg-condor.phy.syr.edu",,2406076,1183737864,"process:process_id:35",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugwg-condor.phy.syr.edu",,2450785,1183803380,"process:process_id:36",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 			,"sugwg-condor.phy.syr.edu",,2450786,1183803416,"process:process_id:37",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
+			,"sugwg-condor.phy.syr.edu",,2590839,1183891910,"process:process_id:38",0,,0,"laura.nuttall","ligolw-vetodef-append",,,,,
 		</Stream>
 	</Table>
 	<Table Name="process_params:table">
@@ -436,7 +437,17 @@
 			"process:process_id:37","ligolw-vetodef-append","lstring","H1:DCH-LVEA_EX_EY_EXCURSIONS:1","--flag",
 			"process:process_id:37","ligolw-vetodef-append","int_8s","0","--start-pad",
 			"process:process_id:37","ligolw-vetodef-append","int_8s","1181059218","--end-time",
-			"process:process_id:37","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
+			"process:process_id:37","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url",
+			"process:process_id:38","ligolw-vetodef-append","lstring","H1L1-HOFT_C01_GW170608_CBC.xml","",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","2","--category",
+			"process:process_id:38","ligolw-vetodef-append","lstring","Glitching in the EX SUSRACK between 10-50Hz coupling in to h(t). This flag looks at locked times","--comment",
+			"process:process_id:38","ligolw-vetodef-append",,,"--skip-process-tables",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","1180911618","--start-time",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","0","--end-pad",
+			"process:process_id:38","ligolw-vetodef-append","lstring","H1:DCH-EX_MAG_EBAY_SUSRACK_GLITCHING_GRD_ISC_LOCK_NOMINAL:1","--flag",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","0","--start-pad",
+			"process:process_id:38","ligolw-vetodef-append","int_8s","1181059218","--end-time",
+			"process:process_id:38","ligolw-vetodef-append","lstring","https://segments.ligo.org","--segment-url"
 		</Stream>
 	</Table>
 	<Table Name="veto_definer:table">
@@ -482,12 +493,12 @@
 			2,"CS YMANSPOOL microphone 30-200Hz BLRMS GT 250",0,"process:process_id:29","DCH-CS_MIC_BLRMS_GT_250",1,0,1180911618,"L1",1181059218,
 			2,"Periods of ETMY scattering with fringes above 25 Hz",0,"process:process_id:30","DCH-ETMY_SCATTERING_GT_25HZ",1,0,1180911618,"L1",1181059218,
 			2,"Periods of PRM scattering with fringes above 40 Hz",0,"process:process_id:31","DCH-PRM_SCATTERING_GT_40HZ",1,0,1180911618,"H1",1181059218,
-			2,"Glitching in the EX SUSRACK between 10-50Hz coupling in to h(t)",0,"process:process_id:32","DCH-EX_MAG_EBAY_SUSRACK_GLITCHING",1,0,1180911618,"H1",1181059218,
 			2,"Earthquakes causing glitching in h(t), BLRMS of the CS Z gt 320nm/s",0,"process:process_id:33","DCH-EARTHQUAKE_CS_Z_BLRMS_GT_320",1,0,1180911618,"H1",1181059218,
 			2,"Earthquakes causing glitching in h(t), BLRMS of the CS Z gt 190nm/s",0,"process:process_id:34","DCH-EARTHQUAKE_CS_Z_BLRMS_GT_190",1,0,1180911618,"L1",1181059218,
 			1,"RF45 AM stabilization issues",0,"process:process_id:35","DCH-RF45_AM_STABILIZATION",4,0,1180911618,"H1",1181059218,
 			1,"ALS left unshuttered",0,"process:process_id:36","DCH-ALS_UNSHUTTERED",1,0,1180911618,"H1",1181059218,
-			1,"LVEA and EX/EY excursions",0,"process:process_id:37","DCH-LVEA_EX_EY_EXCURSIONS",1,0,1180911618,"H1",1181059218
+			1,"LVEA and EX/EY excursions",0,"process:process_id:37","DCH-LVEA_EX_EY_EXCURSIONS",1,0,1180911618,"H1",1181059218,
+			2,"Glitching in the EX SUSRACK between 10-50Hz coupling in to h(t). This flag looks at locked times",0,"process:process_id:38","DCH-EX_MAG_EBAY_SUSRACK_GLITCHING_GRD_ISC_LOCK_NOMINAL",1,0,1180911618,"H1",1181059218
 		</Stream>
 	</Table>
 </LIGO_LW>
